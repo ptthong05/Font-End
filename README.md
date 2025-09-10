@@ -1,2 +1,1 @@
-# Font-End
-Đây là toản bộ kiến thức về font end 
+Đây là toản bộ project về font-end 
