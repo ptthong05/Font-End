@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-05</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <h2 class="title">Danh mục sản phẩm</h2>
+    <div class="product-category" id="product-category">
+        <div class="box">
+            <div class="title"></div>
+        </div>
+    </div>
+
+
+    <h2 class="title">Danh sách sản phẩm</h2>
+    <div class="input">
+        <div class="input-one">
+            <input type="text" placeholder="Nhập vào từ khoá tìm kiếm " id="search">
+            <button id="btn">Tìm kiếm</button>
+        </div>
+        <select name="choose" id="choose">
+            <option value="default">Mặc định</option>
+            <option value=""></option>
+        </select>
+    </div>
+
+    <div class="product-list" id="products">
+        <div class="product-item">
+            <div class="product-img">
+                <img src="" alt="" />
+                <div class="product-sale"></div>
+            </div>
+            <div class="product-content">
+                <div class="title"></div>
+                <div class="meta">
+                    <div class="price"></div>
+                    <div class="stock"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/danhMucSanPham.js"></script>
+    <script type="module" src="./js/listProduct.js"></script>
+</body>
+</html>

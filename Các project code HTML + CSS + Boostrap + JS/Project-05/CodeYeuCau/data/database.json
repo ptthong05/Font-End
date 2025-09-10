@@ -1,0 +1,2831 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Smartphones Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 1.",
+            "stock": 100,
+            "sale": "13%"
+        },
+        {
+            "id": 2,
+            "title": "Smartphones Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 2.",
+            "stock": 100,
+            "sale": "13%"
+        },
+        {
+            "id": 3,
+            "title": "Smartphones Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 3.",
+            "stock": 100,
+            "sale": "13%"
+        },
+        {
+            "id": 4,
+            "title": "Smartphones Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 4.",
+            "stock": 100,
+            "sale": "13%"
+        },
+        {
+            "id": 5,
+            "title": "Smartphones Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 5.",
+            "stock": 100,
+            "sale": "13%"
+        },
+        {
+            "id": 6,
+            "title": "Smartphones Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 6.",
+            "stock": 200,
+            "sale": "13%"
+        },
+        {
+            "id": 7,
+            "title": "Smartphones Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 7.",
+            "stock": 200,
+            "sale": "13%"
+        },
+        {
+            "id": 8,
+            "title": "Smartphones Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 8.",
+            "stock": 200,
+            "sale": "13%"
+        },
+        {
+            "id": 9,
+            "title": "Smartphones Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 9.",
+            "stock": 200,
+            "sale": "13%"
+        },
+        {
+            "id": 10,
+            "title": "Smartphones Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 10.",
+            "stock": 200,
+            "sale": "13%"
+        },
+        {
+            "id": 11,
+            "title": "Smartphones Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 11.",
+            "stock": 200,
+            "sale": "15%"
+        },
+        {
+            "id": 12,
+            "title": "Smartphones Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 12.",
+            "stock": 200,
+            "sale": "15%"
+        },
+        {
+            "id": 13,
+            "title": "Smartphones Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 13.",
+            "stock": 200,
+            "sale": "15%"
+        },
+        {
+            "id": 14,
+            "title": "Smartphones Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 14.",
+            "stock": 200,
+            "sale": "15%"
+        },
+        {
+            "id": 15,
+            "title": "Smartphones Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 15.",
+            "stock": 200,
+            "sale": "15%"
+        },
+        {
+            "id": 16,
+            "title": "Smartphones Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 16.",
+            "stock": 200,
+            "sale": "15%"
+        },
+        {
+            "id": 17,
+            "title": "Smartphones Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 17.",
+            "stock": 300,
+            "sale": "15%"
+        },
+        {
+            "id": 18,
+            "title": "Smartphones Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 18.",
+            "stock": 300,
+            "sale": "15%"
+        },
+        {
+            "id": 19,
+            "title": "Smartphones Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 19.",
+            "stock": 300,
+            "sale": "15%"
+        },
+        {
+            "id": 20,
+            "title": "Smartphones Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/1.jpg",
+            "category": "smartphones",
+            "description": "Description for smartphones product 20.",
+            "stock": 300,
+            "sale": "15%"
+        },
+        {
+            "id": 21,
+            "title": "Laptops Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 1.",
+            "stock": 300,
+            "sale": "17%"
+        },
+        {
+            "id": 22,
+            "title": "Laptops Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 2.",
+            "stock": 300,
+            "sale": "17%"
+        },
+        {
+            "id": 23,
+            "title": "Laptops Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 3.",
+            "stock": 300,
+            "sale": "17%"
+        },
+        {
+            "id": 24,
+            "title": "Laptops Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 4.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 25,
+            "title": "Laptops Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 5.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 26,
+            "title": "Laptops Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 6.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 27,
+            "title": "Laptops Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 7.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 28,
+            "title": "Laptops Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 8.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 29,
+            "title": "Laptops Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 9.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 30,
+            "title": "Laptops Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 10.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 31,
+            "title": "Laptops Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 11.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 32,
+            "title": "Laptops Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 12.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 33,
+            "title": "Laptops Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 13.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 34,
+            "title": "Laptops Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 14.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 35,
+            "title": "Laptops Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 15.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 36,
+            "title": "Laptops Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 16.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 37,
+            "title": "Laptops Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 17.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 38,
+            "title": "Laptops Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 18.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 39,
+            "title": "Laptops Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 19.",
+            "stock": 400,
+            "sale": "17%"
+        },
+        {
+            "id": 40,
+            "title": "Laptops Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/2.jpg",
+            "category": "laptops",
+            "description": "Description for laptops product 20.",
+            "stock": 700,
+            "sale": "17%"
+        },
+        {
+            "id": 41,
+            "title": "Fragrances Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 1.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 42,
+            "title": "Fragrances Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 2.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 43,
+            "title": "Fragrances Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 3.",
+            "stock": 700,
+            "sale": "17%"
+        },
+        {
+            "id": 44,
+            "title": "Fragrances Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 4.",
+            "stock": 700,
+            "sale": "17%"
+        },
+        {
+            "id": 45,
+            "title": "Fragrances Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 5.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 46,
+            "title": "Fragrances Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 6.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 47,
+            "title": "Fragrances Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 7.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 48,
+            "title": "Fragrances Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 8.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 49,
+            "title": "Fragrances Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 9.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 50,
+            "title": "Fragrances Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 10.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 51,
+            "title": "Fragrances Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 11.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 52,
+            "title": "Fragrances Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 12.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 53,
+            "title": "Fragrances Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 13.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 54,
+            "title": "Fragrances Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 14.",
+             "stock": 700,
+             "sale": "17%"
+        },
+        {
+            "id": 55,
+            "title": "Fragrances Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 15.",
+             "stock": 800,
+             "sale": "17%"
+        },
+        {
+            "id": 56,
+            "title": "Fragrances Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 16.",
+            "stock": 800,
+            "sale": "17%"
+        },
+        {
+            "id": 57,
+            "title": "Fragrances Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 17.",
+            "stock": 800,
+            "sale": "17%"
+        },
+        {
+            "id": 58,
+            "title": "Fragrances Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 18.",
+            "stock": 800,
+            "sale": "17%"
+        },
+        {
+            "id": 59,
+            "title": "Fragrances Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 19.",
+            "stock": 800,
+            "sale": "17%"
+        },
+        {
+            "id": 60,
+            "title": "Fragrances Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/3.jpg",
+            "category": "fragrances",
+            "description": "Description for fragrances product 20.",
+            "stock": 800,
+            "sale": "17%"
+        },
+        {
+            "id": 61,
+            "title": "Skincare Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 1.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 62,
+            "title": "Skincare Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 2.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 63,
+            "title": "Skincare Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 3.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 64,
+            "title": "Skincare Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 4.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 65,
+            "title": "Skincare Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 5.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 66,
+            "title": "Skincare Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 6.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 67,
+            "title": "Skincare Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 7.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 68,
+            "title": "Skincare Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 8.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 69,
+            "title": "Skincare Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 9.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 70,
+            "title": "Skincare Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 10.",
+            "stock": 800,
+            "sale": "29%"
+        },
+        {
+            "id": 71,
+            "title": "Skincare Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 11.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 72,
+            "title": "Skincare Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 12.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 73,
+            "title": "Skincare Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 13.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 74,
+            "title": "Skincare Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 14.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 75,
+            "title": "Skincare Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 15.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 76,
+            "title": "Skincare Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 16.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 77,
+            "title": "Skincare Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 17.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 78,
+            "title": "Skincare Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 18.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 79,
+            "title": "Skincare Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 19.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 80,
+            "title": "Skincare Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/4.jpg",
+            "category": "skincare",
+            "description": "Description for skincare product 20.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 81,
+            "title": "Groceries Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 1.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 82,
+            "title": "Groceries Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 2.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 83,
+            "title": "Groceries Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 3.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 84,
+            "title": "Groceries Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 4.",
+            "stock": 900,
+            "sale": "29%"
+        },
+        {
+            "id": 85,
+            "title": "Groceries Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 5.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 86,
+            "title": "Groceries Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 6.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 87,
+            "title": "Groceries Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 7.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 88,
+            "title": "Groceries Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 8.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 89,
+            "title": "Groceries Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 9.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 90,
+            "title": "Groceries Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 10.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 91,
+            "title": "Groceries Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 11.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 92,
+            "title": "Groceries Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 12.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 93,
+            "title": "Groceries Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 13.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 94,
+            "title": "Groceries Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 14.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 95,
+            "title": "Groceries Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 15.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 96,
+            "title": "Groceries Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 16.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 97,
+            "title": "Groceries Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 17.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 98,
+            "title": "Groceries Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 18.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 99,
+            "title": "Groceries Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 19.",
+            "stock": 1000,
+            "sale": "29%"
+        },
+        {
+            "id": 100,
+            "title": "Groceries Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/5.jpg",
+            "category": "groceries",
+            "description": "Description for groceries product 20.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 101,
+            "title": "Womens-dresses Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 1.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 102,
+            "title": "Womens-dresses Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 2.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 103,
+            "title": "Womens-dresses Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 3.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 104,
+            "title": "Womens-dresses Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 4.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 105,
+            "title": "Womens-dresses Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 5.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 106,
+            "title": "Womens-dresses Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 6.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 107,
+            "title": "Womens-dresses Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 7.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 108,
+            "title": "Womens-dresses Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 8.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 109,
+            "title": "Womens-dresses Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 9.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 110,
+            "title": "Womens-dresses Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 10.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 111,
+            "title": "Womens-dresses Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 11.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 112,
+            "title": "Womens-dresses Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 12.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 113,
+            "title": "Womens-dresses Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 13.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 114,
+            "title": "Womens-dresses Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 14.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 115,
+            "title": "Womens-dresses Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 15.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 116,
+            "title": "Womens-dresses Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 16.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 117,
+            "title": "Womens-dresses Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 17.",
+            "stock": 1500,
+            "sale": "29%"
+        },
+        {
+            "id": 118,
+            "title": "Womens-dresses Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 18.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 119,
+            "title": "Womens-dresses Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 19.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 120,
+            "title": "Womens-dresses Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/6.jpg",
+            "category": "womens-dresses",
+            "description": "Description for womens-dresses product 20.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 121,
+            "title": "Womens-shoes Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 1.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 122,
+            "title": "Womens-shoes Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 2.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 123,
+            "title": "Womens-shoes Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 3.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 124,
+            "title": "Womens-shoes Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 4.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 125,
+            "title": "Womens-shoes Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 5.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 126,
+            "title": "Womens-shoes Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 6.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 127,
+            "title": "Womens-shoes Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 7.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 128,
+            "title": "Womens-shoes Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 8.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 129,
+            "title": "Womens-shoes Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 9.",
+            "stock": 2000,
+            "sale": "29%"
+        },
+        {
+            "id": 130,
+            "title": "Womens-shoes Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 10.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 131,
+            "title": "Womens-shoes Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 11.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 132,
+            "title": "Womens-shoes Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 12.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 133,
+            "title": "Womens-shoes Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 13.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 134,
+            "title": "Womens-shoes Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 14.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 135,
+            "title": "Womens-shoes Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 15.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 136,
+            "title": "Womens-shoes Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 16.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 137,
+            "title": "Womens-shoes Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 17.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 138,
+            "title": "Womens-shoes Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 18.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 139,
+            "title": "Womens-shoes Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 19.",
+            "stock": 2500,
+            "sale": "29%"
+        },
+        {
+            "id": 140,
+            "title": "Womens-shoes Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/7.jpg",
+            "category": "womens-shoes",
+            "description": "Description for womens-shoes product 20.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 141,
+            "title": "Mens-shirts Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 1.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 142,
+            "title": "Mens-shirts Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 2.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 143,
+            "title": "Mens-shirts Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 3.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 144,
+            "title": "Mens-shirts Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 4.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 145,
+            "title": "Mens-shirts Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 5.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 146,
+            "title": "Mens-shirts Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 6.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 147,
+            "title": "Mens-shirts Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 7.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 148,
+            "title": "Mens-shirts Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 8.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 149,
+            "title": "Mens-shirts Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 9.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 150,
+            "title": "Mens-shirts Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 10.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 151,
+            "title": "Mens-shirts Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 11.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 152,
+            "title": "Mens-shirts Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 12.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 153,
+            "title": "Mens-shirts Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 13.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 154,
+            "title": "Mens-shirts Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 14.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 155,
+            "title": "Mens-shirts Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 15.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 156,
+            "title": "Mens-shirts Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 16.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 157,
+            "title": "Mens-shirts Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 17.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 158,
+            "title": "Mens-shirts Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 18.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 159,
+            "title": "Mens-shirts Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 19.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 160,
+            "title": "Mens-shirts Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/8.jpg",
+            "category": "mens-shirts",
+            "description": "Description for mens-shirts product 20.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 161,
+            "title": "Mens-shoes Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 1.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 162,
+            "title": "Mens-shoes Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 2.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 163,
+            "title": "Mens-shoes Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 3.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 164,
+            "title": "Mens-shoes Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 4.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 165,
+            "title": "Mens-shoes Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 5.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 166,
+            "title": "Mens-shoes Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 6.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 167,
+            "title": "Mens-shoes Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 7.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 168,
+            "title": "Mens-shoes Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 8.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 169,
+            "title": "Mens-shoes Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 9.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 170,
+            "title": "Mens-shoes Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 10.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 171,
+            "title": "Mens-shoes Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 11.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 172,
+            "title": "Mens-shoes Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 12.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 173,
+            "title": "Mens-shoes Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 13.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 174,
+            "title": "Mens-shoes Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 14.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 175,
+            "title": "Mens-shoes Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 15.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 176,
+            "title": "Mens-shoes Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 16.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 177,
+            "title": "Mens-shoes Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 17.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 178,
+            "title": "Mens-shoes Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 18.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 179,
+            "title": "Mens-shoes Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 19.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 180,
+            "title": "Mens-shoes Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/9.jpg",
+            "category": "mens-shoes",
+            "description": "Description for mens-shoes product 20.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 181,
+            "title": "Mens-watches Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 1.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 182,
+            "title": "Mens-watches Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 2.",
+            "stock": 3000,
+            "sale": "29%"
+        },
+        {
+            "id": 183,
+            "title": "Mens-watches Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 3.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 184,
+            "title": "Mens-watches Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 4.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 185,
+            "title": "Mens-watches Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 5.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 186,
+            "title": "Mens-watches Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 6.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 187,
+            "title": "Mens-watches Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 7.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 188,
+            "title": "Mens-watches Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 8.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 189,
+            "title": "Mens-watches Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 9.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 190,
+            "title": "Mens-watches Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 10.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 191,
+            "title": "Mens-watches Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 11.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 192,
+            "title": "Mens-watches Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 12.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 193,
+            "title": "Mens-watches Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 13.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 194,
+            "title": "Mens-watches Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 14.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 195,
+            "title": "Mens-watches Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 15.",
+            "stock": 3500,
+            "sale": "29%"
+        },
+        {
+            "id": 196,
+            "title": "Mens-watches Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 16.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 197,
+            "title": "Mens-watches Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 17.",
+             "stock": 4000,
+             "sale": "29%"
+        },
+        {
+            "id": 198,
+            "title": "Mens-watches Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 18.",
+             "stock": 4000,
+             "sale": "29%"
+        },
+        {
+            "id": 199,
+            "title": "Mens-watches Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 19.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 200,
+            "title": "Mens-watches Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/10.jpg",
+            "category": "mens-watches",
+            "description": "Description for mens-watches product 20.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 201,
+            "title": "Sunglasses Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 1.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 202,
+            "title": "Sunglasses Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 2.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 203,
+            "title": "Sunglasses Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 3.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 204,
+            "title": "Sunglasses Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 4.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 205,
+            "title": "Sunglasses Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 5.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 206,
+            "title": "Sunglasses Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 6.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 207,
+            "title": "Sunglasses Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 7.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 208,
+            "title": "Sunglasses Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 8.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 209,
+            "title": "Sunglasses Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 9.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 210,
+            "title": "Sunglasses Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 10.",
+            "stock": 4000,
+            "sale": "29%"
+        },
+        {
+            "id": 211,
+            "title": "Sunglasses Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 11.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 212,
+            "title": "Sunglasses Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 12.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 213,
+            "title": "Sunglasses Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 13.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 214,
+            "title": "Sunglasses Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 14.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 215,
+            "title": "Sunglasses Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 15.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 216,
+            "title": "Sunglasses Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 16.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 217,
+            "title": "Sunglasses Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 17.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 218,
+            "title": "Sunglasses Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 18.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 219,
+            "title": "Sunglasses Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 19.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 220,
+            "title": "Sunglasses Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/11.jpg",
+            "category": "sunglasses",
+            "description": "Description for sunglasses product 20.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 221,
+            "title": "Automotive Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 1.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 222,
+            "title": "Automotive Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 2.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 223,
+            "title": "Automotive Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 3.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 224,
+            "title": "Automotive Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 4.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 225,
+            "title": "Automotive Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 5.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 226,
+            "title": "Automotive Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 6.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 227,
+            "title": "Automotive Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 7.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 228,
+            "title": "Automotive Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 8.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 229,
+            "title": "Automotive Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 9.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 230,
+            "title": "Automotive Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 10.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 231,
+            "title": "Automotive Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 11.",
+            "stock": 4500,
+            "sale": "29%"
+        },
+        {
+            "id": 232,
+            "title": "Automotive Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 12.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 233,
+            "title": "Automotive Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 13.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 234,
+            "title": "Automotive Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 14.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 235,
+            "title": "Automotive Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 15.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 236,
+            "title": "Automotive Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 16.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 237,
+            "title": "Automotive Product 17",
+            "price": "26000VND",
+            "img": "https://example.com/images/automotive/17.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 17.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 238,
+            "title": "Automotive Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 18.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 239,
+            "title": "Automotive Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 19.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 240,
+            "title": "Automotive Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/12.jpg",
+            "category": "automotive",
+            "description": "Description for automotive product 20.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 241,
+            "title": "Motorcycle Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 1.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 242,
+            "title": "Motorcycle Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 2.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 243,
+            "title": "Motorcycle Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 3.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 244,
+            "title": "Motorcycle Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 4.",
+            "stock": 5000,
+            "sale": "29%"
+        },
+        {
+            "id": 245,
+            "title": "Motorcycle Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 5.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 246,
+            "title": "Motorcycle Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 6.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 247,
+            "title": "Motorcycle Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 7.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 248,
+            "title": "Motorcycle Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 8.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 249,
+            "title": "Motorcycle Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 9.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 250,
+            "title": "Motorcycle Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 10.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 251,
+            "title": "Motorcycle Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 11.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 252,
+            "title": "Motorcycle Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 12.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 253,
+            "title": "Motorcycle Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 13.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 254,
+            "title": "Motorcycle Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 14.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 255,
+            "title": "Motorcycle Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 15.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 256,
+            "title": "Motorcycle Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 16.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 257,
+            "title": "Motorcycle Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 17.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 258,
+            "title": "Motorcycle Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 18.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 259,
+            "title": "Motorcycle Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 19.",
+            "stock": 5500,
+            "sale": "29%"
+        },
+        {
+            "id": 260,
+            "title": "Motorcycle Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/13.jpg",
+            "category": "motorcycle",
+            "description": "Description for motorcycle product 20.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 261,
+            "title": "Lighting Product 1",
+            "price": "10000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 1.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 262,
+            "title": "Lighting Product 2",
+            "price": "11000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 2.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 263,
+            "title": "Lighting Product 3",
+            "price": "12000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 3.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 264,
+            "title": "Lighting Product 4",
+            "price": "13000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 4.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 265,
+            "title": "Lighting Product 5",
+            "price": "14000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 5.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 266,
+            "title": "Lighting Product 6",
+            "price": "15000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 6.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 267,
+            "title": "Lighting Product 7",
+            "price": "16000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 7.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 268,
+            "title": "Lighting Product 8",
+            "price": "17000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 8.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 269,
+            "title": "Lighting Product 9",
+            "price": "18000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 9.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 270,
+            "title": "Lighting Product 10",
+            "price": "19000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 10.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 271,
+            "title": "Lighting Product 11",
+            "price": "20000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 11.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 272,
+            "title": "Lighting Product 12",
+            "price": "21000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 12.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 273,
+            "title": "Lighting Product 13",
+            "price": "22000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 13.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 274,
+            "title": "Lighting Product 14",
+            "price": "23000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 14.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 275,
+            "title": "Lighting Product 15",
+            "price": "24000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 15.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 276,
+            "title": "Lighting Product 16",
+            "price": "25000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 16.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 277,
+            "title": "Lighting Product 17",
+            "price": "26000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 17.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 278,
+            "title": "Lighting Product 18",
+            "price": "27000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 18.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 279,
+            "title": "Lighting Product 19",
+            "price": "28000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 19.",
+            "stock": 6000,
+            "sale": "29%"
+        },
+        {
+            "id": 280,
+            "title": "Lighting Product 20",
+            "price": "29000VND",
+            "img": "http://127.0.0.1:5500/C%C3%A1c%20project%20code%20HTML%20+%20CSS%20+%20Boostrap%20+%20JS/Project-05/CodeYeuCau/img/14.jpg",
+            "category": "lighting",
+            "description": "Description for lighting product 20.",
+            "stock": 6000,
+            "sale": "29%"
+        }
+    ],
+
+
+
+    
+
+    "category": [
+        { "id": 1, "name": "smartphones" },
+        { "id": 2, "name": "laptops" },
+        { "id": 3, "name": "fragrances" },
+        { "id": 4, "name": "skincare" },
+        { "id": 5, "name": "groceries" },
+        { "id": 6, "name": "home-decoration" },
+        { "id": 7, "name": "furniture" },
+        { "id": 8, "name": "tops" },
+        { "id": 9, "name": "womens-dresses" },
+        { "id": 10, "name": "womens-shoes" },
+        { "id": 11, "name": "mens-shirts" },
+        { "id": 12, "name": "mens-shoes" },
+        { "id": 13, "name": "mens-watches" },
+        { "id": 14, "name": "womens-watches" },
+        { "id": 15, "name": "womens-bags" },
+        { "id": 16, "name": "womens-jewellery" },
+        { "id": 17, "name": "sunglasses" },
+        { "id": 18, "name": "automotive" },
+        { "id": 19, "name": "motorcycle" },
+        { "id": 20, "name": "lighting" }
+    ]
+}

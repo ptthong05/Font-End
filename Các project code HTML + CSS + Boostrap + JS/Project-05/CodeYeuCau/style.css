@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h2.title {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.product-category {
+    display: flex;
+    flex-wrap: wrap;         /* Cho phép xuống dòng nếu không đủ chỗ */
+    gap: 20px;               /* Khoảng cách giữa các box */
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+div.box {
+    width: calc((100% / 4) - 20px);            /* Chiều rộng cố định cho mỗi box */
+    height: 50px;           /* Chiều cao cố định */
+    background-color: #FFC356;
+    display: flex;                 /* căn giữa nội dung trong box */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+div.box:hover {
+    background-color: chartreuse;
+    color: darkorchid;
+    font-weight: bold;
+}
+
+
+div.input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+div.input-one {
+    display: flex;
+}
+
+input#nhap {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+input#nhap:not(:placeholder-shown) {
+    top: -10px;
+      left: 8px;
+}
+
+button#btn, button {
+    padding: 10px;
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: yellow;
+}
+
+select {
+    margin-left: auto;     /* đẩy về bên phải */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* Product-list */
+div.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+div.product-item {
+    width: calc((100% / 3) - 20px);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aqua;
+    border: 2px solid #FFC356;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+div.product-img {
+    width: 100%;
+    aspect-ratio: 4/3;            /* w là4 h là 3 */
+    /* aspect-ratio là một thuộc tính trong CSS dùng để xác định tỷ lệ chiều rộng và chiều cao của một phần tử (thường là ảnh, video, hoặc box div...) */
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* k co giãn ảnh */
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+div.product-sale {
+    background: orange;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+div.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+div.meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.price {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+div.stock {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.button-buy {
+  display: flex;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center;     /* căn giữa theo chiều dọc */
+  margin-top: 20px;
+}
+/* End Product-list */

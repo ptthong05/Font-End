@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-header: #EFEFEF;
+    --color-background: #EFEFEF;
+    --color-footer: #14191E;
+    --color-button: #FF8484;
+    --font-family: 'DM sans' sans-serif;
+}
+
+* {
+    border-radius: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    color: black;
+    background: white;
+    border: 2px solid white;
+    padding: 15px 40px;
+    /* display: inline-block; */
+    border-radius: 5px;
+}

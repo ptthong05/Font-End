@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #8261EE;
+    --color-two: #FE589D;
+    --color-text: #1e1e1e;
+
+    --font: "Raleway", sans-serif;
+} 
+
+
+body {
+    color: var(--color-text);
+    line-height: 1.6;         /* khoảng cách dòng trên và dưới */
+    font-family: var(--font);
+    margin: 0;
+}
+
+/* khi bôi đen để copy thì sẽ đổi sang nền hồng chữ trắng */
+body::selection {
+    color: white;
+    background-color: #F45497;
+}
+
+.btn {
+    display: inline-block;    /* thêm đc padding */
+    padding: 8px 20px;
+    border-radius: 45px;
+    background-color: #8161ED;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
