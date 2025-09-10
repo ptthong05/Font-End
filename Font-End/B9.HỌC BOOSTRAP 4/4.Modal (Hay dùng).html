@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Section-four -->
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade modal-form" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Thêm  .modal-dialog-centered chỗ modal-dialog  để căn giữa theo chiều dọc -->
+    <div class="modal-dialog  modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+            <img class="inner-img"  src="assets/img/image.png" alt="" />
+          <h5 class="inner-title" >Gửi yêu cầu tư vấn miễn phí</h5>
+          <p class="inner-d">38.000+ doanh nghiệp & chủ shop đã tin dùng</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+
+        <div class="modal-body">
+          <form action="">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-gruop">
+                        <input class="form-control" type="text" placeholder="Họ và tên*" />
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-gruop">
+                        <input class="form-control" type="text" placeholder="Số điện thoại*" />
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-gruop">
+                        <input class="form-control" type="text" placeholder="Lĩnh vực kinh doanh*" />
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-gruop">
+                        <button class="button">Gửi đi</button>
+                    </div>
+                </div>
+            </div>
+          </form>
+        </div>
+        <!-- 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> 
+        -->
+      </div>
+    </div>
+  </div>
+    <!-- End Section-four -->
+     
+   <!-- Nhúng boostrap theo kiểu local -->
+   <script src="assets/bootstrap/jquery.slim.min.js"></script>
+   <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> 
+</body> 
+</html>

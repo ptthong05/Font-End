@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVERFLOW</title>
+</head>
+<body>
+    <h1>OVERFLOW</h1>
+    <pre>
+overflow: visible; // Khi chiều cao của box không đủ chứa text, thì text vẫn hiển thị tràn qua box, đây là mặc định.
+overflow: hidden; // Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được ẩn đi.
+overflow: scroll; // Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được ẩn đi và xuất hiện thanh scroll, khi cuộn sẽ hiển thị text. Khi sử dụng thành phần này sẽ xuất hiện cả thanh scroll ngang và dọc.
+overflow: auto; // Khi chiều cao của box không đủ chứa text, thì thanh scroll sẽ tự động hiển thị. Khi sử dụng thành phần này sẽ xuất hiện thanh scroll dọc.
+   </pre>
+
+   <div class="box-1">Heart Evangelista, tên thật là Love Marie Payawal Ongpauco, là một trong những biểu tượng giải trí và thời trang hàng đầu Philippines. Sinh năm 1985 tại Manila, cô không chỉ nổi tiếng với tài năng diễn xuất mà còn gây ấn tượng với cuộc sống xa hoa, gu thời trang đẳng cấp và những câu chuyện cá nhân đầy màu sắc.</div>
+   <style>
+    .box-1 {
+        background-color: aqua;
+        width: 80px;
+        height: 100px;
+        border: 2px solid yellow;
+        /* overflow: hidden;     hidden: ẩn đi  */
+        /* overflow: scroll;  hiện thanh scroll khi nội dung ngắn VẪN hiện  */
+        overflow: auto;  /* hiện thanh scroll khi nội dung ngắn KHÔNG hiện */
+        
+        white-space: nowrap;      /* nội dung hiện hàng ngang k bị xún dòng */
+    }
+   </style>
+</body>
+</html>

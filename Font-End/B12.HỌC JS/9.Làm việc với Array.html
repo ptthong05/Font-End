@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9.Làm việc với Array</title>
+</head>
+<body>
+    <h1 style="font-size: 40px; color: red;">toString</h1>
+    <pre style="font-size: 30px;">
+Chuyển array thành string. Tự động thêm dấu phẩy ngăn cách.
+Cú pháp: 
+    array.toString()
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.toString()); // Trả về: "HTML5,CSS3,Javascript"
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">join</h1>
+    <pre style="font-size: 30px;">
+Chuyển array thành string. Thêm dấu bất kỳ để ngăn cách giữa các phần tử. 
+Cú pháp: 
+    array.join(separator)
+Trong đó: 
+    separator (dải phân cách) là dấu ngăn cách để thêm vào string. Mặc định là dấu phẩy.
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.join()); // Trả về: "HTML5,CSS3,Javascript"
+	console.log(list.join(",")); // Trả về: "HTML5,CSS3,Javascript"
+	console.log(list.join("")); // Trả về: "HTML5CSS3Javascript"
+	console.log(list.join(", ")); // Trả về: "HTML5, CSS3, Javascript"
+	console.log(list.join(" - ")); // Trả về: "HTML5 - CSS3 - Javascript"
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">pop: xoá phần tử cuối của mảng</h1>
+    <pre style="font-size: 30px;">
+Dùng để xóa phần từ cuối mảng và trả về phần tử cuối mảng đó.
+Cú pháp: 
+    array.pop()
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.pop()); // Trả về: "Javascript"  -- XOÁ PHẦN TỬ CUỐI VÀ TRẢ VỀ PHẦN TỬ CUỐI CÙNG 
+	console.log(list); // Trả về: ["HTML5", "CSS3"]   -- ĐÃ CẮT PHẦN TỬ CUỐI MẢNG
+    </pre>
+
+
+
+    <h1 style="font-size: 40px; color: red;">shift: xoá phần tử đầu của mảng</h1>
+    <pre style="font-size: 30px;">
+Dùng để xóa phần tử đầu mảng và trả về phần tử ở đầu mảng đó.
+Cú pháp: 
+    array.shift()
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.shift()); // Trả về: "HTML5"
+	console.log(list); // Trả về: ["CSS3", "Javascript"]
+    </pre>
+
+
+
+    <h1 style="font-size: 40px; color: red;">push: thêm vào cuối mảng</h1>
+    <pre style="font-size: 30px;">
+Thêm một hoặc nhiều phần tử vào cuối mảng. Trả về độ dài mới của mảng.
+Cú pháp: 
+    array.push(item1, item2, ..., itemX)
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.push("Bootstrap 4", "ReactJS")); // Trả về: 5
+	console.log(list);
+	// Trả về: ["HTML5", "CSS3", "Javascript", "Bootstrap 4", "ReactJS"]
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">unshift: thêm vào đầu mảng</h1>
+    <pre style="font-size: 30px;">
+Thêm một hoặc nhiều phần tử vào đầu mảng. Trả về độ dài mới của mảng.
+Cú pháp: 
+    array. unshift(item1, item2, ..., itemX)
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.unshift("Bootstrap 4", "ReactJS")); // Trả về: 5
+	console.log(list);
+	// Trả về: ["Bootstrap 4", "ReactJS", "HTML5", "CSS3", "Javascript"]
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">splice</h1>
+    <pre style="font-size: 30px;">
+Xóa hoặc chèn phần tử mới vào mảng. Trả về mảng bị xóa.
+Cú pháp: 
+    array.splice(index, howmany, item1, ....., itemX)
+Trong đó:
+    index: Vị trí thêm/xóa phần tử (bắt buộc).
+    howmany: Số phần tử cần xóa (không bắt buộc).
+    item1, ..., itemX: Các phần tử mới được thêm vào (không bắt buộc).
+Ví dụ 1: Chèn phần tử mới vào mảng
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.splice(2, 0, "Bootstrap 4", "ReactJS")); // Trả về: []
+    -- TÌM ĐẾN VỊ TRÍ 2 VÀ K XOÁ PNẦN TỬ NÀO
+	console.log(list);
+	// Trả về: ["HTML5", "CSS3", "Bootstrap 4", "ReactJS", "Javascript"]
+
+Ví dụ 2: Xóa phần tử trong mảng
+	var list = ["HTML5", "CSS3", "Javascript"];     -- HTML5 LÀ 0 CSS 3 LÀ 1
+	console.log(list.splice(1, 1)); // Trả về: ["CSS3"]
+	console.log(list); // Trả về: ["HTML5", "Javascript"]
+
+Ví dụ 3: Xóa phần tử và chèn phần tử mới vào mảng
+	var list = ["HTML5", "CSS3", "Javascript"];
+	console.log(list.splice(2, 1, "Bootstrap 4", "ReactJS"));
+	// Trả về: ["Javascript"]
+	console.log(list);
+	// Trả về: ["HTML5", "CSS3", "Bootstrap 4", "ReactJS"]
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">concat</h1>
+    <pre style="font-size: 30px;">
+Dùng để nối 2 array. Không làm ảnh hưởng đến mảng ban đầu.
+Cú pháp: 
+    array1.concat(array2, array3, ..., arrayX)
+Ví dụ:
+	var list = ["HTML5", "CSS3", "Javascript"];
+	var list2 = ["Bootstrap 4", "ReactJS"];
+	console.log(list.concat(list2));
+	// Trả về: ["HTML5", "CSS3", "Javascript", "Bootstrap 4", "ReactJS"]
+	console.log(list);
+	// Trả về: ["HTML5", "CSS3", "Javascript"]
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">slice</h1>
+    <pre style="font-size: 30px;">
+Dùng để cắt các phần tử. Không làm ảnh hưởng đến mảng ban đầu.
+Cú pháp: 
+    array.slice(start, end)
+Trong đó:
+    start: Vị trí bắt đầu. Mặc định là 0. (không bắt buộc).
+    end: Vị trí kết thúc. Mặc định là phần tử cuối cùng. (không bắt buộc).
+Ví dụ 1: 
+	var list = ["HTML5", "CSS3", "Javascript", "Bootstrap 4", "ReactJS"];
+	console.log(list.slice(3)); // Trả về: ["Bootstrap 4", "ReactJS"]
+    -- CẮT TỪ VỊ TRÍ 3 ĐẾN HẾT VÌ K THÊM END 
+	console.log(list.slice(1, 3)); // Trả về: ["CSS3", "Javascript"]
+	console.log(list.slice(-3, -1)); // Trả về: ["Javascript", "Bootstrap 4"]
+	console.log(list);
+	// Trả về: ["HTML5", "CSS3", "Javascript", "Bootstrap 4", "ReactJS"]
+    </pre>
+</body>
+</html>

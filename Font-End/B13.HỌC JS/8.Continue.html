@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.Continue</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Lệnh continue có tác dụng bỏ qua một bước lặp nào đó.
+Nghĩa là lúc gặp lệnh continue thì tất cả những đoạn code nằm bên dưới sẽ không được thực hiện mà nó sẽ nhảy sang vòng lặp mới luôn.
+
+    </pre>
+
+
+    <script>
+         for(var i = 0; i < 10; i++){
+            if(i == 5 ){
+                continue;                 // bỏ qua vòng lặp số 5 và tiếp tục các câu lệnh dưới 
+            }
+            console.log(i);
+        }
+    </script>
+</body>
+</html>

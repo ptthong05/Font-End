@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.BOM Window</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">BOM Windows</h1>
+    <pre style="font-size: 30px;">
+window là một đối tượng có những phương thức và thuộc tính được dùng để xử lý trình duyệt.
+window có cấp độ cao nhất.
+    </pre>
+
+
+
+
+    <h1 style="font-size: 35px; color: red;">innerHeight và innerWidth</h1>
+    <pre style="font-size: 30px;">
+innerHeight để lấy kích thước chiều cao của tài liệu.
+innerWidth để lấy kích thước chiều rộng của tài liệu.
+Cú pháp:
+	window.innerHeight;
+	window.innerWidth;
+    </pre>
+
+
+
+    <h1 style="font-size: 35px; color: red;">window.open()</h1>
+    <pre style="font-size: 30px;">
+Để mở một cửa sổ mới.
+Cú pháp:
+	window.open(url, name, options)
+Trong đó:
+    url: là đường dẫn website bạn muốn mở
+    name: là tên bạn đặt cho cửa sổ này
+    options: là một chuỗi các thông số được cách nhau bởi dấu phẩy, sau đây là các thông số thông dụng.
+    height: chiều cao của cửa sổ. Đơn vị pixels.
+    width: chiều rộng của cửa sổ. Đơn vị pixels.
+    top: vị trí hiển thị cửa sổ so với lề trên. Đơn vị pixels.
+    left: vị trí hiển thị cửa sổ so với lề trái. Đơn vị pixels.
+    </pre>
+
+
+
+    <h1 style="font-size: 35px; color: red;">window.close()</h1>
+    <pre style="font-size: 30px;">
+Để đóng cửa sổ mà ta đã dùng lệnh open() để mở.
+Cú pháp:
+	Gọi hàm mở cửa sổ:
+	        var myWindow = window.open(url, name, options)
+	Gọi hàm đóng cửa sổ:
+	        myWindow.close();
+    </pre>
+
+
+
+    <h1 style="font-size: 35px; color: red;">window.location.href</h1>
+    <pre style="font-size: 30px;">
+Để lấy đường dẫn hiện tại của trang web.
+Cú pháp:
+    window.location.href;
+    </pre>        
+
+    <button onclick="openTab()">
+        Mở tab mới
+    </button>
+
+    <button onclick="closeTab()">
+        Đóng tab
+    </button>
+
+
+
+
+
+    <script>
+        // console.log(window);    // TRẢ RA OBJECT
+
+        // console.log(window.innerHeight);
+        // console.log(window.innerWidth);
+
+        // let tab;
+
+        // function openTab() {
+        //     tab = window.open("http://127.0.0.1:5500/B15.H%E1%BB%8CC%20JS/1.BOM.html", 
+        //     "_blank",   // MỞ TAB MỚI 
+        //     "width=600px, height=700px, top=200px, left=300px" );   // CÁC THUỘC TÍNH NÀY CÁCH SO VỚI TRANG ĐẦU
+        // }
+
+        // function closeTab() {
+        //     tab.close();
+        // }
+    </script>
+
+    <script>
+        // console.log(window.location.href);   -- LẤY ĐƯỜNG DẪN WEB
+        let href = window.location.href;
+        setTimeout(() => {
+            console.log(href);
+        }, 5000);             // Cứ sau 5000ml sẽ gởi đường link đó lên server để thống kê số lượng truy cập web
+
+    </script>
+</body>script?

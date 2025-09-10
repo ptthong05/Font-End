@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Position</title>
+</head>
+<body>
+
+    <h1>POSITION</h1>
+    <pre>
+position: static; --GIÁ TRỊ MẶC ĐỊNH // Vị trí ở trạng thái mặc định của phần tử (tức là các thuộc tính top, bottom, right, left không có hiệu lực)
+position: relative; // Vị trí tương đối ( lấy vị trí ban đầu làm gốc toạ độ  so với vị trí mặc định và áp dụng được các thuộc tính top, right, bottom, left.
+position: absolute; // Vị trí tuyệt đối cho các thành phần theo thành phần bao ngoài hoặc cửa sổ trình duyệt.
+position: fixed; // Được định vị so với khung nhìn (viewport), có nghĩa là nó luôn ở một vị trí cố định ngay cả khi trang được cuộn. Các thuộc tính top, right, bottom và left được sử dụng để định vị element.
+position: sticky; // Có thể hiểu đơn giản là sự kết hợp của position: relative và position: fixed. Nó cũng na ná relative nhưng mà khi các bạn scroll đến vị trí của nó sẽ giống hệt như fixed và khi các bạn scroll lên ra khỏi nó thì nó sẽ quay lại vị trí ban đầu dưới dạng relative.
+    </pre>
+
+    <div class="box-1">BOX 1
+        <div class="box-4">BOX 4</div>
+    </div>
+    <div class="box-2">BOX 2
+        <div class="box-3">BOX 3</div>
+    </div>
+
+    <style>
+        .box-1 {
+            background-color: aqua;
+            border: 3px solid black;
+            width: 150px;
+            height: 150px;
+            font-size: 40px;
+            top: 7px;
+            left: 100px;
+            right: 400px;
+            position: relative;
+        }
+        .box-2 {
+            background-color: aqua;
+            border: 3px solid black;
+            width: 150px;
+            height: 150px;
+            font-size: 40px;
+            position: relative;
+            /* top: 50px;      cách trên box 1 50px các so với vị trí mặc định của nó */
+            left: 100px;    /* cách phải 100px */
+            top: 50px;
+            z-index: 8888;
+        }
+        .box-3 {
+            background-color: blueviolet;
+            border: 3px dotted yellow;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            position: absolute;
+            top: 0px;       /* CÁCH SO VỚI BOX CHA */
+            left: 0;
+        }
+        .box-4 {
+            background-color: blue;
+            width: 100%;
+            height: 40px;
+            font-size: 10px;
+            position: fixed;     /* position: fixed: khi kéo lên xún box sẽ k di chuyển */
+            left: 0;
+            top: 0;   /* trên cùng */
+        }
+    </style>
+
+    <p>Thời gian gần đây, cộng đồng yêu nhạc đã không khỏi xúc động trước những hình ảnh mới nhất của Smith Bandit, cựu thành viên nổi tiếng của nhóm nhạc đôi Thái Lan Smith & Chain. Sau một hành trình dài hơn mười năm chiến đấu với căn bệnh liệt nửa người bên trái do đột quỵ, cuộc sống của nam ca sĩ vẫn đầy gian nan. Những bức ảnh gần đây được chia sẻ trên trang Facebook cá nhân của ông đã thu hút sự chú ý mạnh mẽ từ cộng đồng, đồng thời nhận được hàng loạt lời động viên và chia sẻ từ những người hâm mộ.
+
+        Xem tiếp nội dung sau video quảng cáo
+        
+        Thông tin về tình trạng sức khỏe của Smith Bandit tiếp tục được cập nhật trên trang Facebook của ông, với những chia sẻ về các cuộc thăm khám định kỳ tại bệnh viện. Một bài đăng gần đây cho biết ông đang trong quá trình chờ đợi bác sĩ Ajarn Siriphong đưa đi kiểm tra về tình trạng đau đầu gối ngày càng nghiêm trọng. Trong bức ảnh chia sẻ, Smith Bandit xuất hiện với vẻ ngoài yếu ớt, tiều tụy, nhưng vẫn không mất đi sự lạc quan và niềm tin vào cuộc sống. Cảnh tượng này khiến không ít người hâm mộ không khỏi xúc động và dành tặng những lời động viên chân thành, mong muốn giúp đỡ nam ca sĩ vượt qua khó khăn.
+        
+Trong quá khứ, Smith & Chain đã là một trong những nhóm nhạc đôi huyền thoại của làng nhạc Thái Lan. Thành công của họ gắn liền với những ca khúc bất hủ như "Keep It in My Heart", "Proer Phueak Phun", "Kor Phiang Nee Dai" và "Proer Rak Tur". Album đầu tay của nhóm, "Music's Chair", được phát hành vào năm 1996 dưới sự quản lý của Neo Music Network và nhanh chóng tạo nên làn sóng mạnh mẽ trong cộng đồng yêu nhạc. Với chất giọng đầy cảm xúc và tài năng chơi piano xuất sắc, Smith Bandit đã ghi dấu ấn sâu sắc trong lòng người hâm mộ. Những ca khúc của họ vẫn còn sống mãi trong ký ức của thế hệ 8x, 9x và tiếp tục được yêu thích cho đến ngày nay.
+
+Nam ca  <div class="box-5">BOX 5</div>sĩ từng nổi tiếng nhất nhì showbiz, nay bị liệt phải ngồi xe lăn, cuộc sống kham khổ Ảnh 3
+Tuy nhiên, sau khi phải đối mặt với biến cố sức khỏe nghiêm trọng, Smith Bandit đã phải rời xa ánh đèn sân khấu. Cuộc sống của ông giờ đây là một cuộc chiến không ngừng nghỉ với bệnh tật, và hình ảnh của ông hiện tại khiến nhiều người cảm thấy tiếc nuối cho một tài năng đã từng tỏa sáng rực rỡ. Những hình ảnh mới nhất của Smith Bandit khiến người ta không chỉ nhớ về một nghệ sĩ tài năng mà còn gợi lên sự xót xa cho những gì ông phải trải qua.
+
+Trước tình cảnh khó khăn của Smith Bandit, cộng đồng hâm mộ đã không ngừng bày tỏ sự thương cảm và mong muốn giúp đỡ. Dòng chảy yêu thương và sự chia sẻ từ công chúng chính là nguồn động viên vô giá, giúp nam ca sĩ có thêm sức mạnh để tiếp tục chiến đấu với bệnh tật và vượt qua những thử thách trong cuộc sống. Những lời động viên từ người hâm mộ như một nguồn động lực mạnh mẽ, tiếp thêm nghị lực cho ông trong những ngày tháng khó khăn.
+Cụ thể, trong sân khấu biểu diễn ca khúc Filter thuộc album RUBY, Jennie khiến người xem đỏ mặt vì màn trình diễn táo bạo quá sức của mình. Nữ ca sĩ diện bộ trang phục ôm sát cơ thể bằng chất liệu mỏng manh, phần cổ được xẻ sâu và khá rộng. Cùng với ánh sáng trên sân khấu, bộ trang phục đã khiến Jennie rơi vào tình trạng hết sức phản cảm khi để lộ những điểm nhạy cảm trên cơ thể.
+
+Sân khấu này của Jennie hiện đang lan truyền chóng mặt trên tất cả các nền tảng mạng xã hội. Đáng nói, rất nhiều người là fan của Jennie cũng thừa nhận rằng bộ trang phục này quá phản cảm để nữ ca sĩ mang lên sân khấu biểu diễn.
+Heart Evangelista, nữ diễn viên Philippines bất ngờ vượt mặt Jennie và Jisoo, trở thành người có giá trị truyền thông khủng tại Tuần lễ thời trang Paris 2025.
+Heart Evangelista và chồng Thượng nghị sĩ Francis "Chiz" Escudero.
+
+Heart Evangelista, tên thật là Love Marie Payawal Ongpauco, là một trong những biểu tượng giải trí và thời trang hàng đầu Philippines. Sinh năm 1985 tại Manila, cô không chỉ nổi tiếng với tài năng diễn xuất mà còn gây ấn tượng với cuộc sống xa hoa, gu thời trang đẳng cấp và những câu chuyện cá nhân đầy màu sắc.
+
+Xuất thân từ một gia đình giàu có và quyền lực, Heart sớm được tiếp xúc với nghệ thuật và phát triển tài năng diễn xuất từ năm 13 tuổi. Cô nhanh chóng tạo dựng danh tiếng qua loạt phim đình đám như Ang Tanging Ina, My First Romance và Trò chơi ái tình. Với khả năng diễn xuất tự nhiên và đầy cảm xúc, cô được mệnh danh là "nữ hoàng nước mắt" của màn ảnh Philippines, ghi dấu ấn với hàng chục vai diễn ấn tượng.
+    </p>
+
+   
+    <style>
+        .box-5 {
+            border: 2px dotted yellow;
+            background-color: blue;
+            position: sticky;
+            width: 80px;
+            height: 80px;
+            left: 0;
+            top: 0;
+        }
+
+      
+    </style>
+</body>
+</html>

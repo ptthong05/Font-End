@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.DOM EVENTS</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM Events</h1>
+    <pre style="font-size: 30px;">
+Dom Event (sự kiện) là một tác động nào đó lên các đối tượng HTML. Qua đó ta có thể bắt được sự kiện và viết một đoạn Javascript để thực thi một chương trình nào đó.
+Cú pháp:
+    element.eventname = function() {
+	    // Code
+    }
+Trong đó:
+    element: là phần tử muốn bắt sự kiện.
+    eventname: Tên sự kiện.
+
+
+Danh sách một số DOM Events phổ biến:
+    <img src="DOM Events.png" />
+    </pre>
+
+
+    <!-- onload: chỉ sử dụng khi viết HTML dưới script.         KHUYẾN KHÍCH VIẾT CUỐI CÙNG -->
+    <script>
+        // KHI LOAD HẾT TRANG WEB SẼ CHẠY THỰC THI HÀM FUNCTION
+        // window.onload = function() {
+        //     const menu = document.querySelector("#menu");
+        //     console.log(menu);
+        // }
+    </script>
+
+
+    <!-- <ul id="menu">
+        <li>Mục 1</li>
+        <li>Mục 2</li>
+        <li>Mục 3</li>
+    </ul> -->
+
+
+    <!-- ĐOẠN SCRIPT NẰM TRÊN HTML SẼ TRẢ RA NULL -->
+    <script>
+        // const menu = document.querySelector("#menu");
+        // console.log(menu);
+    </script>
+    <!-- onload -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- onblur and onfocus -->
+     <!-- <input type="text" id = "inputName"    placeholder="Nhập họ và tên:">
+
+     <style>
+        .focus {
+            background: yellow;
+            color: red;
+        }
+     </style> -->
+
+     <script>
+        // const inputName = document.querySelector("#inputName");
+        // console.log(inputName);
+        // inputName.onblur = function() {
+        //     inputName.value = inputName.value.toUpperCase();       // KHI CLICK RA NGOÀI THÌ CHỮ ĐC NHẬP VÀO Ô INPUT SẼ VIẾT IN HOA VÌ SỬ DỤNG VALUE TOUPPERCASE
+        //     inputName.classList.remove("focus");
+        // }
+
+        // inputName.onfocus = function() {
+        //     inputName.classList.add("focus");                     // KHI CLICK VÀO HAY FOCUS THÌ SẼ THÊM CLASS FOCUS VÀ STYLE CHO CLASS FOCUS ĐÓ        
+        // }
+     </script>
+    <!-- onblur and onfocus-->
+
+
+
+
+
+
+
+
+    <!-- onkeydown and onkeyup-->
+     <!-- <input type="text" id = "inputName"    placeholder="Nhập họ và tên:">
+     <script>
+        const inputName = document.querySelector("#inputName");
+        // inputName.onkeydown = function() {
+        //     console.log("onkeydown");        // KHI GÕ CHỮ a THÌ HIỆN RA THÔNG BÁO alert TRÊN MÀN HÌNH TRC R MỚI HIỆN CHỮ a
+        //     alert("onkeydown");
+        // }
+
+        inputName.onkeyup = function() {
+            console.log("onkeydown");        // KHI GÕ CHỮ a THÌ HIỆN CHỮ a TRC R MỚI HIỆN RA THÔNG BÁO alert TRÊN MÀN HÌNH
+            alert("onkeyup");
+        }
+     </script> -->
+     <!-- onkeydown and onkeyup-->
+
+
+
+
+
+
+
+     <!-- onchange -->
+    <select id="color">
+        <option value="red">Màu đỏ</option>
+        <option value="orange">Màu cam</option>
+        <option value="white">Màu trắng</option>
+    </select>
+
+
+    <script>
+        // const colors = document.querySelector("#color")
+
+        // colors.onchange = function() {
+        //     let currentColor = colors.value;
+        //     console.log(currentColor);         // KHI CHỌN MÀU ĐỎ THÌ CONSOLE.LOG RA RED KHI THAY ĐỔI GIÁ TRỊ SẼ LẮNG NGHE SỰ KIỆN
+        // }
+
+    </script>
+
+
+
+
+
+
+     <input type="text" id = "inputName"    placeholder="Nhập họ và tên:">
+
+    <script>
+        const inputName = document.querySelector("#inputName");
+        // console.log(inputName);
+        inputName.onchange = function() {
+            console.log(inputName.value);           // GÕ XONG CLICK RA NGOÀI MỚI LẤY ĐC GIÁ TRỊ
+        }
+
+    </script>
+     <!-- onchange -->
+
+
+</body>
+</html>

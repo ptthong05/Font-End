@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9.Cookie</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">KHÁI NIỆM</h1>
+    <pre style="font-size: 30px;">
+Cookie là dữ liệu được lưu trữ trong một file text, và nằm trong máy tính, nên việc lưu trữ cookie sẽ là vĩnh viễn hoặc là một thời gian cụ thể, tất cả đều do bạn thiết lập.
+Khi trình duyệt gửi thông tin lên server thì cookies sẽ được gửi kèm theo. Đây cũng là thông tin để trả lời cho câu hỏi tạo sao Cookie được lưu trữ ở Client mà trên Server vẫn đọc được.
+Cookie được lưu trữ ở dạng name=value
+    </pre>
+
+
+    
+    <h1 style="font-size: 35px; color: red;">Các thao tác với cookie</h1>
+    <pre style="font-size: 30px;">
+Tạo cookie
+Cú pháp: 
+    document.cookie = 'name=value';
+Để thiết lập thời gian sống cho cookie thì ta sử dụng từ khóa expires. Định dạng thời gian là UTC.
+
+
+Lấy giá trị cookie
+Cú pháp: 
+    var giatri = document.cookie;
+Lúc này kết quả sẽ trả về một chuỗi Cookie có cấu trúc name=value, trường hợp bạn lưu nhiều cookie thì nó sẽ có dạng name1=value1;name2=value2.
+    </pre>
+
+
+
+    <h1 style="font-size: 35px; color: red;">Các thao tác với cookie</h1>
+    <pre style="font-size: 30px;">
+Đổi giá trị cho cookie
+Để thay đổi giá trị cho Cookie thì bạn chỉ việc gán lại giá trị cho cookie. Không sinh ra cookie mới mà sẽ ghi đè lên cookie cũ.
+Cú pháp: 
+    document.cookie = 'name=value';
+
+
+Xóa cookie
+Chỉ cần xét lại giá trị ngày hết hạn expires về những thời gian trước đấy.
+Cú pháp: 
+    document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+
+    </pre>
+
+
+    
+    <button onclick="login()">Đăng nhập</button>
+    <button onclick="update()">Cập nhật thông tin</button>
+    <button onclick="deleteInfor()">Xoá token (ĐĂNG XUẤT)</button>
+
+
+
+    <script>
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days*24*60*60*1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + encodeURIComponent(value) + ";" + expires + ";path=/";
+        }   // HÀM LẤY TRÊN MẠNG  -- CHỈ CẦN COPY BỎ VÀO R GỌI ĐẾN HÀM ĐÓ
+    
+
+
+
+        function login() {
+            if (true) {
+                setCookie("token", "yyyyyyyy", 1);         // Cookie 'token'
+                setCookie("name", "pham tan thong", 7);    // Cookie 'name'
+            }
+        }
+        
+    </script>
+
+
+
+
+
+     <script>
+        let allcookie = document.cookie;
+        console.log(allcookie);
+
+        
+
+        function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+           }
+        }
+        return "";
+        }     //HÀM TRÊN MẠNG CHỈ CẦN COPY BỎ VÀO RỒI GỌI ĐẾN HÀM ĐÓ 
+
+
+
+        let token = getCookie("token");    // LẤY RA TOKEN của cookie
+        console.log(token);
+
+     </script>
+
+
+
+     <script>
+        // ĐỔI COOKIE
+        function update() {
+            document.cookie = 'token=test@';
+        }
+     </script>
+
+
+
+     <script>
+        // XOÁ COOKIE
+        function deleteCookie(cname) {
+            document.cookie = '$(cname)=; expires=Thu, 01 Jun 1970 00:00:00 UTC';
+        }     // HÀM TRÊN MẠNG CHỈ CẦN GỌI HÀM LÀ ĐC 
+
+        deleteCookie("token");
+
+
+        // function deleteInfor() {
+        //     document.cookie = "token=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+        // }
+
+     </script>
+    
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>

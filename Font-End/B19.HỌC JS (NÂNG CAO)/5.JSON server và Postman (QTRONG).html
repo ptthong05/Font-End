@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.JSON server và Postman</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">JSON server và Postman</h1>
+    <pre style="font-size: 30px;">
+Yêu cầu
+        Cài đặt trước nodejs vào máy tính, gõ          npm -v             để xem phiên bản.
+        Cài đặt Postman để thử tính năng thêm, sửa, xóa dữ liệu.
+
+
+Khái niệm
+        Json server hiểu đơn giản là một server trả về các dữ liệu dưới dạng json.
+        Dùng để fake API.
+
+
+Hướng dẫn cài đặt
+        Bước 1: Gõ npm init để khởi tạo file package.json (Chứa những thông tin các gói đã cài đặt, nếu có file package.json rồi thì thôi, nếu không cứ bấm enter)
+        Bước 2: Truy cập vào link https://www.npmjs.com/package/json-server để cài json server. Sau đó chạy lệnh npm i json-server
+        Bước 3: Tạo 1 file database.json với nội dung mẫu.
+        Bước 4: Thêm vào mục script trong package.json dòng lệnh: "start": "json-server --watch database.json"
+        Bước 5: Chạy lệnh npm start.
+
+
+Hướng dẫn sử dụng Postman (ĐỂ TEST API CHẠY ĐÚNG K ĐỂ GHÉP VÀO FONTEND) để thử tính năng thêm, sửa, xóa dữ liệu.
+        Các bước cài đặt và sử dụng Postman
+                Bước 1: Tải Postman và đăng ký tài khoản 
+                        (Link download: https://www.postman.com/downloads/)
+                Bước 2: Chọn Create Workspace
+                Bước 3: Chọn Create Collection và đặt tên cho Collection
+                Bước 4: Tạo mới một Request
+
+        Phương thức GET
+                Để lấy một hoặc nhiều bản ghi.
+                Ví dụ 1: Lấy ra danh sách các bài viết.
+                Ví dụ 2: Lấy ra một bài viết.
+            
+        Phương thức POST
+                Để tạo mới một bản ghi.
+                Ví dụ: Tạo mới một bài viết. (Trường hợp data gửi lên dạng json thì headers phải thêm Content-Type là application/json)
+            
+        Phương thức PUT
+                Để cập nhật một bản ghi.
+                Nhưng phải gửi lên đủ các cặp key/value (kể cả những cặp key/value không cần cập nhật).
+                Ví dụ: Cập nhật một bài viết.
+            
+        Phương thức PATCH
+                Để cập nhật một bản ghi.
+                Chỉ cần gửi lên các cặp key/value cần cập nhật.
+                Ví dụ: Chỉ cập nhật tiêu đề của bài viết.
+
+        Phương thức DELETE
+                Để xóa một bản ghi.
+                Ví dụ: Xóa một bài viết.
+    </pre>
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>

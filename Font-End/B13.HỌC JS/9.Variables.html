@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9.Variables</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Các cách khai báo biến</h1>
+    <pre style="font-size: 30px;">
+Khai báo biến bằng từ khóa var (variable - biến)
+Cú pháp: 
+    var tenBien = giaTri;
+Trong đó:
+    tenBien: Là tên của biến các bạn muốn đặt.
+    giaTri: Là giá trị của biến, có thể là số, chuỗi, mảng, object.
+Lưu ý: Tên biến có phân biệt chữ hoa, chữ thường.
+
+
+
+
+
+Khai báo biến bằng từ khóa let
+Cú pháp: 
+    let tenBien = giaTri;
+Biến let chỉ có phạm vi trong khối khai báo mà thôi.
+Vì vậy nó sẽ tối ưu trong trường hợp bạn cần khai báo một biến chỉ sử dụng tạm thời trong một phạm vi nhất định. Phạm vi này ta hay gọi là block scope.
+
+
+
+Let và Const chỉ khai báo và sử dụng trong phạm vi (BỊ GIỚI HẠN BỞI PHẠM VI)
+Var khai báo và sử dụng cả bên trong và bên ngoài code (K BỊ GIỚI HẠN BỞI PHẠM VI)
+
+
+
+
+
+Khai báo biến bằng từ khóa const
+Cú pháp: 
+    const tenBien = giaTri;
+const là một hằng số, vì vậy khi khai báo biến const thì bạn phải gán giá trị cho nó luôn, sau này cũng không thể thay đổi giá trị cho biến.
+
+
+
+
+
+Khai báo biến không cần dùng từ khóa
+Cú pháp: 
+    tenBien = giaTri;
+Chỉ nên sử dụng cách này khi ta muốn gán lại giá trị của một biến
+    </pre>
+
+
+
+    <script>
+        // var a = 10;
+        // var b = 20;
+        // var c = a + b;
+
+
+
+        // if(true){
+        //     let a = 10;           // let chỉ đc khai báo và sử dụng trong khối có dấu {} -- bên ngoài khối k sd đc
+        //     console.log(a);
+        // }
+
+
+
+
+        // if(true){
+        //     const a = 10;           // let chỉ đc khai báo và sử dụng trong khối có dấu {} -- bên ngoài khối k sd đc
+        //     console.log(a);
+        // }
+        // console.log(a);
+
+
+
+        a = 20;             // K KHUYẾN KHÍCH
+        console.log(a);                 
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.Scope</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Scope</h1>
+    <pre style="font-size: 30px;">
+Scope là phạm vi truy cập, nó đề cập đến ngữ cảnh của đoạn code.
+Có 2 kiểu phạm vi là:
+    Phạm vi toàn cục (global): Một biến nằm ở phạm vi toàn cục thì biến đó được sử dụng ở đâu cũng được.
+    Phạm vi cục bộ (local): Một biến được khai báo trong một hàm thì biến này là biến cục bộ, và chỉ sử dụng được ở trong hàm đó.
+    </pre>
+</body>
+</html>
+
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>
+
+
+
+<script>
+    // var a = 10;       // biến toàn cục dùng đâu cx đc 
+
+    // function text() {
+    //     console.log(a);
+    // }
+    // text();
+</script>
+
+
+<script>
+    function test() {
+        var a = 20;       // biến cục bộ chỉ sử dụng đc trong hàm đó
+        console.log(a);
+    }
+    test();
+</script>

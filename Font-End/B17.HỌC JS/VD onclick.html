@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VD onclick</title>
+</head>
+<body>
+    <!-- onclick -->
+      <div class = "menu" id = "menu">
+        <button class="inner-close" id="buttonClose">Đóng</button>
+        <ul>
+            <li>Mục 1</li>
+            <li>Mục 2</li>
+            <li>Mục 3</li>
+        </ul>
+      </div>
+
+      <button class="button" id="buttonMenu">Menu</button>
+
+
+
+      <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .menu {
+            background: orangered;
+            width: 250px;
+            height: 300px;     /* thêm chiều cao cụ thể */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);  /* căn giữa */
+            display: none;     /* ẩn ban đầu */
+        }
+
+        .menu.show {          /* vì trong css có 2 class gần kề  VD  <div class = "menu show" id = "menu"> */
+            display: block;     /* hiện lên */
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-top: 30px;
+        }
+        .menu li {
+            padding: 10px;
+            border-radius: 1px solid black;
+        }
+        .button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .button .show {
+            display: block;
+        }
+        .menu .inner-close {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+      </style>
+
+      <script>
+        const buttonMenu = document.querySelector("#buttonMenu");
+        const buttonClose= document.querySelector("#buttonClose");
+        const menu = document.querySelector(".menu");
+        buttonMenu.onclick = function() {
+            menu.classList.add("show");
+        }
+        buttonClose.onclick = function() {
+            menu.classList.remove("show"); // đóng menu bằng cách xóa 'show'
+        }
+      </script>
+     <!-- onclick -->
+</body>
+</html>

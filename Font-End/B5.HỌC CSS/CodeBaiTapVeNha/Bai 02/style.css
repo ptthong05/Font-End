@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    
+}
+th {
+    background-color: darkgreen;
+    color: white;
+}
+
+td {
+     border-bottom: 2px solid #C0C0C0;   /* đường kẻ dưới */
+}

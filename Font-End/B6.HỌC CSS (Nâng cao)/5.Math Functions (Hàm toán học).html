@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Functions (Hàm toán học)</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Math Functions (Hàm toán học)</h1>
+    <pre>Các hàm toán học:
+    Hàm calc()
+Thực hiện một phép tính, kết quả sẽ lấy làm giá trị thuộc tính. Các toán tử sau có thể được sử dụng: + – * /
+Ví dụ: width: calc(100% - 100px);
+    Hàm max()
+Sử dụng giá trị lớn nhất, từ danh sách giá trị được phân tách bằng dấu phẩy, làm giá trị thuộc tính.
+  Cú pháp: max(value1, value2, …)
+Ví dụ: width: max(50%, 300px);
+    </pre>
+
+    <div class="parent">
+        <div class="child">õox con</div>
+    </div>
+
+    <style>
+        .parent {
+            background-color: yellow;
+            /* () MIN CX GIỐNG MAX ) width ăn theo lớn hơn là 50% (nếu toàn màn hình)
+            thu nhỏ lại thì dùng 500px (vì lớn hơn) -- ÍT SỬ DỤNG */
+            width: max(500px, 50%);
+            height: 300px;
+            position: relative;
+        }
+
+        .child {
+            background-color: orange;
+            width: calc(50% - 30px);
+            width: 5%;
+            height: 50px;
+            position: absolute;
+
+            /* để box con ra giữa nếu left và top là 50% thì box con k ở giữa đc tại vì tính lun box con */
+            left: calc(50% - 25px);
+            top: calc(50% - 25px);
+        }
+    </style>
+</body>
+</html>

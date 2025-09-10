@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Media Queries</h1>
+    <pre>Cú pháp:
+        @media mediaType and (mediaFeature) {
+            // Code
+        }
+Trong đó:
+        mediaType gồm các thuộc tính hay sử dụng sau:
+    all: Dùng cho mọi thiết bị
+    print: Dùng cho máy in
+    screen: Dùng cho máy tính và các thiết bị di động
+        mediaFeature gồm các thuộc tính hay sử dụng sau:
+    max-width: Chiều rộng tối đa của viewport
+    min-width: Chiều rộng tối thiểu của viewport
+</pre>
+
+<pre>Code mô hình tương thích cho giao diện Có 2 cách:
+    PC first (Responsive):
+PC first là khái niệm để chỉ việc lập trình giao diện từ màn hình to đến màn hình nhỏ.
+Để làm việc với mô hình này chúng ta sử dụng max-width trong media query.
+    Mobile first:
+Mobile first là khái niệm để chỉ việc lập trình giao diện từ màn hình nhỏ đến màn hình to.
+Để làm việc với mô hình này chúng ta sử dụng min-width trong media query.
+</pre>
+
+
+      <h1>Soobin Hoàng Sơn, Hoa hậu Thanh Thủy lần lượt là Gương mặt trẻ Việt Nam tiêu biểu, triển vọng</h1>
+
+      <style>
+        h1 {
+            font-size: 80px;
+            color: red;
+        }
+
+
+        /* cứ kích ươcớc màn hình nhỏ hơn 1024 thì áp dụng còn lớn hơn thì k áp dụng */
+        @media screen and (max-width: 1024px) { 
+            h1 {
+                color: aqua;
+                font-size: 30px;
+            }
+        }
+
+
+         /* kích thước dưới 768 thì áp dụng css dưới còn lớn hơn thì k áp dụng  */
+        @media screen and (max-width: 768px) {
+            h1 {
+                color: chartreuse;
+                background-color: aqua;
+            }
+        }
+
+        /* kích thước dưới 480 thì áp dụng css dưới còn lớn hơn thì k áp dụng  */
+        @media screen and (max-width: 480px) {
+            h1 {
+                color: brown;
+            }
+        }
+
+        /* kích thước dưới 320 thì áp dụng css dưới còn lớn hơn thì k áp dụng  */
+        @media screen and (max-width: 320px) {
+            h1 {
+                color: orange;
+                font-size: 40px;
+            }
+        }
+      </style>
+
+      <h2>Bài tập</h2>
+      <header class="header">HEADER</header>
+      <div class="section-one">
+            <div class="content">CONTENT</div>
+            <div class="aside">ASIDE</div>
+            <div class="clear-both"></div>
+      </div>
+      <div class="section-two">
+            <div class="box">BOX 1</div>
+            <div class="box">BOX 2</div>
+            <div class="box">BOX 3</div>
+            <div class="box">BOX 4</div>
+            <div class="clear-both"></div>
+      </div>
+      <footer class="footer">Footer</footer>
+      <style>
+        * {
+            box-sizing: border-box;   
+        }
+        body {
+            margin: 0;  /* sát bên trên */
+        }
+        h1 {
+            color: red;
+            font-size: 30px;
+        }
+
+        .header {
+            background-color: aqua;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            background-color: #CAEFF2;
+            padding: 20px;
+            height: 600px;
+            width: 70%;
+            float: left;
+        }
+
+        .aside {
+            background-color: #F2D8CA;
+            padding: 20px;
+            height: 600px;
+            width: 30%;
+            float: right;
+        }
+
+        .box {
+            background-color: #F2F1CA;
+            padding: 20px;
+            height: 150px;
+            width: calc(25% - 7.5px);
+            float: left;     /* 4 box nằm cùng 1 hàng */
+            margin-right: 10px;  /* khoảng cách các box */
+            margin-bottom: 10px;
+        }
+
+        .box:nth-child(4) {
+            margin-right: 0;  /* box 4 k cần cách (sát lề)*/
+        }
+
+        .section-two {
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: #EECBF3;
+            padding: 20px;
+        }
+           
+
+        /* Cho 4 box k co lên */
+        .clear-both {
+            clear: both;
+        }
+
+        @media  screen and (max-width: 768px) {
+            .content {
+                width: 100%;
+            }
+
+            .aside {
+                width: 100%;
+            }
+
+            .box {
+                width: calc(50% - 5px);
+            }
+
+            .box:nth-child(2) {
+                margin-right: 0;
+            }
+        }
+
+        @media screen  and (max-width: 480px) {
+            .box {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+      </style>
+
+</body>
+</html>

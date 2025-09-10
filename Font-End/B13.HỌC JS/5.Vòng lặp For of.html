@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.Vòng lặp For of</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Vòng lặp for of dùng để lấy ra phần tử của một array, string (không áp dụng được với object).
+Cú pháp:
+    for (variable of iterable) {
+    // Viết code ở đây
+    }
+Trong đó:
+    variable: là tên biến, lấy ra các giá trị trong mảng.
+    iterable: là một mảng hoặc string, mỗi variable sẽ tương ứng với từng giá trị ở trong mảng hoặc string.
+
+    </pre>
+
+
+    <script>
+        var listUsrer = [
+            "Nguyễn Văn A",     // các item
+            "Nguyễn Văn B",
+            "Nguyễn Văn C",
+            "Nguyễn Văn D",
+            "Nguyễn Văn E",
+        ];
+
+
+        for(item of listUsrer) {
+            console.log(item);
+        }
+    </script>
+</body>
+</html>

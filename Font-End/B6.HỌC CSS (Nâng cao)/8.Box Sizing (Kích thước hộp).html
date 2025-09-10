@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing (Kích thước hộp)</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Box Sizing</h1>
+    <pre>
+        Mặc định khi ta sử dụng thuộc tính width, height thì chỉ là áp dụng cho phần content của 1 element.
+2 loại box-sizing:
+
+content-box: 
+Mặc định. Width/height chỉ bao gồm “nội dung” của phần tử.
+width, height = content
+
+border-box:
+Width/height bao gồm: content, padding, border của phần tử.
+width, height = content + padding + border.
+
+    </pre>
+
+    <div class="box">Nội dung box</div>
+    <style>
+        .box {
+            background-color: aqua;
+            width: 200px;   /* kích thức content */
+            height: 100px;    /* kích thức content */
+            padding: 30px;
+            /* kích ươcớc nguyên box phải cộng thêm padding trên dưới và border */
+            border: 5px solid red;
+
+            /* mặc định ăn theo w h của phần content */
+            /* box-sizing: content-box; */
+
+            /* khối lượng box bao gồm content, border, padding */
+            /* w h giờ là tổng cả box */
+            box-sizing: border-box;
+        }
+    </style>
+</body>
+</html>

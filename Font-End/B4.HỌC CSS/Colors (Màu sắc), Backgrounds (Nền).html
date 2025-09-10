@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors (Màu sắc), Backgrounds (Nền)</title>
+</head>
+<body>
+    <h1 style="color: #FF5E8E;">Colors (Màu sắc), Backgrounds (Nền)</h1>
+    <p>Thuộc tính background-color</p>
+    
+    <style>
+        p {
+            background-color: aqua;
+            font-size: 30px;
+        }
+    </style>
+
+    <div class="background-images">Nội dung thẻ div</div>
+    <style>
+        .background-images {
+            background-image: url(image.png);   
+            /*  background-image: url(image.png);  : hình nền để hiện thẻ div */
+            width: 1200px;
+            height: 700px;
+        }
+    </style>
+
+    <h2>background-image: linear-gradient</h2>
+    <style>
+        h2 {
+             background-image: linear-gradient(180deg, #000000, #ffffff); 
+            /* gradient: Tạo ra một dải màu chuyển đổi từ màu này đến màu khác.   << 180dg là 180 độ >> */
+            background-size: 100% auto;
+            /* background-size: Kích thước của background.   <<100%: chiều rộng là 100% // auto là chiều cao tự động */
+            /* contain: sẽ co dãn hình ảnh để hình ảnh nằm trọn trong khung element, hình ảnh không bị vỡ. */
+            /* cover: kéo dãn hình ảnh sao cho vừa với khung, cắt bỏ đi những phần ảnh thừa để hình ảnh không bị vỡ. */
+        }
+    </style>
+
+    <pre>
+        background-repeat: nền được lặp lại hay không.
+Ví dụ:
+	background-repeat: no-repeat; // Không lặp lại ảnh
+	background-repeat: repeat-x; // Lặp theo trục ngang
+	background-repeat: repeat-y; // Lặp theo trục dọc
+    </pre>
+
+    <pre>
+        background-position: vị trí hình nền so với element. Có các giá trị: top, left, right, bottom, center.
+Ví dụ:
+        background-position: top left; // trên - trái
+        background-position: top right; // trên - phải
+        background-position: top center; // trên - giữa
+        background-position: bottom left; // dưới - trái
+        background-position: bottonm right; // dưới - phải
+        background-position: bottom 30px right 20px; // cách dưới 30px - cách phải 20px
+    </pre>
+
+    <pre>
+        background-attachment: nền sẽ được cuộn hoặc cố định.
+Ví dụ:
+        background-attachment: fixed; // Hình nền được fix cố định khi di cuộn web
+
+    </pre>
+</body>
+</html>

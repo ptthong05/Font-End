@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM HTML</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM HTML</h1>
+    <pre style="font-size: 30px;">
+Lấy nội dung trong thẻ HTML
+    Để lấy nội dung của một element ta dùng                       innerHTML:
+	    Nội dung hiện tại thẻ h2
+	    document.querySelector("h2").innerHTML;
+    Để thay đổi nội dung của một element ta dùng innerHTML và gán lại giá trị:
+	    document.querySelector("h2").innerHTML = "Nội dung mới";
+
+
+Thay đổi thuộc tính thẻ HTML
+    Để lấy giá trị của thuộc tính HTML ta sử dụng cú pháp sau:
+	    Nội dung hiện tại thẻ h2
+	    document.querySelector("h2").attributeName;
+	Hoặc:
+	    document.querySelector("h2") .getAttribute("attributeName");       (HAY DÙNG)
+    Để thay đổi giá trị của thuộc tính HTML thì ta sử dụng cú pháp như sau:
+	    document.querySelector("h2"). attributeName = "Nội dung mới";
+	Hoặc:
+	    document.querySelector("h2"). setAttribute("attributeName", "Nội dung mới");
+
+    </pre>
+
+     <!-- <h2 id="h2">
+        <span>Thẻ span1</span>
+        <span>Thẻ span2</span>
+        <span>Thẻ span3</span>
+     </h2> -->
+
+     <div class="product-item" data-id="122344" data-category="123">
+        Ảnh
+        Tiêu đề 
+        Giá
+     </div>
+
+     <div class="product-item" data-id="199884" data-category="123">
+        Ảnh
+        Tiêu đề 
+        Giá
+     </div>
+
+     <div class="product-item" data-id="086477" data-category="123">
+        Ảnh
+        Tiêu đề 
+        Giá
+     </div>
+
+
+    <script>
+        // var h2 = document.querySelector("#h2").innerHTML;
+        // // textContent: lấy nội dung văn bản, có khẳng trắng 
+        // // innerText: lấy nội dung văn bản, KHÔNG  khẳng trắng 
+        // console.log(h2);
+        // const contenth2 = document.querySelector("#h2").innerHTML = "Đây là content";       // THAY ĐỔI NỘI DUNG THẺ H2
+    </script>
+
+
+    <script>
+        const productList = document.querySelectorAll(".product-item");
+        console.log(productList);
+
+        let card = [];
+        // LẶP QUA TỪNG PHẦN TỬ 
+        [...productList].forEach(item => {
+            const dataId = item.getAttribute("data-id");   // Lấy data-id       // LẤY RA DATA_ID ĐỂ ADD VAO GIỎ HÀNG
+            // console.log(item);
+            console.log(dataId);
+            card.push(dataId);
+
+            item.setAttribute("data-category", "234");           // LẶP QUA TỪNG PHẦN TỬ VÀ SET ATTRIBUTE
+        });
+        console.log(card);
+    </script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.Functions</title>
+    <script src="VD Function.js"></script>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Hàm là một chương trình con giúp thực thi một công việc cụ thể.
+Có 2 loại hàm:
+    Hàm built-in (Hàm có sẵn trong Javascript): console.log(), alert(), prompt(), …
+    Hàm tự định nghĩa: Là hàm do chúng ta tự viết ra. Ví dụ như hàm tính toán cộng, trừ, nhân, chia.
+Cú pháp hàm tự định nghĩa:
+	function tenHam(thamSo1, thamSo2,...) {
+	    // Code
+	}
+Gọi hàm:
+	tenHam(doiSo1, doiSo2,...);
+
+
+
+
+
+Đối tượng arguments: chỉ dùng được ở trong hàm. Giả sử khi gọi hàm và truyền đối số vào thì tất các các đối số đó sẽ được nằm trong arguments dưới dạng một mảng.
+Từ khóa return: sẽ trả về kết quả nằm ở bên phải của chữ return. Những dòng code ở bên dưới return sẽ không hoạt động.
+Lưu ý:
+    Nếu đặt trùng tên hàm khi ta gọi hàm thì việc gọi hàm này sẽ chạy vào hàm cuối cùng.
+    Nếu một biến được định nghĩa ở trong function thì biến đó chỉ sử dụng được ở trong function đó thôi (Kể cả biến var). Nhưng khai báo biến var trong if else thì bên ngoài vẫn gọi được.
+    Nếu hàm A nằm trong hàm B thì hàm A chỉ gọi được ở trong hàm B thôi, không gọi được ở bên ngoài hàm B.
+    </pre>
+
+
+    <h1 style="font-size: 35px; color: red;">CÁC LOẠI HÀM</h1>
+    <h1 style="font-size: 35px; color: red;">Declaration function (Hàm định nghĩa)</h1>
+    <pre style="font-size: 30px;">
+Có tính hoisting (tức là gọi được hàm trước lúc khai báo hàm đó).
+Cú pháp:
+	function tenHam(thamSo1, thamSo2,...) {
+	    // Code
+	}
+    </pre>
+
+
+    <h1 style="font-size: 35px; color: red;">Expression function (Hàm biểu thức)</h1>
+    <pre style="font-size: 30px;">
+Không có tính hoisting (Nếu gọi hàm trước lúc khai báo hàm thì sẽ gặp lỗi).
+Cú pháp:
+    var tenHam = function(thamSo1, thamSo2,...) {
+        // Code
+    }
+    </pre>
+    
+
+
+
+    <h1 style="font-size: 35px; color: red;">Arrow function (Hàm mũi tên) -- ƯU TIÊN </h1>
+    <pre style="font-size: 30px;">
+Không có tính hoisting (Nếu gọi hàm trước lúc khai báo hàm thì sẽ gặp lỗi).
+Cú pháp:
+    var tenHam = (thamSo1, thamSo2,...) => {
+    // Code
+    }
+Lưu ý: Arrow Function sẽ không có Arguments. Để  lấy các đối số đã truyền dưới dạng một mảng thì chúng ta sẽ sử dụng cú pháp spread.
+    </pre>
+
+    <pre style="font-size: 30px;">
+Ví dụ 1: Tính tổng các số chẵn của mảng. Mảng như sau:
+        var mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+Ví dụ 2:Viết chương trình cho người dùng nhập vào số n lớn hơn 0, sau đó dựa vào n tính giá trị của biểu thức:
+        bieuThuc = 1/n + 2/n + 3/n + ... + n/n.
+    </pre>
+
+    <script>
+        // function sum(a, b) {
+        //     return ( a + b);
+        // }
+
+        // let kq = sum(10, 20);
+        // console.log(kq);
+
+
+
+
+        //  function sum(a, b) {
+        //     // return ( a + b);
+        //     // console.log(arguments);
+        //     let tong = 0;
+        //     for(item of arguments) {
+        //         tong +=item;
+        //     }
+        //     return tong;
+        // }
+
+        // let kq = sum(10, 20, 30, 40);
+        // console.log(kq);
+
+
+        // function fun1() {
+        //     console.log("hàm 1");
+        // }
+        // function fun1() {
+        //     console.log("hàm 2");
+        // }
+        // fun1();       //TRÙNG TÊN HÀM VIẾT CUỐI CÙNG SẼ CHẠY VÀO (HÀM DƯỚI).
+
+
+
+        // function func1() {
+        //     var a = 10;
+        //     console.log(a);
+        // }
+        // func1();
+    </script>
+
+
+
+    <script>
+
+        // CÓ HOISING GỌI HÀM TRC KHI KHAI BÁO HÀM
+        //  let kq = sum(10, 20, 30, 40, 50, 60, 70);
+        // console.log(kq);
+
+        //  function sum(a, b) {
+        //     // return ( a + b);
+        //     // console.log(arguments);
+        //     let tong = 0;
+        //     for(item of arguments) {
+        //         tong +=item;
+        //     }
+        //     return tong;
+        //     console.log("OK");
+        // }
+
+
+
+        
+
+        //  const sum = function() {
+        //     let tong = 0;
+        //     for(item of arguments) {
+        //         tong +=item;
+        //     }
+        //     return tong;
+        // }
+        // let kq = sum(10, 20, 30, 40, 50, 60, 70);
+        // console.log(kq);
+
+
+        // var sum = () => {
+        //     console.log("OK");
+        // }
+        // sum();
+
+
+
+        //  const sum = (...test) => {
+        //     console.log(test);            // test thay = chữ gì cx đc 
+        //     let tong = 0;
+        //     for(item of test) {
+        //         tong +=item;
+        //     }
+        //     return tong;
+        // }
+        // let kq = sum(10, 20, 30, 40, 50, 60, 70);
+        // console.log(kq);
+    </script>
+
+
+    <script>
+        // VD1:
+        // var mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // function tinhTongSoChan(array) {
+        //     let tong = 0;
+        //     for (const item of array) {
+        //         if(item % 2 == 0) {
+        //             tong += item             
+        //         }
+        //     }
+        //     return tong;
+        // }
+        // let kq = tinhTongSoChan(mang);
+        // console.log(kq);
+
+
+
+        // VD2:
+        // function tinhBieuThuc(n) {
+        //     console.log(n);
+        //     let kq = 0;
+        //     for(let i = 1; i < n; i++){
+        //         kq += 1/n;
+        //     }
+        //     return kq;
+        // }
+
+        // let n;
+
+        // do {
+        //     n = prompt("Nhập n = ");
+        // // dạng NUMBER số màu tím còn STRING số màu trắng
+        //     n = parseInt(n);         // n chuyển tử string sang int
+        //     if(n <= 0) {
+        //         console.log("Vui lòng nhập lại!");
+        //     } else {
+        //         let kq = tinhBieuThuc(n);
+        //         console.log(kq);
+        //     }
+        //     console.log(n);
+        // } while(n <= 0);
+    
+        
+
+    </script>
+</body>
+</html>

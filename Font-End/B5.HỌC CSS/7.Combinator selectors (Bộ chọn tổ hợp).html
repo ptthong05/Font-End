@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selectors (Bộ chọn tổ hợp)</title>
+</head>
+<body>
+    <h1>Combinator selectors (Bộ chọn tổ hợp)</h1>
+    <h3 style="color: rebeccapurple;">1.BỘ CHỌN ANH CHỊ E LIỀN KỀ</h3>
+
+   <!-- <p>Nội dung 0</p>
+    <div>
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+    </div>
+    <h4>Nội dung thẻ h4</h4>  
+    <p>Nội dung 3</p>
+    <p>Nội dung 4</p>  -->
+
+     <!-- <style>
+        div + p {     /* chọn những element cùng cấp với div và lấy thẻ p nào ngay sau THẺ DIV */
+            background-color: aqua;
+        }
+        /* div + h4 {
+            background-color: red;
+        } */
+    </style>  -->
+
+     <h3 style="color: rebeccapurple;">2.BỘ CHỌN ANH CHỊ E CHUNG</h3>
+    <!-- <p>Nội dung 0</p>
+    <div>
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+    </div>
+    <h4>Nội dung thẻ h4</h4> 
+    <p>Nội dung 3</p>
+    <p>Nội dung 4</p>
+
+    <style>
+        div ~ p {    /* dấu ~ sẽ css đc cho tất cả các element nằm sau thẻ div */
+            background-color: blue;
+        }
+    </style>  -->
+
+    <h3 style="color: rebeccapurple;">3.BỘ CHỌN CON  (HAY DÙNG)</h3>
+    <!-- <p>Nội dung 0</p>
+    <div>
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+             <section>
+                  <p>Nội dung con</p>
+             </section>
+    </div>
+    <h4>Nội dung thẻ h4</h4> 
+    <p>Nội dung 3</p>
+    <p>Nội dung 4</p>
+
+    <style>
+        div > p {    /* dấu > sẽ css đc  tất cả các element CON đầu tiên của thẻ div  */
+            background-color: blue;
+        }
+    </style> -->
+
+    <h3 style="color: rebeccapurple;">4.BỘ CHỌN HẬU DUỆ (HAY DÙNG)</h3>
+     <p>Nội dung 0</p>
+    <div>
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+             <section>
+                  <p>Nội dung con</p>
+             </section>
+    </div>
+    <h4>Nội dung thẻ h4</h4> 
+    <p>Nội dung 3</p>
+    <p>Nội dung 4</p>
+
+    <style>
+        div p {    /* dấu cách sẽ css đc  tất cả các element CON k phân biệt cấp nằm trong thẻ div  */
+            background-color: blue;
+        }
+    </style> 
+
+    <div class="parent">
+        <div class="child">
+            <h3>Nội dung 1</h3>
+        </div>
+        <div class="child">
+            <C>Nội dung 2</C
+        <div class="child">
+            <h3>Nội dung 3</h3>
+        </div>
+        <div class="child">
+            <h3>Nội dung 4</h3>
+        </div>
+    </div>
+
+    <style>
+        .parent .child h3 {   /* viết theo thứ tự từ elment cha đến con */
+            color: aqua;
+        }
+    </style> 
+
+
+
+</body>
+</html>

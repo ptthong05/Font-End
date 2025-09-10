@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.BOM Location</title>
+</head>
+<body>
+    <Khái style="font-size: 35px; color: red;">Khái niệm</h1>
+    <pre style="font-size: 30px; color:  black;">
+location là một đối tượng được dùng để xử lý các vấn đề liên quan đến URL của trang web
+Cú pháp: window.location hoặc location
+    </pre>
+
+    <Khái style="font-size: 35px; color: red;">Phương thức reload()</h1>
+    <pre style="font-size: 30px;  color:  black;">
+Để load lại trang web
+Cú pháp:
+    location.reload()
+    </pre>
+
+
+
+
+    <h1 style="font-size: 35px; color: red;">Các thuộc tính</h1>
+    <pre style="font-size: 30px;  color:  black;">
+hash: lấy phần sau dấu # của URL
+host: lấy hostname và port của URL
+hostname: lấy hostname
+href: lấy URL
+origin: trả về protocol, hostname và port của URL
+pathname: lấy path name của URL
+port: lấy port của URL
+search: lấy phần query string của URL (sau dấu ?)
+Ví dụ: https://daca.vn/index.html?search=test123#abc
+    </pre>
+
+
+
+    
+    <button onclick="reload()">Reload</button>
+
+
+
+    <script>
+        // function reload() {
+        //     window.location.reload();
+        // }   ==> NHẤN VÀO RELOAD SẼ LOAD LẠI WEB
+
+
+        // Cứ 10s load lại 1 lần
+        setInterval(() => {
+                window.location.reload();
+        }, 10000);
+
+
+        console.log(window.location);
+    </script>
+</body>
+</html>

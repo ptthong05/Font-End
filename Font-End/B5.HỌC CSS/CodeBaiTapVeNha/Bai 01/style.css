@@ -1,0 +1,26 @@
+ul li {
+    list-style-type: none;
+}
+
+div {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #E6E6FA;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+div:hover{
+       color: white;
+       background-color: blue;
+}
+
+i {
+    border-radius: 30px;   /* vo tròn */
+    background-color: #C0C0C0;
+    padding: 10px;   /* tăng kích thước vo tròn */
+}
+i:hover {
+    color: white;
+    background-color: red;
+}

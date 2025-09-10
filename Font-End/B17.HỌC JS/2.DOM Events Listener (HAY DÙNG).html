@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.DOM Events Listener</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM Events Listener</h1>
+    <pre style="font-size: 30px;">
+DOM Events Listener giống Dom Event, nhưng khác ở chỗ:
+    Một element có thể gọi được nhiều sự kiện.
+    Có thể hủy bỏ lắng nghe sự kiện bất kỳ (Dom Events chỉ lắng nghe được nhưng không hủy bỏ lắng nghe được).
+Cú pháp:
+    element.addEventListener("eventname", function(e) {
+	     // Code
+    });
+Trong đó:
+    element: là phần tử muốn bắt sự kiện.
+    eventname: Tên sự kiện (bỏ chữ on, Ví dụ: onclick -> click).
+    </pre>
+
+
+
+
+
+    <button id="button">Button</button>
+
+    <script>
+        function hamMot() {
+            console.log("Việc 1");
+        }
+        function hamHai() {
+            console.log("Việc 2");
+        }
+        const button = document.querySelector("#button");
+        // button.onclick = function() {
+        //     hamMot();
+        // }
+        // button.onclick = function() {
+        //     hamHai();                    // KHI TÁCH RA NHƯ VD SẼ CHỈ CHẠY ĐC HÀM DƯỚI LÀ HÀM HAI
+        // }
+
+        // button.addEventListener("click", function() {
+        //     hamMot();          // KHI CLICK BUTTON SẼ CHẠY VÀO HAI HÀM LÀ HAMMOT VÀ HAMHAI
+        //     // hamHai();
+        // })
+        button.addEventListener("click", function() {
+            hamHai();                      // KHI TÁCH THÀNH HAI HÀM RIÊNG BIỆT SẼ CHẠY ĐC VÀO CẢ HÀM 1 VÀ HAI 
+        })
+
+        // CÓ THỂ GHI NHƯ SAU:
+         button.addEventListener("click", hamMot);
+         setTimeout(() => {
+            button.removeEventListener("click", hamMot);        //XOÁ SỰ KIỆN SAU 5S SẼ XOÁ (REMOVE) K CHẠY VÀO HAMMOT.    TRC 5S SẼ CHẠY CẢ 2 HÀM NHƯNG SAU 5S CHỈ LẮNG NGHE HAMHAI
+         }, 5000)
+    </script>
+</body>
+</html>

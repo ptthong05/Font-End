@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Array</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">forEach()</h1>
+    <pre style="font-size: 30px;">
+Để duyệt qua mỗi phần tử của mảng và thực hiện một hành động nào đó.
+Có thể thay đổi trực tiếp mảng ban đầu
+Cú pháp:
+	arr.forEach(function(currentValue, index, array) {
+	    // code xử lý
+	});
+Trong đó:
+    currentValue: phần tử hiện tại đang được xử lý của array.
+    index: chỉ số của phần tử hiện tại đang được xử lý của array.
+    array: mảng hiện tại đang gọi hàm forEach().
+    </pre>
+
+
+
+    <h1 style="color: red; font-size: 35px;">every()</h1>
+    <pre style="font-size: 30px;">
+Kiểm tra tất cả các phần tử của một mảng phải thỏa mãn một điều kiện gì đó.
+Cú pháp:
+	arr.every(function(currentValue, index, array) {
+	    // code xử lý
+	});
+Trong đó:
+    currentValue: phần tử hiện tại đang được xử lý của array.
+    index: chỉ số của phần tử hiện tại đang được xử lý của array.
+    array: mảng hiện tại đang gọi hàm every().
+    </pre>
+
+
+
+
+    <h1 style="color: red; font-size: 35px;">some()</h1>
+    <pre style="font-size: 30px;">
+Kiểm tra chỉ cần một phần tử của một mảng thỏa mãn một điều kiện gì đó là được.
+Cú pháp:
+	arr.some(function(currentValue, index, array) {
+	    // code xử lý
+	});
+Trong đó:
+    currentValue: phần tử hiện tại đang được xử lý của array.
+    index: chỉ số của phần tử hiện tại đang được xử lý của array.
+    array: mảng hiện tại đang gọi hàm some().
+
+    </pre>
+
+
+
+
+    <h1 style="color: red; font-size: 35px;">find()</h1>
+    <pre style="font-size: 30px;">
+Tìm xem trong mảng có giá trị giống với giá trị đang cần tìm không, nếu có thì trả về chính phần tử của mảng đó. Nếu không có thì trả về undefined.
+Chỉ tìm được 1 phần tử trong mảng.
+Cú pháp:
+	arr.find(function(currentValue, index, array) {
+	    // code xử lý
+	});
+Trong đó:
+    currentValue: phần tử hiện tại đang được xử lý của array.
+    index: chỉ số của phần tử hiện tại đang được xử lý của array.
+    array: mảng hiện tại đang gọi hàm find().
+
+    </pre>
+
+
+
+    <h1 style="color: red; font-size: 35px;">filter()</h1>
+    <pre style="font-size: 30px;">
+Giống find, nhưng cho phép tìm được nhiều phần tử và trả về một array gồm các phần tử đã tìm được.
+Cú pháp:
+	arr.filter(function(currentValue, index, array) {
+	    // code xử lý
+	});
+Trong đó:
+    currentValue: phần tử hiện tại đang được xử lý của array.
+    index: chỉ số của phần tử hiện tại đang được xử lý của array.
+    array: mảng hiện tại đang gọi hàm filter().
+
+    </pre>
+
+
+
+
+    <h1 style="color: red; font-size: 35px;">map()</h1>
+    <pre style="font-size: 30px;">
+Hàm map() sẽ lặp qua từng phần tử của mảng. Giá trị trả về của hàm map là một mảng mới, với số lượng phần tử bằng với mảng cũ, nhưng giá trị của các phần tử thì được quyết định bởi lệnh return của hàm map.
+Cú pháp:
+	arr.map(function(currentValue, index, array) {
+	    // code xử lý
+	});
+Trong đó:
+    currentValue: phần tử hiện tại đang được xử lý của array.
+    index: chỉ số của phần tử hiện tại đang được xử lý của array.
+    array: mảng hiện tại đang gọi hàm map().
+
+    </pre>
+
+
+
+
+    <h1 style="color: red; font-size: 35px;">reduce()</h1>
+    <pre style="font-size: 30px;">
+Hàm reduce() sẽ duyệt qua từng phần tử trong mảng và tính toán các phần tử đó, sau đó trả về một giá trị cuối cùng.
+Cú pháp:
+    arr.reduce(function(total, currentValue, currentIndex, array) {
+        // code xử lý
+    }, initialValue);
+Trong đó:
+    total: giá trị trả lại trước đó của function, chính là giá trị của lệnh return cho mỗi lần lặp.
+    initialValue: tham số không bắt buộc. Nếu được truyền vào thì initialValue sẽ được sử dụng làm giá trị ban đầu, còn không thì nó sẽ lấy giá trị của phần tử đầu tiên.
+    </pre>
+
+
+    <script>
+
+        // let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        // let sum = 0;
+
+        // // Lọc qua từng phần tử của mảng 
+        // number.forEach(function(item, index, array) {
+        //     console.log(item, index, array);
+        //     sum += item;              // Tính tổng 
+
+        //     number[index] = 20;       // thay đổi mảng  ban đầu thành 20
+        // });
+
+        // console.log(sum);
+
+        // console.log(number);
+    </script>
+
+
+
+    <script>
+        // const monhoc = [
+        //     {
+        //         tên: "Toan",
+        //         diem: 8.6
+        //     },
+        //     {
+        //         ten: "Ly",
+        //         diem: 9.2
+        //     },
+        //     {
+        //         ten: "Hoa",
+        //         diem: 8.5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 8
+        //     },
+        // ]
+
+        // const hsg = monhoc.every(function(item){
+        //     return item.diem >=8;
+        //     // apăpặp qua 4 phần từ 
+        //     // Phần tử 1, 2, 3 là true 
+        //     // Phần tử 4 là false 
+        //     // Chỉ cần 1 phần tử false thì sẽ trả ra false 
+        // });
+
+        // console.log(hsg);
+        // if(hsg == true) {
+        //     console.log("Đây là hsg");
+        // } else {
+        //     console.log("Đây k là hsg");
+        // }
+    </script>
+
+
+    <script>
+        // const monhoc = [
+        //     {
+        //         tên: "Toan",
+        //         diem: 4
+        //     },
+        //     {
+        //         ten: "Ly",
+        //         diem: 9.2
+        //     },
+        //     {
+        //         ten: "Hoa",
+        //         diem: 8.5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 8
+        //     },
+        // ]
+
+        // const hsy = monhoc.some(function(item){
+        //     return item.diem <= 4;
+        //     // Lặp qua 4 phần từ 
+        //     // Phần tử 1, 2, 3 là true 
+        //     // Phần tử 4 là false 
+        //     // Chỉ cần 1 phần tử false thì sẽ trả ra false 
+        // });
+
+        // console.log(hsy);
+        // if(hsy == false) {
+        //     console.log("Ở lại lớp");
+        // } else {
+        //     console.log("Lên lớp");
+        // }
+    </script>
+
+
+
+    <script>
+        //  const monhoc = [
+        //     {
+        //         tên: "Toan",
+        //         diem: 4
+        //     },
+        //     {
+        //         ten: "Ly",
+        //         diem: 9.2
+        //     },
+        //     {
+        //         ten: "Hoa",
+        //         diem: 8.5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 10
+        //     },
+        // ];
+
+        // const xemDiemTin = monhoc.filter(function(item){
+        //     return item.ten == "Tin";
+        // });
+
+        // // console.log(xemDiemTin);     // lấy ra 1 object có cả ten va điểm 
+        // // console.log(xemDiemTin.diem);     // lấy điểm 
+
+
+        
+        // // check đk return item.ten == "Địa";
+        // if(xemDiemTin) {
+        //     console.log("Điểm tin của bạn là:", xemDiemTin);
+        // } else {
+        //     console.log("K tìm thấy điểm của bạn!");
+        // }
+    </script>
+
+
+
+    <script>
+        // let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        // let kq = number.map((item, index, array) => {
+        //     return item;       // trả 1 mangảng mới 
+        // });
+
+        // console.log(kq);
+
+        //   const monhoc = [
+        //     {
+        //         tên: "Toan",
+        //         diem: 4
+        //     },
+        //     {
+        //         ten: "Ly",
+        //         diem: 9.2
+        //     },
+        //     {
+        //         ten: "Hoa",
+        //         diem: 8.5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 5
+        //     },
+        // ];
+
+        // let danhsachmoi = monhoc.map (item => {
+        //     let hl = "";
+        //     if(item.diem >= 8) {
+        //         hl = "Giỏi";
+        //     } else if(item.diem <=8 && item.diem >= 6.5 ) {
+        //         hl = "khá";
+        //     } else {
+        //         hl = "TB";
+        //     } 
+            
+        //     return {
+        //         ten: item.ten,
+        //         hl: hl
+        //     }
+
+        //     // console.log(item);
+        //     // return item;
+        // });
+
+        // console.log(monhoc);
+        // console.log(danhsachmoi);
+
+        // MAP TẠO RA 1 MẢNG MỚI VÀ THAY ĐỔI MẢNG MỚI
+
+        // FOR EACH THAY ĐỔI MẢNG HIỆN TẠI 
+        
+    </script>
+
+
+    <script>
+        let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        let tong = number.reduce((total, item) => {
+            console.log(item);
+            return total += item;
+         });
+
+         let trungBinh = number.reduce((total, item) => {
+            return total += item/number.length;
+         }, 0);    // truyền giá trị khởi tạo = 0 
+         console.log("-------------------------------------")
+         console.log(tong);
+         console.log(trungBinh);
+
+
+
+
+         //  const monhoc = [
+        //     {
+        //         tên: "Toan",
+        //         diem: 4
+        //     },
+        //     {
+        //         ten: "Ly",
+        //         diem: 9.2
+        //     },
+        //     {
+        //         ten: "Hoa",
+        //         diem: 8.5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 5
+        //     },
+        //     {
+        //         ten: "Tin",
+        //         diem: 10
+        //     },
+        // ];
+
+    </script>
+</body>
+</html>

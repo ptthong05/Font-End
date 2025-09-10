@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables (Biến)</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Variables (Biến) </h1>
+    <pre>
+        Mục đích của khai báo biến là để có thể sử dụng được ở nhiều nơi.
+Kiểu global (toàn cục): có thể sử dụng được nhiều nơi trong file css.
+Kiểu local (cục bộ): chỉ sử dụng được ở trong phạm vi của nó, những đoạn css khác không sử dụng được.
+
+
+Cách tạo biến global:
+:root {
+    --ten-bien: giá trị;
+}
+
+Cách sử dụng biến
+var(--ten-bien);
+
+
+
+Cách tạo biến local:
+selector {
+    --ten-bien: giá trị;
+}
+
+Cách sử dụng biến
+selector {
+    --ten-bien: giá trị;
+    var(--ten-bien);
+}
+
+    </pre>
+
+    <h2>Nội dung thẻ hư</h2>
+    <p>Nội dung thẻ p</p>
+
+    <h3>Nội dung thẻ h3</h3>
+    <h4>Nội dung thẻ h4</h4>
+
+    <style>
+        h2 {
+            color: red;
+        }
+
+        p {
+            color: var(--color-two);
+        }
+
+        :root {
+            --color-one: orange;
+            /* --color-one: tự đặt (màu ưu tiên đầu) */
+            --color-two: aqua;
+        }
+
+
+        h3 {
+            --local-color: yellow;
+            color: var(--local-color);
+        }
+
+        h4 {
+            color: var(--local-color);   /* chỉ h3 áp dụng */
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Data Types</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">KIỂU DỮ LIỆU NGUYÊN THUỶ</h1>
+    <pre style="font-size: 30px;">
+Khái niệm: Kiểu dữ liệu nguyên thủy là kiểu dữ liệu mà giá trị không thể thay đổi được.
+Có 6 kiểu: Number, String, Boolean, Undefined, Null
+
+Kiểu Number
+       Kiểu dữ liệu number là kiểu dữ liệu dạng số (tương tự trong toán học).
+       JavaScript có hai loại số là: số nguyên và số thực.
+Ngoài những loại số trên, JavaScript còn có 3 số đặc biệt là:
+       Infinity: là số dương vô cùng.
+       -Infinity: là số âm vô cùng.
+       NaN: là viết tắt của Not a Number, được sử dụng để đại diện cho những trường hợp tính toán sai hoặc kết quả của một phép tính không xác định.
+Ví dụ:
+       var a = 10; // Số nguyên
+       var b = 10.5; // Số thực
+       var c = Infinity; // Số dương vô cùng
+       var d = -Infinity; // Số âm vô cùng
+       var e = 10/"a"; // NaN
+
+
+Kiểu Undefined (K xác định)
+       Undefined là một kiểu dữ liệu mà khi khai báo ra một biến và không gán giá trị thì kết quả trả về là undefined.
+Ví dụ:
+	var a;
+	console.log(a) // undefined
+
+
+
+Kiểu Null (k có giá trị)
+        Kiểu dữ liệu null là một kiểu dữ liệu đặc biệt, chỉ bao gồm một giá trị là null (không biết giá trị, không có giá trị).
+Ví dụ:
+	var a = null;
+	console.log(a) //  null
+
+
+Khác nhau cơ bản giữa undefined và null
+        Kiểu dữ liệu null là kiểu dữ liệu được gán cho biến, thường được hiểu là không biết (không có).
+        Kiểu dữ liệu undefined là giá trị mặc định của biến sau khi khai báo mà không gán giá trị cho biến.
+    </pre>
+
+
+
+    <h1 style="color: red; font-size: 35px;">KIỂU DỮ LIỆU PHỨC TẠP</h1>
+    <pre style="font-size: 30px;">
+Kiểu Function
+        Function (hàm) trong JavaScript là một chương trình con giúp thực thi một công việc cụ thể.
+Cú pháp:
+	    function tenHam(thamSo1, thamSo2,…) {
+	            // Code
+	    } 
+Ví dụ:
+	    function sum(a, b) {
+	        alert(a + b);
+	    }
+	    sum(10, 20);
+
+
+
+
+Kiểu Object
+        Object là kiểu dữ liệu tham chiếu. Có thể hiểu object là một tập hợp gồm các cặp key - value (khóa - giá trị).
+        Kiểu dữ liệu của key có thể là string hoặc symbol.
+        Value ứng với key có thể là bất kỳ kiểu dữ liệu nào.
+        Có 2 loại là Object và Array.
+Ví dụ về Object
+	    var infoUser = {
+
+            <!-- name là key còn value là Le Van A (CÓ CẢ KEY VÀ VALUE) -->
+	        name: "Le Van A",
+	        age: 18,
+	        email: "levana@gmail.com",
+	        phone: "0987654321",
+	    }
+	    console.log(infoUser.age);
+
+Ví dụ về Array
+        var listUser = [
+
+            <!-- Có value k có key  -->
+            "Le Van A",
+            "Nguyen Thi B",
+            "Do Van C"
+        ]
+        console.log(listUser);
+        console.log(listUser[0]);
+
+    </pre>
+
+    <script>
+        function sum(a, b) {
+            console.log(a+b);
+        }
+        sum(20, 30);             // GỌI HÀM
+
+
+        var infoUser = {
+	        name: "Le Van A",
+	        age: 18,
+	        email: "levana@gmail.com",
+	        phone: "0987654321",
+            
+            sum: function(c, d) {
+                alert(c + d);
+            }
+	    }
+	    console.log(infoUser.age);
+        console.log(infoUser.name);
+        infoUser.sum(20, 40);
+
+
+        var listUser = [
+            "Le Van A",
+            "Nguyen Thi B",
+            "Do Van C"
+        ]
+        console.log(listUser);
+        console.log(listUser[0]);    // 0 là lấy ra tên đầu nhớ có [] tại vì biến k bắt đầu = số 
+    </script>
+</body>
+</html>

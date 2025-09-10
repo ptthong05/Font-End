@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float và Clear</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Float và Clear</h1>
+    <pre>1.1. Float
+        Thuộc tính float là một thuộc tính được sử dụng để chuyển một phần tử sang góc trái hoặc góc bên phải của không gian bao quanh nó.
+Float có các giá trị sau:
+float: left; // Phần tử nằm phía bên trái.
+float: right; // Phần tử nằm phía bên phải.
+float: none; // Phần tử nằm tại chính vị trí của nó (Mặc định).
+
+1.2. Clear
+        Thuộc tính Clear là một thuộc tính ngược lại hoàn toàn với Float.
+        Ngăn chặn phần tử B chiếm vùng không gian của phần tử A (với A là phần tử sử dụng float).
+        Thuộc tính clear có các giá trị sau:
+clear: left;
+        Ngăn chặn phần tử B chiếm chỗ phần tử A, khi phần tử A có sử dụng float: left;
+        Thuộc tính clear: left; không có tác dụng khi phần tử A sử dụng float: right;
+clear: right;
+        Ngăn chặn phần tử B chiếm chỗ phần tử A, khi phần tử A có sử dụng float: right;
+        Thuộc tính clear: right; không có tác dụng khi phần tử A sử dụng float: left;
+clear: both;
+        Khi cả 2 phần tử A và phần tử B sử dụng float, chúng ta không thể sử dụng clear: left; hay clear: right; để ngăn chặn thành phần C chiếm vùng không gian còn trống, trong trường hợp này ta sử dụng thuộc tính clear: both; để ngăn chặn sự chiếm vùng của thành phần C.
+        Thuộc tính clear: both; có thể ngăn chặn sự chiếm vùng không gian cả khi chỉ có một phần tử sử dụng float (left hoặc right).
+        
+    </pre>
+
+    <div class="element-parent">
+        <div class="element-child element-a">Phần tử A</div>
+        <div class="element-child element-b">Phần tử B</div>
+        <div class="element-child element-c">Phần tử C</div>
+        <div class="clearn-both"></div>
+    </div>
+    <style>
+        .element-parent {
+            border: 5px solid red;
+        }
+        .element-child {
+            width: auto;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .element-a {
+            height: 100px;
+            background-color: blue;
+            color: white;
+        }
+        .element-b {
+            height: 150px;
+            background-color: aqua;
+            color: black;
+        }
+        .element-c {
+            height: 200px;
+            background-color: red;
+            color: white;
+        }
+
+        .element-a {
+            float: left;     /* Phần tử A nằm bên trái */
+        }
+         .element-b {
+            float: left;   /* Phần tử B nằm bên phải */
+        } 
+        /* .element-c {
+            float: right;     /* Phần tử C nằm bên phải 
+        } */
+
+        .element-c {
+            /* clear: both;      b k chiếm k gian của a */
+            /* k chiếm k gian của A và B */
+            float: right;
+        } 
+        .clearn-both {
+            clear: both;
+        }
+        
+    </style>
+
+    <div class="box header">
+        Header
+    </div>
+    <div class="main">
+        <div class="box sidebar-1">Sidebar 1</div>
+        <div class="box article">Article</div>
+        <div class="box sidebar-2">Sidebar 2</div>
+       
+    </div>
+    <div class="box footer">Footer</div>
+ 
+    <style>
+         .box {
+                
+                background-color: #B0C4DE;
+                border: 1px solid #B0C4DE;
+                margin: 5px;
+                color: #000;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                padding: 20px;
+         }
+
+         .sidebar-1 {
+            width: 25%;
+            float: left;
+         }
+        
+         .article {
+            width: calc(50% - 30%);
+            float: left; 
+       
+         }
+         .sidebar-2 {
+            width: 25%;
+            float: right; 
+           
+         }
+
+         
+
+         .footer {
+            /* k chiếm chỗ phần trên */
+              clear: both;
+        }
+
+
+    </style>
+
+
+
+
+    
+</body>
+</html>

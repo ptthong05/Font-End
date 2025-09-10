@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.Vòng lặp While</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Vòng lặp while luôn luôn kiểm tra điều kiện trước, nếu điều kiện thỏa mãn thì mới chạy vào trong vòng lặp.
+Cú pháp:
+    while (condition) {
+    // code
+}
+Trong đó:
+    condition: là điều kiện thực hiện vòng lặp.
+    hi condition có giá trị true thì code được thực thi. Ngược lại, khi condition là false thì vòng lặp kết thúc.
+
+
+
+
+
+
+Khác với vòng lặp while, vòng lặp do...while luôn thực hiện ít nhất một lượt lặp. Sau đó mới kiểm tra điều kiện lặp.
+Cú pháp:
+    do {
+    // code
+    } while (condition);
+Trong đó:
+    condition: là điều kiện thực hiện vòng lặp.
+    Khi condition có giá trị true thì code được thực thi. Ngược lại, khi condition là false thì vòng lặp kết thúc.
+    
+
+    </pre>
+
+
+    <script>
+        // var i = 0;
+        // while(i < 10) {
+        //     console.log(i);
+        //     i++;               // đến khi điều kiện k thoã mãn nx thì dừng lại -- NẾU K CÓ ĐIỀU KIỆN SẼ LẶP VÔ HẠN 
+        // }
+
+
+
+
+        var i = 0;
+        do {
+            console.log(i);
+            i++;
+        }
+        while(i <= 3);
+    </script>
+</body>
+</html>

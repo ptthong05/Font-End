@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.BOM Timing</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+setTimeout(function, milliseconds)
+setInterval(function, milliseconds)
+    </pre>
+
+
+
+    <script>
+        function age() {
+            prompt("Nhập vào tuổi của bạn!")
+        }
+        setTimeout(age, 1000);                     // CỨ 1S SẼ THỰC THI HÀM AGE
+
+
+
+
+        var myVar = setInterval(myTimer, 5000);     //CỨ SAU 5S SẼ XUẤT HIỆN THÔNG BÁO
+
+        function myTimer() {
+            alert("Hello world!");
+        }
+    </script>
+
+</body>
+</html>

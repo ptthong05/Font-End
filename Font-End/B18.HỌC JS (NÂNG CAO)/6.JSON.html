@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.JSON</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">JSON</h1>
+    <pre style="font-size: 30px;">
+Khái niệm
+    JSON là chữ viết tắt của JavaScript Object Notation.
+    Là một định dạng dữ liệu được lưu dưới dạng chuỗi.
+    Chỉ cho phép các kiểu dữ liệu cơ bản: number, string, boolean, array, object, null.
+    Không cho phép: function, date, undefined.
+    Trường hợp giá trị của JSON là một Object thì:
+        Mỗi thông tin dữ liệu sẽ có 2 phần đó là key và value.
+        key: nên đặt tên giống đặt tên biến trong Javascript.
+        key: bắt buộc phải đặt trong dấu nháy kép, nếu bạn đặt nó trong dấu nháy đơn thì đây không phải là một chuỗi JSON đúng chuẩn.
+        Nếu có nhiều dữ liệu (nhiều cặp key => value) thì ta dùng dấu phẩy (,) để ngăn cách
+        Không cho phép dấu phẩy cuối cùng.
+
+Các ví dụ
+    Ví dụ 1: JSON có giá trị là Object
+    Ví dụ 2:  JSON có giá trị là Number
+    Ví dụ 3:  JSON có giá trị là String
+    Ví dụ 4:  JSON có giá trị là Boolean
+    Ví dụ 5:  JSON có giá trị là Array
+    Ví dụ 6:  JSON có giá trị là Null
+    </pre>
+
+    <div id="ListUser" class="user-item"></div>
+
+</body>
+</html>
+
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>
+
+
+<script>
+    let infoUser = {
+        fullname: "Phạm Tấn Thông",
+        email: "thong@gmail.com",
+        age: 19,
+    };
+
+
+    // Ví dụ 1: JSON có giá trị là Object
+    // KHAI BÁO OBJECT DẠNG STRING 
+    let infoUserJson = ` {
+        "fullname": "Phạm Tấn Thông",
+        "email": "thong@gmail.com",
+        "age": 19
+    } `;
+
+    console.log(infoUserJson);
+
+
+
+
+    // JSON.parse          Chuyển từ JSON sang JS 
+    let infoUserJSONtoJS = JSON.parse(infoUserJson);
+    console.log(infoUserJSONtoJS.fullname);
+
+
+    // JSON.stringify      chuyển js sang string của JSON 
+     let infoUserJStoJSON = JSON.stringify(infoUser);
+
+</script>
+
+
+
+<script>
+    // Ví dụ 2:  JSON có giá trị là Number
+    let JSONNumber = `5`;
+
+    console.log(JSONNumber);
+    console.log(JSON.parse(JSONNumber));       // Chuyển JSON về number JS 
+</script>
+
+
+
+<script>
+    // Ví dụ 3:  JSON có giá trị là String
+    let JSONString = `"Xin chào bạn!"`;
+
+    console.log(JSONString);
+    console.log(JSON.parse(JSONString));
+</script>
+
+
+
+
+<script>
+    // Ví dụ 4:  JSON có giá trị là Boolean
+    let JSONBoolean = `true`;              // DẠNG JSON CÓ DẤU `
+
+    console.log(JSONBoolean);
+    console.log(JSON.parse(JSONBoolean));     // CHUYỂN JSON VỀ JS
+</script>
+
+
+<script>
+    // Ví dụ 5:  JSON có giá trị là Array
+    let JSONArray = ` 
+    [
+    { 
+        "id": 1,
+        "name": "Le Van An",
+        "email": "an@gmail.com.vn"
+    },
+    {
+        "id": 2,
+        "name": "Le Van An",
+        "email": "an@gmail.com.vn"
+    },
+    { 
+        "id": 3,
+        "name": "Le Van An",
+        "email": "an@gmail.com.vn"
+    }
+    ]`;
+
+    let listUser = JSON.parse(JSONArray);
+
+    let HTML = "";
+
+    listUser.forEach(item => {
+        HTML += `
+        <div class="user-item">
+            <div class="inner-name">$(item.name)</div>
+            <div class="inner-email">$(item.email)</div>
+        </div>`
+    });
+
+
+    const divUserList = document.querySelector("#ListUser");
+    divUserList.innerHTML = HTML;
+    console.log(HTML);
+</script>
+
+
+
+<script>
+    // Ví dụ 6:  JSON có giá trị là Null
+    let JSONNull = `null`;
+    console.log(JSONNull);
+    console.log(JSON.parse(JSONNull));
+</script>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.Promise</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Promise</h1>
+    <pre style="font-size: 30px;">
+Promise dùng để giải quyết vấn đề callback hell.
+Callback hell là có nhiều hàm lồng nhau gây ra khó chịu, nguyên nhân gây ra tình trạng callback hell là do: giả sử để chạy được hàm b thì hàm a phải thực thi xong đã, và để chạy được hàm c thì hàm b phải thực thi xong.
+Promise có cách viết đơn giản hơn so với callback, mỗi hàm nằm trên một dòng nên sẽ dễ nhìn hơn.
+
+
+
+Cú pháp:
+        var promise = new Promise((resolve, reject) => {
+            // resolve(): Nếu thành công chạy vào hàm này
+            // reject(): Nếu thất bại chạy vào hàm này
+        });
+        promise
+            .then((success) => {
+                // Nếu thành công chạy vào đây
+            })
+        .catch((error) => {
+                // Nếu thất bại chạy vào đây
+        })
+        .finally(() => {
+                // Luôn luôn chạy vào đây
+            })
+
+
+
+Trong đó:
+        new Promise: để tạo mới một promise
+        resolve: là một hàm callback xử lý cho hành động thành công.
+        reject: là một hàm callback xử lý cho hành động thất bại.
+        .then: Nếu thành công chạy vào đây.
+        .catch: Nếu thất bại chạy vào đây.
+        .finally: Luôn luôn chạy vào đây.
+
+
+
+Promise có 3 trạng thái:
+        Pending (ĐANG CHỜ BACKEND TRẢ DATA) : Khi promise đang chạy thì sẽ ở trạng thái này, kết quả là undefined.
+        Fulfilled (BACKEND TRẢ RA TRẠNG THÁI THÀNH CÔNG): Khi promise đã chạy xong thì sẽ ở trạng thái này, kết quả là một giá trị.
+        Rejected (BACKEND TRẢ RA LỖI -- K CÓ DATA): Khi promise bị lỗi thì sẽ ở trạng thái này, kết quả là một object lỗi.
+
+
+    
+Sử dụng Promise.all
+        Promise.all giúp cho các promise được thực thi song song nhau, tổng thời gian chạy của cả chương trình chỉ bằng thời gian chạy của promise chạy lâu nhất.
+Cú pháp:
+        Promise.all([promise1, promise2, …])
+        .then(([success1, success2, …]) => {
+            // Nếu tất cả promise thành công thì chạy vào đây
+        })
+        .catch((error) => {
+            // Chỉ cần một promise lỗi thì sẽ chạy vào đây
+        }) 
+        .finally(() => {
+            // Luôn chạy vào đây
+        })
+LƯU Ý: Nếu một trong số các promise bị reject thì chương trình chạy vào catch ngay.
+Một vài ứng dụng của Promise.all:
+        Gửi nhiều email đồng thời: Cách thông thường là dùng vòng lặp để lặp qua từng email xong gửi đi, nhưng giờ dùng promise.all thì sẽ gửi được song song các email.
+        Lấy nhiều api: giả sử muốn lấy nhiều api và các api độc lập nhau thì dùng promise.all sẽ giảm được thời gian.
+    </pre> 
+
+    <script src="2.1.Promise.js"></script>
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>

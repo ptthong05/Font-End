@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.Fetch API</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Fetch API</h1>
+    <pre style="font-size: 30px;">
+Phương thức Fetch dùng để gọi lên trên server thông qua một API để lấy dữ liệu từ trên server trả về.
+Api hiểu đơn giản thì nó là một url để cho phép bên Front-end có thể giao tiếp được với bên Back-end.
+Cú pháp:
+        fetch('http://example.com/movies.json')
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            console.log(data);
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+
+
+Trong đó:
+    Phương thức fetch() dùng để gửi yêu cầu lên server thông qua api
+    Phương thức then() được thực thi khi có phản hồi từ máy chủ trả về
+    Phương thức catch() được thực thi khi không có phản hồi từ máy chủ
+
+
+3 bước để lấy data:
+    Bước 1: Truy cập vào api
+    Bước 2: Lấy data
+    Bước 3: In data ra màn hình
+    </pre>
+
+    <script src="3.Fetch API.js"></script>
+
+
+
+    <div class="category" id="category">
+        <!-- <div class="category-item">Điện thoại</div>
+        <div class="category-item">Laptop</div> -->
+    </div>
+
+    <div class="product-list" id="products">
+        <div class="product-item">
+            <img src="..." alt="tiêu đề"/>
+            <h3>Tiêu đề</h3>
+            <p>500$</p>
+        </div>
+
+        <div class="product-item">
+            <img src="..." alt="tiêu đề"/>
+            <h3>Tiêu đề 2</h3>
+            <p>700$</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+
+    .product-list {
+       display: flex;
+       flex-wrap: wrap;              /* cho phép xuống hàng nếu cần */
+       justify-content: space-between;      /* căn giữa hàng */
+       gap: 5px;                    /* khoảng cách giữa các box */
+       padding: 20px;
+    }
+
+    .product-item {
+        width: calc((100% / 3) - 10px);
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        margin: 30px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        text-align: center;  /* để ảnh và tiêu đề đều giữa */
+        overflow: hidden;    /* nếu ảnh to quá sẽ không tràn ra ngoài */
+    }
+
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+/* 
+max-width: 100%: giúp ảnh không bị to hơn box cha.
+display: block + margin: 0 auto: căn giữa ảnh.
+overflow: hidden: ngăn phần ảnh tràn ra nếu kích thước bị vượt. 
+*/
+
+    .product-item h3 {
+        color: red;
+        font-size: 30px;
+        font-weight: bold;         /* in đậm */
+    }
+
+    p {
+        color: deeppink;
+        font-size: 25px;
+        font-weight: bold;
+    }
+</style>

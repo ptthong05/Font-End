@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Async/Await</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Async/Await</h1>
+    <pre style="font-size: 30px;">
+Async / Await là một tính năng của JavaScript giúp chúng ta làm việc với các hàm bất đồng bộ theo cách dễ hiểu hơn.
+Nó được xây dựng trên Promise.
+    Async: khai báo một hàm bất đồng bộ.
+        Tự động biến đổi một hàm thông thường thành một Promise.
+        Từ khóa Async được đặt trước 1 hàm.
+    Await: tạm dừng việc thực hiện các hàm async.
+        Khi được đặt trước một Promise, nó sẽ đợi cho đến khi Promise kết thúc và trả về kết quả. 
+        Await chỉ có thể được sử dụng bên trong các function async.
+    </pre>
+
+    
+    <div class="product-list" id="products">
+        <div class="product-item">
+            <img src="..." alt="tiêu đề"/>
+            <h3>Tiêu đề</h3>
+            <p>500$</p>
+        </div>
+
+        <div class="product-item">
+            <img src="..." alt="tiêu đề"/>
+            <h3>Tiêu đề 2</h3>
+            <p>700$</p>
+        </div>
+    </div>
+
+    <script src="4.Async_Await.js"></script>
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>

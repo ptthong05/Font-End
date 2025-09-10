@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selectors (Bộ chọn thuộc tính)</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Attribute selectors (Bộ chọn thuộc tính)</h1>
+    <a href="google.com" title="gg">Google</a>
+    <a href="facebook.com" target=_blank title=" web facebook">Facebook</a>
+    <a href="youtube.com" target="" title="YTB">Youtube</a>
+    <style>
+        /* a[target] {  
+            /* tìm a có target css 
+                background-color: aqua;
+        } */
+        
+        /* tìm target có thuộc tính _blank */
+        /* a[target="_blank"] {
+            background-color: brown;
+        }
+
+
+
+        a[title="gg"] {
+            background-color: yellow;
+        } */
+
+
+        
+        /* tìm thuộc tính có title là facebok nhưng chỉ cần 1 từ trong title vẫn css dc */
+        /* a[title~="facebook"] {
+            background-color: yellow;
+        }  */
+   </style>
+
+   <p class="top-header test">Nội dung 1</p>
+   <p class="top-header test">Nội dung 2</p>
+   <p class="topheader">Nội dung 3</p>
+   <p class="top test">Nội dung 4</p>
+   <p class="top test">Nội dung 5</p>
+   <style>
+         /* chọn các element có class=top hoặc top có gạch nối sẽ css đc */
+         /* p[class|="top"] {
+                background-color: brown;
+         } */
+
+
+
+         /* lấy các element có class là top đứng đầu tiên cứ thuộc tính nào trong đó có top sẽ css đc hết */
+         /* p[class^="top"] {
+                background-color: brown;
+         } */
+
+
+         /* chọn các element có chữ test cuối cùng thì css */
+         /* p[class$="test"] {
+                background-color: yellow;
+         } */
+
+
+         /* cứ trong element có chữ test là đc k phân biệt nằm ở đâu cứ có 1 chữ thì css đc */
+        p[class*="test"] {
+                background-color: yellow;
+         } 
+
+   </style>
+</body>
+</html>

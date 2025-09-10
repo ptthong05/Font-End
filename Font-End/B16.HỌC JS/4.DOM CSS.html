@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM CSS</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM CSS</h1>
+    <pre style="font-size: 30px;">
+Cú pháp thiết lập giá trị:
+	document.getElementById("idName").style.propertyName = 'value';
+Cú pháp lấy giá trị:
+	document.getElementById("idName").style.propertyName;
+Trường hợp thuộc tính có dấu gạch ngang như: font-size, line-height, margin-bottom thì thì nó sẽ có tên là fontSize, lineHeight, marginBottom (nghĩa là sẽ bỏ đi dấu gạch ngang và viết hoa ký tự đầu tiên của chữ thứ hai).
+
+
+Tài liệu tham khảo thêm: https://www.w3schools.com/jsref/dom_obj_style.asp
+    </pre>
+
+
+
+    <h3 id="h3">Nội dung thẻ h3</h3>
+
+    <script>
+        // Trong js k ghi dấu gạch ngang 
+        const h3 = document.querySelector("#h3");
+        h3.style.color = "red";      // THÊM STYLE CHO THẺ H3
+        h3.style.background = "yellow";
+    </script>
+</body>
+</html>

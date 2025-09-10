@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackgroundClip</title>
+</head>
+<body>
+    <h1>1.BACKGROUNDCLIP</h1>
+
+
+    <div class="box">
+        NỘI DUNG 03
+    </div>
+    <style>
+        .box {
+            border: 5px dotted;
+            padding: 30px;
+            background-color: aqua;
+            background-clip: padding-box;        /* Chỉ đổ màu phần content */     
+        }
+    </style>
+
+    <pre>
+        background-clip: xác định phạm vi được thiết lập màu nền của phần tử (Áp dụng cho background là màu sắc)
+border-box: Mặc định. Đổ màu từ content cho đến hết border.
+padding-box: Đổ màu từ content cho đến hết padding.
+content-box: Chỉ đổ màu phần content
+    </pre>
+</body>
+</html>

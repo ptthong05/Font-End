@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 30px;">FLEX BOX</h1>
+
+    <pre>Flexbox Layout là một kiểu bố cục trang có khả năng:
+    Tự cân đối kích thước
+    Thay đổi chiều rộng/chiều cao
+    Thay đổi thứ tự phần tử
+Flexbox có 2 thành phần là:
+    container: là phần tử cha dùng để bọc bên ngoài.
+    item: là phần tử con của container.
+    </pre>
+    <h3 style="color: red; font-size: 20px;">display flex</h3>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: aqua;
+            padding: 20px;
+            border-radius: 5px;    /* vo góc */
+        }
+        .item {
+            background-color: orange;
+            border: 3px solid white;
+            padding: 10px;
+            margin: 10px;
+            font-size: 28px;
+            color: black;
+            width: 150px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .container {
+               /* display: flex;    giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+            display: inline-flex;   /* giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+        }
+    </style>
+
+
+
+<h3 style="color: red; font-size: 20px;">flex-direction</h3>
+<div class="container1">
+    <div class="item1">Item 1</div>
+    <div class="item1">Item 2</div>
+    <div class="item1">Item 3</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container1 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+    }
+    .item1 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 10px;
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .container1 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        flex-direction: column-reverse;   /* Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+    }
+</style>
+
+
+<h3 style="color: red; font-size: 20px;">flex-wrap</h3>
+<div class="container2">
+    <div class="item2">Item 1</div>
+    <div class="item2">Item 2</div>
+    <div class="item2">Item 3</div>
+    <div class="item2">Item 4</div>
+    <div class="item2">Item 5</div>
+    <div class="item2">Item 6</div>
+    <div class="item2">Item 7</div>
+    <div class="item2">Item 8</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container2 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+    }
+    .item2 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 10px;
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .container2 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        /* flex-direction: column-reverse;   Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+
+        /* flex-wrap: nowrap;                Mặc định, tất cả các item sẽ nằm trên một dòng. */
+        /* flex-wrap: wrap;                  Khi tổng chiều rộng các item cộng lại lớn hơn chiều rộng của container thì item sẽ tự động xuống dòng. */
+        flex-wrap: wrap-reverse;          /* Tương tự như wrap, nhưng thay vì xuống dòng thì item sẽ tự động nhảy lên trên. */
+    }
+</style>
+
+
+<h3 style="color: red; font-size: 20px;">justify-content</h3>
+<div class="container3">
+    <div class="item3">Item 1</div>
+    <div class="item3">Item 2</div>
+    <div class="item3">Item 3</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container3 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+    }
+    .item3 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 0px; 
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .container3 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+
+
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        /* flex-direction: column-reverse;   Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+
+
+        /* flex-wrap: nowrap;                Mặc định, tất cả các item sẽ nằm trên một dòng. */
+        /* flex-wrap: wrap;                  Khi tổng chiều rộng các item cộng lại lớn hơn chiều rộng của container thì item sẽ tự động xuống dòng. */
+        flex-wrap: wrap-reverse;          /* Tương tự như wrap, nhưng thay vì xuống dòng thì item sẽ tự động nhảy lên trên. */
+
+
+        /* justify-content: flex-start;      Mặc định. Item sẽ bắt đầu từ lề chính main-start của container. */
+                    /* Lề bên trái là main-start
+                       Lề bên phải là main-end  */
+        /* justify-content: flex-end;        Item sẽ bắt đầu từ lề chính main-end của container  */
+        /* justify-content: center;          Item sẽ căn giữa */
+        /* justify-content: space-between;   Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề. */
+        /* justify-content: space-around;    Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. */
+        /* justify-content: space-evenly;    Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = khoảng cách giữa item và item. */
+    }   
+</style>
+
+
+<h3 style="color: red; font-size: 20px;">align-items</h3>
+<div class="container4">
+    <div class="item4">Item 1</div>
+    <div class="item4">Item 2</div>
+    <div class="item4">Item 3</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container4 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+        height: 300px;
+    }
+    .item4 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 0px; 
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        height: 100px;
+    }
+    .container4 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+
+
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        /* flex-direction: column-reverse;   Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+
+
+        /* flex-wrap: nowrap;                Mặc định, tất cả các item sẽ nằm trên một dòng. */
+        /* flex-wrap: wrap;                  Khi tổng chiều rộng các item cộng lại lớn hơn chiều rộng của container thì item sẽ tự động xuống dòng. */
+        flex-wrap: wrap-reverse;          /* Tương tự như wrap, nhưng thay vì xuống dòng thì item sẽ tự động nhảy lên trên. */
+
+
+        /* justify-content: flex-start;      Mặc định. Item sẽ bắt đầu từ lề chính main-start của container. */
+                    /* Lề bên trái là main-start
+                       Lề bên phải là main-end  */
+        /* justify-content: flex-end;        Item sẽ bắt đầu từ lề chính main-end của container  */
+        /* justify-content: center;          Item sẽ căn giữa */
+        /* justify-content: space-between;   Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề. */
+        /* justify-content: space-around;    Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. */
+        justify-content: space-evenly;    /* Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = khoảng cách giữa item và item. */
+
+
+        /* align-items: stretch;             Các item sẽ tự động tăng chiều cao cho bằng chiều cao container (ưu tiên height) */
+        /* align-items: flex-start;          Item sẽ bắt đầu từ lề cross-start của container. */
+        /* align-items: flex-start;          Item sẽ bắt đầu từ lề cross-end của container. */
+                                    /* cross-start: lề trên 
+                                       cross-end: lề dưới     */
+        align-items: center;            /*   Item sẽ căn giữa từ trên xún dưới */
+    }   
+</style>
+
+
+<h3 style="color: red; font-size: 20px;">align-content</h3>
+<div class="container5">
+    <div class="item5">Item 1</div>
+    <div class="item5">Item 2</div>
+    <div class="item5">Item 3</div>
+    <div class="item5">Item 4</div>
+    <div class="item5">Item 5</div>
+    <div class="item5">Item 6</div>
+    <div class="item5">Item 7</div>
+    <div class="item5">Item 8</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container5 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+        height: 300px;
+    }
+    .item5 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 0px; 
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        height: 100px;
+    }
+    .container5 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+
+
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        /* flex-direction: column-reverse;   Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+
+
+        /* flex-wrap: nowrap;                Mặc định, tất cả các item sẽ nằm trên một dòng. */
+        flex-wrap: wrap;               /*    Khi tổng chiều rộng các item cộng lại lớn hơn chiều rộng của container thì item sẽ tự động xuống dòng. */
+        /* flex-wrap: wrap-reverse;          Tương tự như wrap, nhưng thay vì xuống dòng thì item sẽ tự động nhảy lên trên. */
+
+
+        /* justify-content: flex-start;      Mặc định. Item sẽ bắt đầu từ lề chính main-start của container. */
+                    /* Lề bên trái là main-start
+                       Lề bên phải là main-end  */
+        /* justify-content: flex-end;        Item sẽ bắt đầu từ lề chính main-end của container  */
+        /* justify-content: center;          Item sẽ căn giữa */
+        /* justify-content: space-between;   Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề. */
+        /* justify-content: space-around;    Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. */
+        justify-content: space-evenly;    /* Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = khoảng cách giữa item và item. */
+
+
+        /* align-items: stretch;             Các item sẽ tự động tăng chiều cao cho bằng chiều cao container (ưu tiên height) */
+        /* align-items: flex-start;          Item sẽ bắt đầu từ lề cross-start của container. */
+        /* align-items: flex-end;            Item sẽ bắt đầu từ lề cross-end của container. */
+                                    /* cross-start: lề trên 
+                                       cross-end: lề dưới     */
+        align-items: center;            /*   Item sẽ căn giữa từ trên xún dưới */
+
+
+        /* align-content Như align-items như align-items căn 1 DÒNG còn align-content căn NH DÒNG Có thêm 1 số giá trị */
+        /* align-content: space-between;     Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề.  (căn dọc) */
+        /* align-content: space-around;      Tương tự space-between, nhưng khác ở chỗ:  Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. (căn theo chiều dọc) */
+        align-content: space-evenly;      /* Tương tự space-between, nhưng khác ở chỗ: Khoảng cách giữa item và lề = khoảng cách giữa item và item. (căn theo chiều dọc) */
+    }   
+</style>
+
+
+<h3 style="color: red; font-size: 20px;">align-self</h3>
+<div class="container6">
+    <div class="item6">Item 1</div>
+    <div class="item6">Item 2</div>
+    <div class="item6">Item 3</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container6 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+        height: 300px;
+    }
+    .item6 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 0px; 
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        height: 100px;
+    }
+    .container6 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+
+
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        /* flex-direction: column-reverse;   Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+
+
+        /* flex-wrap: nowrap;                Mặc định, tất cả các item sẽ nằm trên một dòng. */
+        flex-wrap: wrap;               /*    Khi tổng chiều rộng các item cộng lại lớn hơn chiều rộng của container thì item sẽ tự động xuống dòng. */
+        /* flex-wrap: wrap-reverse;          Tương tự như wrap, nhưng thay vì xuống dòng thì item sẽ tự động nhảy lên trên. */
+
+
+        /* justify-content: flex-start;      Mặc định. Item sẽ bắt đầu từ lề chính main-start của container. */
+                    /* Lề bên trái là main-start
+                       Lề bên phải là main-end  */
+        /* justify-content: flex-end;        Item sẽ bắt đầu từ lề chính main-end của container  */
+        /* justify-content: center;          Item sẽ căn giữa */
+        /* justify-content: space-between;   Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề. */
+        /* justify-content: space-around;    Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. */
+        justify-content: space-evenly;    /* Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = khoảng cách giữa item và item. */
+
+
+        /* align-items: stretch;             Các item sẽ tự động tăng chiều cao cho bằng chiều cao container (ưu tiên height) */
+        /* align-items: flex-start;          Item sẽ bắt đầu từ lề cross-start của container. */
+        /* align-items: flex-end;            Item sẽ bắt đầu từ lề cross-end của container. */
+                                    /* cross-start: lề trên 
+                                       cross-end: lề dưới     */
+        align-items: center;            /*   Item sẽ căn giữa từ trên xún dưới */
+
+
+        /* align-content Như align-items như align-items căn 1 DÒNG còn align-content căn NH DÒNG Có thêm 1 số giá trị */
+        /* align-content: space-between;     Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề.  (căn dọc) */
+        /* align-content: space-around;      Tương tự space-between, nhưng khác ở chỗ:  Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. (căn theo chiều dọc) */
+        align-content: space-evenly;      /* Tương tự space-between, nhưng khác ở chỗ: Khoảng cách giữa item và lề = khoảng cách giữa item và item. (căn theo chiều dọc) */
+
+
+        /* align-self (căn cho 1 item nào đó) */
+    }  
+    .item6:nth-child(2) {
+        align-items: stretch; } 
+</style>
+
+
+<h3 style="color: red; font-size: 20px;">Order</h3>
+<div class="container7">
+    <div class="item7">Item 1</div>
+    <div class="item7">Item 2</div>
+    <div class="item7">Item 3</div>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container7 {
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 5px;    /* vo góc */
+        height: 300px;
+    }
+    .item7 {
+        background-color: orange;
+        border: 3px solid white;
+        padding: 10px;
+        margin: 0px; 
+        font-size: 28px;
+        color: black;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        height: 100px;
+    }
+    .container7 {
+        display: flex;                    /* giúp các item nằm trên cùng 1 hàng và width bằng 100% */
+        /* display: inline-flex;             giúp các item nằm trên cùng 1 hàng, Chiều rộng bằng chiều rộng của các item bên trong. */
+
+
+        /* flex-direction: row;              Mặc định. Item được sắp xếp theo chiều ngang, từ trái qua phải. */
+        /* flex-direction: row-reverse;      Item sẽ sắp xếp từ phải sang trái */
+        /* flex-direction: column;           Item sẽ sắp xếp theo chiều dọc từ trên xún  */
+        /* flex-direction: column-reverse;   Item sẽ sắp xếp theo chiều dọc từ dưới lên  */
+
+
+        /* flex-wrap: nowrap;                Mặc định, tất cả các item sẽ nằm trên một dòng. */
+        flex-wrap: wrap;               /*    Khi tổng chiều rộng các item cộng lại lớn hơn chiều rộng của container thì item sẽ tự động xuống dòng. */
+        /* flex-wrap: wrap-reverse;          Tương tự như wrap, nhưng thay vì xuống dòng thì item sẽ tự động nhảy lên trên. */
+
+
+        /* justify-content: flex-start;      Mặc định. Item sẽ bắt đầu từ lề chính main-start của container. */
+                    /* Lề bên trái là main-start
+                       Lề bên phải là main-end  */
+        /* justify-content: flex-end;        Item sẽ bắt đầu từ lề chính main-end của container  */
+        /* justify-content: center;          Item sẽ căn giữa */
+        /* justify-content: space-between;   Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề. */
+        /* justify-content: space-around;    Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. */
+        justify-content: space-evenly;    /* Tương tự space-between, nhưng khác ở chỗ:   Khoảng cách giữa item và lề = khoảng cách giữa item và item. */
+
+
+        /* align-items: stretch;             Các item sẽ tự động tăng chiều cao cho bằng chiều cao container (ưu tiên height) */
+        /* align-items: flex-start;          Item sẽ bắt đầu từ lề cross-start của container. */
+        /* align-items: flex-end;            Item sẽ bắt đầu từ lề cross-end của container. */
+                                    /* cross-start: lề trên 
+                                       cross-end: lề dưới     */
+        align-items: center;            /*   Item sẽ căn giữa từ trên xún dưới */
+
+
+        /* align-content Như align-items như align-items căn 1 DÒNG còn align-content căn NH DÒNG Có thêm 1 số giá trị */
+        /* align-content: space-between;     Khoảng cách giữa các item bằng nhau. Item đầu tiên và cuối cùng sát với lề.  (căn dọc) */
+        /* align-content: space-around;      Tương tự space-between, nhưng khác ở chỗ:  Khoảng cách giữa item và lề = 1/2 khoảng cách giữa item và item. (căn theo chiều dọc) */
+        align-content: space-evenly;      /* Tương tự space-between, nhưng khác ở chỗ: Khoảng cách giữa item và lề = khoảng cách giữa item và item. (căn theo chiều dọc) */
+    }   
+        .item7:nth-child(1) {
+            order: 1;                     /* Tăng order lên lớn nhất để đẩy item lên đầu bên phải */
+        }
+        .item7:nth-child(2) {
+            order: 0;                    /* order = 0 nhỏ nhất nên đứng trc */
+        }
+        .item7:nth-child(3) {
+            order: 4;                   /* order nào cao nhất sẽ sắp đầu tiên bên phải sang */  
+        }
+</style>
+</body>
+</html>

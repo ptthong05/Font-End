@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.Variables</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+        Biến (variable) là nơi để bạn có thể lưu trữ thông tin.
+
+        Cú pháp: var tenBien = giaTri;
+Trong đó:
+        tenBien: Là tên của biến các bạn muốn đặt.
+        giaTri: Là giá trị của biến, có thể là số, chuỗi, mảng, object.
+Ví dụ:
+        var a = 15;
+        var b = 20;
+        var c = a + b; => Kết quả c = 35.
+Lưu ý: Tên biến có phân biệt chữ hoa, chữ thường.
+    </pre>
+
+
+    <script>
+        var a = 10;
+        var b = 20;
+        var c = a + b;
+
+        console.log(c);       /* In kết quả c ra tab console trên web khi nhấn console trên web (F12) */
+    </script>
+
+
+
+
+    <pre style="font-size: 30px;">
+Quy tắc đặt tên biến:
+        Bắt đầu phải là chữ cái hoặc ký tự '_'
+        KHÔNG ĐƯỢC bắt đầu bằng số (0  9).
+        KKHNG DĐƯỢC bắt đầu bằng ký tự đặc biệt (ví dụ: #, %, ^, -)
+Đặt tên biến ĐÚNG:
+        var tenbien = 10;
+        var _tenbien = 10;
+        var TenBien = 10; // PascalCase
+        var ten_bien = 10; // snake_case
+        var tenBien = 10; // camelCase  -- ƯU TIÊN
+    </pre>
+
+    <script>
+        var fullname = "Phạm Tấn Thông";
+
+        console.log(fullname);
+    </script>
+</body>
+</html>

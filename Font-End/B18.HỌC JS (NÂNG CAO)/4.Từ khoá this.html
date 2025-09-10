@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Từ khoá this</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Từ khoá this</h1>
+    <pre style="font-size: 30px;">
+This trong Javascript
+    Từ khóa this sẽ trỏ về đối tượng mà nó đang thuộc về.
+    Trong javascript, bạn có thể đặt this ngay cấp ngoài cùng của chương trình, vì đối tượng cao nhất chính là đối tượng Windows, nên kết quả là từ khóa this sẽ trỏ đến đối tượng windows.
+
+
+  
+This trong javascript function
+    Trường hợp 1: Nếu không bật chế độ strict mode thì javascript sẽ hiểu this là một biến toàn cục, và cấp cao nhất chính là đối tượng window.
+    Trường hợp 2: Nếu bật chế độ strict mode thì từ khóa this trong hàm là một biến chưa được định nghĩa, nên giá trị của nó là undefined.
+
+
+
+This trong các sự kiện javascript
+    Khi gán hành động cho các sự kiện javascript thì this chính là đối tượng html đang được gán sự kiện đó. (this sẽ trỏ về đối tượng trước dấu chấm).
+
+
+
+This trong javascript object
+
+
+
+This trong arrow function
+    Không giống như function bình thường. Arrow function không tồn tại đối tượng this.
+    Bởi vậy khi bạn sử dụng thì nó sẽ lấy đối tượng global window.
+    </pre>
+</body>
+</html>
+
+
+
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>
+
+
+
+<script>
+    // console.log(this);           // Khai báo ngoài cùng sẽ trả ra windowns           THIS = WINDOWNS
+</script>
+
+
+<script>
+    // "use strict";
+    // function test() {
+    //     console.log(this);         // Sử dụng "use strict";  sẽ trả ra undefined   => NẾU k sd "use strict"; thì sẽ trả ra cấp cao nhất là windowns   
+    // }
+    // test();
+</script>
+
+<button id="button">Button</button>
+<ul id="menu">
+    <li>Mục 1</li>
+    <li>Mục 2</li>
+    <li>Mục 3</li>
+</ul>
+
+<script>
+    // const button = document.querySelector("#button");
+    // button.addEventListener("click", function() {
+    //     console.log(this);
+    // })
+
+    // const listItem = document.querySelectorAll("#menu li");
+    // console.log(listItem);
+
+    // [...listItem].forEach(function(item) {
+    //     item.addEventListener("click", function() {
+    //         console.log(this);
+    //     })
+    // })
+</script>
+
+
+
+<script>
+    // let info = {
+    //     fullname: "Phạm Tấn Thông",
+    //     age: 18,
+    //     email: "pttt@gmail.com",
+    //     getFullname: function() {
+    //         console.log(info.fullname);
+    //         console.log(this.fullname);
+    //     },
+    //     cccd: {
+    //         fullname: "Phạm Tấn Thông",
+    //         address: 2282902,
+    //         getInfocccd: function() {
+    //             console.log(this.fullname);
+    //         }
+    //     }
+    // };
+    // info.getFullname();                        // this sẽ trỏ về đối tượng trước dấu chấm => là info
+    // info.cccd.getInfocccd();                   // this sẽ trỏ về đối tượng trước dấu chấm => là cccd
+</script>
+
+
+
+<script>
+    const button = document.querySelector("#button");
+    button.addEventListener("click", function() {
+        console.log(this);
+    })
+
+    const listItem = document.querySelectorAll("#menu li");
+    console.log(listItem);
+
+    [...listItem].forEach(function(item) {
+        item.addEventListener("click", () => {
+            console.log(this);             // k có từ khoá this mà sd từ khoá this sẽ trả ra global Windows
+            console.log(item);  
+        })
+    })
+</script>

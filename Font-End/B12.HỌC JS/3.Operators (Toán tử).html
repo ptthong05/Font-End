@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.Operators</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">TOÁN TỬ SỐ HỌC</h1>
+    <img src="operators số học.png" width="100%"/>
+
+    <pre style="font-size: 30px;">
+Toán tử ++
+    Phép tăng giá trị hiện tại lên 1 đơn vị
+Hai cách sử dụng:
+    Đặt trước biến (prefix - tiền tố): nó sẽ tăng trước khi lấy giá trị
+    Đặt sau biến (postfix - hậu tố): nó sẽ lấy giá trị rồi mới tăng lên
+Toán tử --
+    Phép giảm giá trị hiện tại xuống 1 đơn vị
+Hai cách sử dụng:
+    Đặt trước biến (prefix - tiền tố): nó sẽ giảm trước khi lấy giá trị
+    Đặt sau biến (postfix - hậu tố): nó sẽ lấy giá trị rồi mới giảm xuống
+    </pre>
+
+
+
+    <script>
+        var a = 10;
+        var b = 20;
+        var d = 20;
+        var h = 3;
+        var m = ++h;    // Kết quả là 3 + 1 vì trước biến sẽ lấy giá trị + 1 
+        var n = h++    // Kết quả là 10 vì sau biến sẽ lấy giá trị biến rồi mới tăng
+
+        var c = a + b + d;
+        var e = d - b;
+        var g = d / a;
+        var o = b % h;
+        var i = a ** h
+        var v = h++ - ++h + h++ - ++h - --h;
+        
+
+        console.log(c);
+        console.log(e);
+        console.log(g);
+        console.log(o);
+        console.log(i);
+        console.log(m);
+        console.log(v);
+    </script>
+
+
+    
+
+    <h1 style="color: red; font-size: 35px;">TOÁN TỬ GÁN</h1>
+    <img src="operators gán.png"  width="100%"/>
+
+
+    <script>
+        var fullname =  "Phạm Tấn Thông";
+        var hoVaTen = fullname;                //Phép gán
+
+        var soa = 20;
+        var sod = 10;
+        sod += soa;                           // phép tương đương
+        // sod += soc;   tương đương sod = sod + soc 
+
+        var soe = 50;
+        soe -= sod;
+        // CÁC TRƯỜNG HỢP KHÁC TƯƠNG TỰ
+        console.log(hoVaTen);
+        console.log(sod);
+        console.log(soe);
+    </script>
+
+
+
+
+    <h1 style="color: red; font-size: 35px;">TOÁN TỬ SO SÁNH</h1>
+    <img src="operators so sánh1.png"  width="100%"/>
+    <img src="operators so sánh2.png"  width="100%"/>
+
+    <script>
+        var sof = 20;
+        var sog = "20";
+
+        // == chỉ cần so sánh giá trị có thể khác nhau về kiểu dữ liệu
+        // === chỉ cần so sánh giá trị nhưng phải cùng kiểu dữ liệu
+        // VD trên khác kieu dữ liệu nên sof khac sog (1 kiểu number 1 kiểu string)
+        if (sof === sog) {
+            console.log("a bằng hơn b")
+        } else {
+            console.log("a k bằng hơn b")
+        }
+    </script>
+
+
+
+    <h1 style="color: red; font-size: 35px;">TOÁN TỬ LOGIC</h1>
+    <img src="operators logic.png"  width="100%"/>
+
+
+    <script>
+        var q = 10;
+        var w = 10;
+        var r = 30;
+
+        if(q == w || w == r) {     // || chỉ cần 1 biểu thức t hoặc false thì sẽ ra t 
+            console.log("OK");
+        } else {
+            console.log("False");
+        }
+        
+        // ! là ngược ại vií dụ true sẽ ra false 
+    </script>
+    
+</body>
+</html>

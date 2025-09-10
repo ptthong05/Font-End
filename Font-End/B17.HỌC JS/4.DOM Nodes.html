@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.DOM Nodes</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM Nodes</h1>
+    <pre style="font-size: 30px;">
+document.createElement()
+Tạo một Node mới hoàn toàn và không liên quan tới những thẻ HTML đang hiển thị trên website.
+Cú pháp:
+	var tenBien = document.createElement(“tagName");
+Trong đó:
+    tagName: là tên thẻ. Ví dụ: p, h1, div,…
+
+
+document.createTextNode()
+Text node là một node đặc biệt, nó không phải là một thẻ HTML thông thường mà chỉ là một chuỗi (string).
+Cú pháp:
+	var tenBien = document.createTextNode("Nội dung…");
+
+
+Phương thức appendChild()
+Dùng để thêm (bổ sung) vào vị trí cuối cùng của đối tượng một thẻ HTML nào đó.
+Cú pháp:
+	element_parent.appendChild(node_insert);
+Trong đó:
+    element_parent: là element cha.
+    node_insert: là node bạn muốn thêm vào.
+
+
+Phương thức insertBefore()
+Được dùng để thêm một Node vào đằng trước một node con nào đó.
+Cú pháp:
+	element_parent.insertBefore(node_insert, node_child);
+Trong đó:
+    element_parent: là element cha.
+    node_insert: là node bạn muốn thêm vào.
+    node_child: là node con mà bạn muốn them node_insert vào đằng trước nó.
+
+
+Phương thức removeChild()
+Được dùng để xóa một node con ra khỏi node hiện tại.
+Cú pháp:
+	element_parent.removeChild(node_remove);
+Trong đó:
+    element_parent: là element cha.
+    node_remove: là node cần xóa.
+
+
+Phương thức replaceChild()
+Dùng để replace (thay thế) một node con nào đó bằng một node khác mới hoàn toàn.
+Cú pháp:
+	element_parent.replaceChild(node_insert, node_remove);
+Trong đó:
+    element_parent: là element cha.
+    node_insert: là element mới muốn thay thế.
+    node_remove: là element cũ muốn bỏ đi.
+    </pre>
+
+
+
+
+    <!-- <div>Quảng cáo...</div>
+    <div id="ads"></div>
+
+    <script>
+        const div = document.createElement("div");  // tạo ra 1 thẻ div
+        div.innerHTML = "Quảng cáo..."            // innerHTML: chèn nội dung cho thẻ DIV
+        console.log(div);
+
+
+        // const divAds = document.querySelector("#ads");
+        // divAds.appendChild(div);
+
+        setInterval(() => {
+            const divAds = document.querySelector("#ads");
+            divAds.appendChild(div);
+        }, 3000);             // SAU 3S SẼ HIỆN LÊN QUẢNG CÁO
+    </script> -->
+
+
+
+
+
+
+
+    <!-- <div id="ads"></div>
+
+<script>
+    const div = document.createElement("div");  
+    const text = document.createTextNode("Quảng cáo....");
+    div.appendChild(text);
+
+    // Thêm div vừa tạo vào trong phần tử có id="ads"
+    document.getElementById("ads").appendChild(div);
+</script> -->
+
+
+
+
+
+     <ul id="menu">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+     </ul>
+     <button id="buttonAdd">Thêm mới</button>
+
+
+     <script>
+        const menu = document.querySelector("#menu");
+        const buttonAdd = document.querySelector("#buttonAdd");
+        
+        
+        buttonAdd.onclick = function() {
+            // MỖI LẦN CLICK SẼ THÊM 1 ITEM MỚI 
+            const newItem = document.createElement("li");
+            newItem.innerHTML = "Item mới";
+
+            // menu.appendChild(newItem);
+            // appendChild: KHI CLICK BUTTON THÌ ITEM MỚI SẼ ĐC THÊM Ở CUỐI CÙNG
+
+            const firstElement = menu.firstChild;
+            menu.insertBefore(newItem, firstElement);
+        }
+
+
+
+        const listItem = menu.querySelectorAll("li");       // ĐỨNG TỪ MENU LẤY RA TẤT CẢ CÁC LI 
+        console.log(listItem);
+        // listItem.forEach(item => {
+        //     item.onclick = function() {              // KHI CLICK VÀO CÁC ITEM SẼ REMOVE(XOÁ) ĐI
+        //         menu.removeChild(item);
+        //     }
+        // })
+
+
+        listItem.forEach(item => {
+            item.onclick = function() {              // KHI CLICK VÀO CÁC ITEM SẼ REMOVE(XOÁ) ĐI
+                const newItem = document.createElement("li");
+                newItem.innerHTML = "Item mới";
+                menu.replaceChild(newItem, item);       // Thay thế item thành Item mới
+            }
+        })
+
+     </script>
+</body>
+</html>

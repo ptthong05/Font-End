@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cắt giao diện</title>
+</head>
+<body>
+    <h3 style="color: red; font-size: 30px;">Cắt giao diện</h3>
+    <h2>Bài tập</h2>
+    <header class="header">HEADER</header>
+    <div class="section-one">
+          <div class="content">CONTENT</div>
+          <div class="aside">ASIDE</div>
+          <div class="clear-both"></div>
+    </div>
+    <div class="section-two">
+          <div class="box">BOX 1</div>
+          <div class="box">BOX 2</div>
+          <div class="box">BOX 3</div>
+          <div class="box">BOX 4</div>
+    </div>
+    <footer class="footer">Footer</footer>
+    <style>
+      * {
+          box-sizing: border-box;   
+      }
+      body {
+          margin: 0;  /* sát bên trên */
+      }
+      h1 {
+          color: red;
+          font-size: 30px;
+      }
+
+      .header {
+          background-color: aqua;
+          padding: 20px;
+          text-align: center;
+      }
+
+      .content {
+          background-color: #CAEFF2;
+          padding: 20px;
+          height: 600px;
+          width: 70%;
+      }
+
+      .aside {
+          background-color: #F2D8CA;
+          padding: 20px;
+          height: 600px;
+          width: 30%;
+      }
+
+      .box {
+          background-color: #F2F1CA;
+          padding: 20px;
+          height: 150px;
+          width: 24.2%;
+          margin-bottom: 10px;
+          margin-top: 10px;
+       
+          
+        }
+
+      .section-one {
+        display: flex;
+      }
+
+      .section-two {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+
+      .footer {
+          background-color: #EECBF3;
+          padding: 20px;
+      }
+
+      @media  screen and (max-width: 768px) {
+        .content {
+            width: 100%;
+        }
+        .aside {
+            width: 100%;
+        }
+        .section-one {
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 49%;
+        }
+        .section-two {
+            flex-wrap: wrap;
+        }
+      }
+
+      @media  screen and (max-width: 480px) {
+          .box {
+            width: 40%;
+          }
+      }
+         
+
+     
+</style>
+</body>
+</html>

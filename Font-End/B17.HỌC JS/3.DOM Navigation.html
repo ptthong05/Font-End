@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.DOM Navigation</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM Navigation</h1>
+    <pre style="font-size: 30px;">
+Dùng để quản lý, thao tác với các thẻ HTML, thể hiện mối quan hệ cha - con của các thẻ HTML.
+Các thuộc tính:
+    parentNode: dùng để truy cập nút cha của nút được chỉ định trong cây DOM
+    childNodes: truy cập tất cả các node con của một phần tử nhất định. Node con có thể là một văn bản, chú thích,…
+    firstElementChild: trả về phần tử là node con đầu tiên của phần tử cha.
+    lastElementChild: trả về phần tử là node con cuối cùng của phần tử cha.
+    nextElementSibling: trả về phần tử là node kế tiếp.
+    previousElementSibling: trả về phần tử là node trước đó.
+    nodeName: Trả về tên một node.
+    </pre>
+
+
+
+    <div class="parent">
+        <div class="child-1" id="child-1">
+            <div class="box">BOX-1</div>
+            <div class="box">BOX-2</div>
+            <div class="box">BOX-3</div>
+        </div>
+        <div class="child-2"></div>
+        <div class="child-3"></div>
+    </div>
+
+    <script>
+        const childOne = document.querySelector("#child-1");     // ĐỨNG TỪ CHILD-1
+        console.log(childOne);
+        console.log(childOne.parentNode);     // LẤY RA ELEMENT CHA 
+        console.log(childOne.childNodes);    // YẤY RA ELEMENT CON
+        // CONSOLE LOG RA KẾT QUẢ LÀ 7 VÌ CÓ CÁC KHOẢNG CÁCH TRC CÁC BOX1,2,3   
+        console.log(childOne.firstElementChild);      // LẤY RA ĐẦU TIÊN BOX-1 
+        console.log(childOne.lastElementChild);       // LẤY RA CUỐI CÙNG BOX-3
+        console.log(childOne.nextElementSibling);     // LẤY RA ĐC CHILD-2 VÌ LÀ ELEMENT KẾ TIẾP VÀ LÀ CÙNG CẤP VỚI CHILE-1
+        console.log(childOne.previousElementSibling);   // LẤY RA ELEMENT TRC ĐÓ MÀ TRC CHILD-1 K CÓ ELEMENT NÊN TRẢ RA         NULL
+        console.log(childOne.nodeName);
+
+
+
+
+
+
+        // TỪ PARENT TRUY CẬP ĐẾN CÁC BOX
+        const childTwo = document.querySelector(".parent"); 
+        console.log(parent.querySelectorAll(".box"));
+    </script> 
+</body>
+</html>

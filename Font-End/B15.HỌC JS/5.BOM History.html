@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.BOM History</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">KHÁI NIỆM</h1>
+    <pre style="font-size: 30px;">
+history dùng để quản lý lịch sử lướt web.
+Khi bạn lướt web thì trình duyệt sẽ lưu lại lịch sử lướt web của bạn. Dựa vào lịch sử đó, ta có thể xem lại những ngày trước đã xem những gì, truy cập vào những trang nào.
+Cú pháp: 
+    window.history hoặc history
+    </pre>
+
+
+    <h1 style="font-size: 35px; color: red;">Xem lịch sử lướt web</h1>
+    <pre style="font-size: 30px;">
+history.length: đếm tổng số trang đã lưu trong history
+history.back(): trở lại trang trước -- LÙI 
+history.forward(): đi tới trang kế tiếp -- TIẾN 
+history.go(number): đi tới một trang:
+    nếu number âm thì tính từ trang hiện tại trừ đi number -- VD TỪ TRANG 6 MUỐN VỀ TRANG 3 (ĐI NG LẠI) THÌ 6 - 3 = 3. VẬY GO(-3)
+    nếu number dương thì tính từ trang hiện tại cộng với number  -- VD TỪ TRANG 6 MUỐN VỀ TRANG 10 (ĐI TỚI) THÌ 6 + 4 = 10. VẬY GO(4)
+    </pre>
+
+
+
+
+
+    <script>
+        console.log(window.history);
+  
+        
+
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.Object nâng cao</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Cách thêm 1 key mới vào object</h1>
+    <pre style="font-size: 30px;">
+Cú pháp:
+	tenObject.tenKey = value;
+Hoặc:
+	tenObject["tenKey"] = value;
+    </pre>
+
+
+
+    <h1 style="color: red; font-size: 35px;">Cách xóa 1 key khỏi object</h1>
+    <pre style="font-size: 30px;">
+Cú pháp:
+	delete tenObject.tenKey;
+    </pre>
+
+
+    <script>
+        let inforUser = {
+            fullname: "Phạm Tấn Thông",
+            email: "ptthong.www"
+        };
+
+        inforUser.phone = "02778899000";
+
+        inforUser["địa-chỉ"] = "36788, linh tây";
+
+        delete inforUser.phone;
+
+        console.log(inforUser.email);
+        console.log(inforUser.phone);                      // đã xoá key phone
+        console.log(inforUser['địa-chỉ']);
+    </script>
+</body>
+</html>

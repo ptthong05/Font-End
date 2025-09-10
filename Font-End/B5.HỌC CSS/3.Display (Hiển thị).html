@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display (Hiển thị)</title>
+</head>
+<body>
+    <h1>3.DISPLAY</h1>
+    <pre>
+display: inline; (không đặt được chiều rộng và chiều cao, không thêm được margin và padding cho bên trên và bên dưới)
+display: block; (Chiều rộng kéo dài từ trái sang phải, luôn bắt đầu ở một hàng mới. Cho phép đặt chiều rộng và chiều cao, cho phép đặt margin, padding cho bên trên và bên dưới)
+display: inline-block; (Chiều rộng mặc định bằng chiều rộng của element, không bắt đầu ở một hàng mới. Cho phép đặt chiều rộng và chiều cao, cho phép đặt margin, padding cho bên trên và bên dưới)
+display: none; (Ẩn đi hoàn toàn)
+visibility: hidden; // Ẩn nhưng vẫn chiếm một khoảng trống
+visibility: visible; // Hiển thị. mặc định.
+
+    </pre>
+
+    <h2>Display: inline;</h2>
+    <p>Khoảng 21 giờ 30 phút ngày 8/3,
+         nhóm thanh niên ở <span class="inline">INLINE 1</span> thành phố Từ Sơn
+         <span class="inline">INLINE 2</span>điều khiển 3 xe máy trên đường 277 kéo 
+         dài, hướng từ Đồng Kỵ ra đường 295B đến
+         đoạn đường thuộc phường Trang Hạ (thành phố Từ Sơn), thì bị khoảng 20 đối tượng đi trên 10 xe máy đuổi đánh...
+    </p>
+
+    <h2>Display: block;</h2>
+    <p>Khoảng 21 giờ 30 phút ngày 8/3,
+         nhóm thanh niên ở <span class="block">BLOCK 1</span> thành phố Từ Sơn
+         <span class="block">BLOCK 2</span>điều khiển 3 xe máy trên đường 277 kéo 
+         dài, hướng từ Đồng Kỵ ra đường 295B đến
+         đoạn đường thuộc phường Trang Hạ (thành phố Từ Sơn), thì bị khoảng 20 đối tượng đi trên 10 xe máy đuổi đánh...
+    </p>
+
+    <h2>Display: inline-block;</h2>
+    <p>Khoảng 21 giờ 30 phút ngày 8/3,
+         nhóm thanh niên ở <span class="inline-block">INLINE-BLOCK 1</span> thành phố Từ Sơn
+         <span class="inline-block">INLINE-BLOCK 2</span>điều khiển 3 xe máy trên đường 277 kéo 
+         dài, hướng từ Đồng Kỵ ra đường 295B đến
+         đoạn đường thuộc phường Trang Hạ (thành phố Từ Sơn), thì bị khoảng 20 đối tượng đi trên 10 xe máy đuổi đánh...
+    </p>
+
+
+    <style>
+        .inline, .block, .inline-block {
+            background: orange;
+            border: 1px solid black;
+            padding-left: 40px;
+            margin: 50px;
+        }
+        .block {
+            display: block;   
+            padding-top: 70px;
+            
+        }
+        .inline-block {
+            display: inline-block;
+
+        }
+    </style>
+</body>
+</html>

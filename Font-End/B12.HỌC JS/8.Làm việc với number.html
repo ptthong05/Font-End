@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.Làm việc với number</title>
+</head>
+<body>
+    <h1 style="font-size: 40px; color: red;">isNaN</h1>
+    <pre style="font-size: 30px;">
+Dùng để kiểm tra một biến có phải là NaN không.
+(NaN: là viết tắt của Not a Number, được sử dụng để đại diện cho những trường hợp tính toán sai hoặc kết quả của một phép tính không xác định)
+Cú pháp: 
+    isNaN(tenBien)
+Ví dụ:
+	var a = 10;
+	var b = "Test";
+	var result = a / b;
+	console.log(result); // Trả về NaN
+	console.log(isNaN(result)); // Trả về true	-- CHECK XEM BIẾN result CÓ PHẢI NAN K. NẾU PHẢI TRẢ VỀ TRUE K PHAI
+    </pre>
+
+
+    <h1 style="font-size: 40px; color: red;">toString</h1>
+    <pre style="font-size: 30px;">
+Chuyển kiểu số thành kiểu string.
+Cú pháp: 
+    tenBien.toString()
+Ví dụ:
+	var a = 10;
+	var b = a.toString();
+	var c = (10).toString();
+	console.log(a); // Trả về số 10
+	console.log(typeof a); // Trả về kiểu number
+	console.log(b); // Trả về chuỗi 10
+	console.log(typeof b); // Trả về kiểu string
+	console.log(c); // Trả về chuỗi 10
+	console.log(typeof c); // Trả về kiểu string
+    </pre>
+
+    <h1 style="font-size: 40px; color: red;">toFixed</h1>
+    <pre style="font-size: 30px;">
+Dùng để làm tròn số thập phân.
+Nếu số ngay sau số cần làm tròn mà >= 5 thì sẽ làm tròn lên, nếu < 5 sẽ làm tròn xuống.
+Cú pháp: 
+    toFixed(digits)
+Trong đó: 
+    digits là số chữ số sau dấu thập phân (0 <= digits <= 100). Không điền mặc định là 0.
+Ví dụ:
+	var a = 12.3456;
+	console.log(a.toFixed()); // Trả về 12
+	console.log(a.toFixed(0)); // Trả về 12
+	console.log(a.toFixed(1)); // Trả về 12.3
+	console.log(a.toFixed(2)); // Trả về 12.35
+	console.log(a.toFixed(3)); // Trả về 12.346
+    </pre>
+</body>
+</html>

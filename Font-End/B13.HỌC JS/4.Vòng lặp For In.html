@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Vòng lặp For In</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Vòng lặp for in dùng để lấy ra key của một object (cũng có thể áp dụng cho array, string).
+Cú pháp:
+    for (key in object) {
+    // Viết code ở đây
+    }
+Trong đó:
+    key: là tên biến (đặt tên là gì cũng được).
+    object: là một object, mỗi key sẽ tương ứng với key ở trong object.
+
+    </pre>
+
+
+    <script>
+        var infoUser = {
+            fullname: "Phạm Tấn Thông",
+            age: 18,
+            phone: 9948774848484494949,
+        };
+
+        var keyTest = "phone";
+
+        console.log(infoUser.phone);
+        console.log(infoUser[keyTest]);
+
+
+
+        // key đặt tên gì cx đc
+        for(key in infoUser) {
+            console.log(key, infoUser[keyTest]);
+        }
+    </script>
+</body>
+</html>

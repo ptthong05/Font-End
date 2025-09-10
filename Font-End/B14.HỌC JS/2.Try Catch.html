@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.Try Catch</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Try catch là một khối lệnh dùng để bắt lỗi chương trình.
+Ta sử dụng try catch khi muốn chương trình không bị dừng khi một lệnh nào đó bị lỗi. Thường thì đó là những lỗi do người dùng nhập sai dữ liệu, hoặc người dùng thao tác bị sai.
+Cú pháp:
+	try {
+	    // Chạy vào đây đầu tiên
+	} catch (error) {
+	    // Nếu lỗi chạy vào đây
+	} finally {
+	    // Luôn luôn chạy vào đây và chạy sau cùng
+	}
+
+
+Các bước thực thi:
+    Bước 1: Thực hiện trong try.
+    Bước 2: Nếu trong try xuất hiện lỗi thì các câu lệnh trong try không được thực thi. Và sẽ nhảy sang catch, các câu lệnh trong catch sẽ được thực thi.
+    Bước 3: Cuối cùng nhảy xuống finally dù là lỗi hay không. finally là lựa chọn thêm, không bắt buộc phải thêm vào.
+Lưu ý: Nếu dùng try catch thì nếu trong try catch gặp lỗi thì các câu lệnh bên ngoài try catch vẫn chạy bình thường. Nếu không dùng try catch mà gặp phải lỗi thì các câu lệnh phía sau sẽ bị dừng.
+
+    </pre>
+
+
+
+
+
+
+
+    <script>
+        let a = 10;      // NẾU K CÓ A THÌ SẼ LỖI CHẠY CODE 2 VÀ CODE CUỐI 
+        try {
+            console.log(a);
+        } catch (error) {
+            console.log("Lỗi");
+        } finally {
+            console.log("Luôn chạy vào đây!");
+        }
+    </script>
+</body>
+</html>

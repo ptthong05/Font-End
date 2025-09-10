@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Element</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">DOM Element</h1>
+    <pre style="font-size: 30px; color: black;">
+Sử dụng       getElementById           để tìm theo ID
+    Để truy xuất tới một thẻ HTML theo ID ta sử dụng cú pháp sau:
+	        var element = document.getElementById('idName');
+    Ví dụ:
+	        var element = document.getElementById("idTest");
+	        element.classList.add("class-test");
+
+
+Sử dụng         getElementsByTagName            để tìm theo tên thẻ html
+    Tên thẻ HTML chính là tên các thẻ như p, a, div, ... Và ta sẽ truy xuất tới nó bằng cú pháp sau:
+	        var element = document.getElementsByTagName('tagName');
+    Kết quả sẽ trả về 1 mảng các object.
+    Ví dụ:
+	        var element = document.getElementsByTagName("p");
+	        element[0].classList.add("class-test");
+
+
+Sử dụng         getElementsByClassName           để tìm theo tên class
+    Để tìm các thẻ HTML có class nào đó thì ta dùng cú pháp sau:
+	        var element = document.getElementsByClassName('className');
+    Ví dụ:
+	        var element = document.getElementsByClassName("p");
+
+            getElementsByClassName CÓ S vì CLASS CÓ THỂ CÓ NH THẺ TRẢ VỀ 1 OBJECT CÒN ID CHỈ CÓ 1 NÊN K CÓ S 
+            
+	        element[0].classList.add("class-test");
+
+
+Sử dụng          querySelector                        để tìm theo CSS selector       TÌM 1 THẺ 
+    Để tìm một thẻ HTML theo bộ chọn CSS thì ta dùng cú pháp sau:
+	        var element = document.querySelector('selector');
+    Ví dụ:
+	        var element = document.querySelector('ul li a');
+	        element.classList.add("class-test");
+
+
+Sử dụng            querySelectorAll                      để tìm theo CSS selector
+    Để tìm các thẻ HTML theo bộ chọn CSS thì ta dùng cú pháp sau:
+	        var element = document.querySelectorAll('selector');
+    Ví dụ:
+	        var element = document.querySelectorAll('ul li a’);
+	        element[0].classList.add("class-test");
+    </pre>
+
+
+
+    <div class="item" id="box">Nội dung thẻ div</div>
+    <!-- <ul id="menu">
+        <li>Mục 1</li>
+        <li>Mục 2</li>
+        <li>Mục 3</li>
+    </ul> -->
+
+    <h2 class="test">Thẻ h201</h2>
+    <h3 class="test">Thẻ h202</h3>
+    <h2>Thẻ h203</h2>
+    <h2>Thẻ h204</h2>
+    <h2>Thẻ h205</h2>
+
+  
+    <div class="box-1">
+        <div class="box-2">
+            <h2><a href="#" class="Link">Nội dung thẻ a</a></h2>
+        </div>
+    </div>
+
+
+    <div class="div1">
+        <ul class="ul1">
+            <li class="li1">Mục 1</li>
+            <li class="li2">Mục 2</li>
+            <li class="li1">Mục 3</li>
+            <li class="li2">Mục 4</li>
+        </ul>
+    </div>
+
+    <style>
+        .item {
+            background: lightblue;
+        }
+
+        .dark {
+            background: darkmagenta;
+        }
+
+        .test-2 {
+            color: red;
+            background-color: yellow;
+        }
+
+
+
+        .box-1 .box-2 h2 .Link {
+            background-color: yellow;
+        }
+        .box-1 .box-2 h2 .Link.active {
+            background-color: orange;
+        }
+
+
+        .div1 .ul1 li .li1 {
+            color: red;
+            background: turquoise;
+        }
+        .div1 .ul1 li .li1 .thi {
+            background-color: brown;
+        }
+        .div1 .ul1 .li2 {
+            color: aqua;
+            background: teal;
+        }
+    </style>
+
+
+    <script>
+        // const hes = document.getElementById("box");
+        // console.log(hes);                    // TÌM ELEMENT THEO ID BẰNG GETELEMENTBYID
+        // hes.classList.add("dark");          // ADD THÊM 1 CLASS DARK NX 
+
+        // const menu = document.getElementById("menu");
+        // console.log(menu);
+    </script>
+
+
+    <script>
+        // var h2 = document.getElementsByTagName("h2");
+        // console.log(h2);
+        // console.log(h2[3]);    // LẤY RA THẺ H204 SỐ 3 VÌ TRONG JS ĐÁNH  SỐ TỪ 0
+    </script>
+
+
+    <script>
+        // var test = document.getElementsByClassName("test");
+        // console.log(test);
+
+        // // LẶP QUA TỪNG PHẦN TỬ 
+        // [...test].forEach(item => {
+        //     item.classList.add("test-2");      // ADD CLASS TEST-2
+        //     item.classList.remove("test-2");  // BỎ CLASS TEST-2
+        // });
+    </script>
+
+
+    <script>
+        // const active = document.querySelector(".box-1 .box-2 h2 .Link");
+        // console.log(active);
+        // active.classList.add("active");
+    </script>
+
+
+    <script>
+        const test = document.querySelectorAll(".div1 .ul1 li .li1");
+        // console.log(test);
+        [...test].forEach(item => {
+            item.classList.add("thi");      // ADD CLASS TEST-2
+        });
+        
+    </script>
+</body>
+</html>

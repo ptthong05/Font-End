@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.Một số hàm built-in</title>
+</head>
+<body>
+    <h1 style="font-size: 30px;">Hàm built-in là những hàm được javascript định nghĩa sẵn, chúng ra chỉ việc sử dụng.</h1>
+    <pre style="font-size: 30px;">
+Hàm alert()
+    Hàm alert() có nhiệm vụ in một thông báo popup
+    Nó có một tham số truyền vào và tham số này chính là nội dung ta muốn thông báo với người dùng.
+Cú pháp: alert(message);
+    Ví dụ: alert("Xin chào!");
+
+
+
+Hàm confirm()
+    Hàm confirm() cũng sẽ xuất hiện một thông báo popup nhưng nó có thêm hai sự lựa chọn là Yes và No.
+    Nếu người dùng chọn Yes thì nó trả về TRUE và ngược lại nếu chọn NO thì nó sẽ trả về FALSE.
+    Nó cũng có một tham số truyền vào và tham số này chính là nội dung thông báo.
+Cú pháp: confirm(message);
+    Ví dụ:
+	var result = confirm("Bạn đã trên 18 tuổi?");
+	alert(result);
+
+
+
+Hàm prompt()
+    Hàm prompt() dùng để lấy thông tin từ người dùng
+    Gồm có hai tham số truyền vào là nội dung thông báo và giá trị ban đầu.
+Cú pháp: prompt(title, defaultValue);
+  Trong đó:
+    title: nội dung chữ hiển thị tới người dùng.
+    defaultValue: giá trị mặc định cho ô nhập và đây là giá trị không bắt buộc.
+  Ví dụ:
+        const name = prompt("Nhập vào tên của bạn:", "Le Van A");
+        alert(name);
+    
+
+
+Hàm console
+    Dùng để in ra nội dung ở tab console trên dev tools.
+Có 3 hàm hay sử dụng là:
+        console.log(): in ra thông báo
+        console.warn(): in ra cảnh báo      -- thể hiện nền màu khác trong console
+        console.error(): in ra lỗi
+        
+
+
+Hàm setTimeout
+    Code sẽ chạy 1 lần duy nhất sau một khoảng thời gian.
+Cú pháp:
+    setTimeout(function() {
+        // Code
+    }, time)
+    Ví dụ:
+        setTimeout(function() {
+            console.log("Xin chào!");
+        }, 5000)
+        
+
+
+Hàm setInterval
+    Code sẽ chạy lặp lại sau một khoảng thời gian.
+Cú pháp:
+    setInterval(function() {
+        // Code
+    }, time)
+    Ví dụ:
+        setInterval(function() {
+            console.log("Xin chào!");
+        }, 5000)
+        
+
+    </pre>
+
+
+    <script>
+        // alert("Hello!");
+
+
+
+        // var result = confirm("Bạn đã đủ 18 tuổi chưa!")
+        // Nếu ng dùng bấm OK sẽ trả ra kết quả là true và bấm cancel trả ra kết quả là false
+
+        // if (result == true) {
+        //     console.log("Bạn được mua bia");
+        // } else {
+        //     console.log("Bạn chưa đủ tuổi")
+        // }
+
+
+
+        // var result = prompt("Nhập tên của bạn:", "");
+        // result là biến có thể để tên khác
+        // Người dùng bấm huỷ sẽ trả ra null ==> sau này dùng if else khi ng dùng nhập đủ họ tên sẽ làm gì còn k nhập thì là null sẽ làm gì.
+        // console.log(result);
+
+
+
+
+        // Cú pháp setTimeout(a, b) 
+        //        a là 1 hàm 
+        //        b là thời gian (ml) (VD như 5000ml là 5s)
+        // setTimeout(function() {
+        //     console.log("Bạn vui lòng đợi 10 giây!")
+        // }, 5000)
+        // Sau 5s sẽ thực thi hàm function hiên ra console
+
+
+
+        var soDauTien = 0;
+        setInterval(function() {
+            console.log(soDauTien);
+            soDauTien++;
+            // cứ 2s sẽ chạy 1 lần 
+        }, 2000)
+    </script>
+
+</body>
+</html>

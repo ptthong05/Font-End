@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.Hoisting</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Hoisting</h1>
+    <pre style="font-size: 30px;">
+    Biến trong hoisting
+Hoisting nghĩa là có thể sử dụng 1 biến xong sau đó mới cần khai báo biến đó.
+Javascript sẽ di chuyển toàn bộ các khai báo biến lên đầu chương trình. Vì vậy, những dòng code có sử dụng biến mà chưa khai báo sẽ không bị lỗi.
+
+
+
+    Từ khóa let, const và var trong hoisting
+Sử dụng var:  Nếu biến chưa gán giá trị thì sẽ trả về undefined.
+Sử dụng let và const: Nếu biến chưa gán giá trị thì sẽ xuất hiện thông báo lỗi a is not defined. Lỗi này muốn nói rằng biến a chưa được định nghĩa.
+
+
+
+    Hàm trong hoisting
+Declaration Function
+    Có tính hosting
+    Cú pháp: 
+            function tenHam() 
+                { // Code }
+
+Expression Function
+    Không có tính hosting
+    Cú pháp: 
+            var tenBien = function() 
+                { // Code }
+
+Arrow Function
+    Không có tính hosting
+            var tenBien = () => 
+                { // Code }
+    </pre>
+</body>
+</html>
+
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>
+
+
+<script>
+    // let a = 10; 
+    
+    // console.log(a);       // sử dụng đc biến a xong mới khai báo biến a ==> chạy đc 
+    // var a = 10;
+</script>
+
+
+<script>
+    // let a;                  // K CÓ TÍNH HOISTING VÌ KHAI BÁO RỒI MỚI SỬ DỤNG ĐC. NẾU K KHAI BÁO TRC SẼ SD K ĐC 
+    // console.log(a);         // const tương tự 
+    // a = 20;
+</script>
+
+
+
+<script>
+    // let a = 10;
+    // let b = 20;
+    // let c = sum(a, b);
+
+    // console.log(c);
+
+    // function sum(x, y) {
+    //     return(x + y);
+    // }
+</script>

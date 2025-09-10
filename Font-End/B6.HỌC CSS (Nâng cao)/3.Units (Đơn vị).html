@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">Units</h1>
+    <pre>Độ dài tuyệt đối
+    Là loại đơn vị có giá trị cố định và thể hiện chính xác chiều dài kích thước nó hiển thị, không phụ thuộc cũng như không thay đổi bởi bất kỳ tác động bên ngoài nào.
+        Một số đơn vị:
+    px: pixels (1px = 1/96 in) tương ứng với một điểm ảnh trên máy tính.
+
+
+Độ dài tương đối
+    Là đơn vị đo lường được sử dụng trong CSS ở mức tương đối, thường phụ thuộc vào 1 thành phần nào đó thì mới xác định được giá trị của nó.
+        Một số đơn vị:
+    %: giá trị tương đối so với phần tử cha.
+    rem: giá trị tương đối với font-size của phần tử gốc. Phần tử gốc ở đây là thẻ html.
+    em: 1em tương đương với kích cỡ của font-size của phần tử cha có định nghĩa font-size.
+    vw (viewport width): 1vw tương đương với 1% của chiều rộng cửa sổ trình duyệt.
+    vh (viewport height): 1vh tương đương với 1% của chiều cao cửa sổ trình duyệt.
+   
+    </pre>
+
+    <div class="parent">
+        <div class="child">Box con</div>
+    </div>
+
+    <style>
+        html {
+            font-size: 25px;
+        }
+        .parent {
+            background-color: yellow;
+            width: 500px;
+            height: 300px;
+            font-size: 20px;
+        }
+
+        .child {
+            background-color: orangered;
+
+
+            /* width: 50%;      */
+            /* 50% so với phần tử cha (parent) */
+
+            /* font-size: 2rem; */
+            /* 2 * 25 = 50px */
+            /* width: 16rem; */
+            /* rem so với phần tử của html   << 16 rem của 25 px là 16 * 25 là 400px >> */
+            /* height: 40%; */
+            /* 40% so với phần tử cha (parent)    40% của 300px */
+
+            width: 20em;
+            /* em so với font size của element cha là parent là 20 * 20 = 400px*/
+            
+        }
+    </style>
+</body>
+</html>

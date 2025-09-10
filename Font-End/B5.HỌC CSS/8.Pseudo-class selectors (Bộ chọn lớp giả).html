@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class selectors (Bộ chọn lớp giả)</title>
+</head>
+<body>
+    <h1>Pseudo-class selectors (Bộ chọn lớp giả)</h1>
+    <pre>
+    Một số pseudo-class phổ biến:
+:link: khi liên kết chưa được truy cập lần nào. (Chỉ dùng cho thẻ a)
+:visited: khi liên kết đã được truy cập sau lần đầu tiên. (Chỉ dùng cho thẻ a)
+:hover (HAY DÙNG): khi di chuyển chuột lên element.
+:active: khi phần tử được click vào, áp dụng cho tất cả các thẻ.
+:first-child (HAY DÙNG): thiết lập thuộc tính cho element đầu tiên.
+:last-child (HAY DÙNG): thiết lập thuộc tính cho element cuối cùng.
+:nth-child(n) (HAY DÙNG): n có thể là các giá trị even (chẵn), odd (lẻ), một số, một biểu thức (an + b).
+    </pre>
+
+    <a href="#" >Link</a>
+    <style>
+        a {
+            color: red;
+        }
+
+        a:link {     /* khi chưa kíc vào */
+            color: orange;
+        }
+
+        a:visited {   /* visited khi nhấp vào link r sẽ chuyển sang màu red */
+            color: red;
+        }
+
+        a:hover {    /* khi di chuột vào sẽ chuyển thành màu aqua */
+            color: aqua;
+        }
+    </style>
+
+    <div class="box-1">
+        BOx <i>ICON</i>
+    </div>
+    <style>
+        .box-1 {
+            border: 2px solid aqua;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 7px;
+            left: 100px;
+            background-color: brown;
+            color: yellow;
+            font-size: 30px;
+        }
+        .box-1:hover {
+            background-color: aqua;
+        }
+        .box-1 i {
+            display: none;
+        }
+        .box-1:hover i {
+            display: inline;    /* khi hover vào icon sẽ hiện icon */
+        }
+
+        .box-1:active {
+            background-color: blueviolet;
+            /* active khi clip vào thì sẽ hiện màu tím */
+        }
+    </style>
+
+    <ul>
+        <li>Mục 1</li>
+        <li>Mục 2</li>
+        <li>Mục 3</li>
+        <li>Mục 4</li>
+        <li>Mục 5</li>
+        <li>Mục 6</li>
+        <li>Mục 7</li>
+        <li>Mục 8</li>
+        <li>Mục 9</li>
+        <li>Mục 10</li>
+    </ul>
+    <style>
+        ul li:first-child {    /* firt-child: chỉ áp dụng Mục 1 */
+            background-color: aqua;
+        }
+
+        ul li:last-child {  /* last-child: áp dụng cho mục cuối cùng */
+            color: red;
+        }
+
+        ul li:nth-child(4) {      /* css vị trí Mục 4 */
+            background-color: violet;
+        }
+    </style>
+</body>
+</html>

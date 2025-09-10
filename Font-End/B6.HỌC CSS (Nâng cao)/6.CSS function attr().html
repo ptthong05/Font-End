@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS function attr()</title>
+</head>
+<body>
+    <h1 style="color: red; font-size: 35px;">CSS function attr()</h1>
+    <p>attr () là một hàm CSS trả về giá trị của một thuộc tính  </p>
+
+
+    <style>
+        span::after {
+            content: attr(data-text);
+        }
+    </style>
+     
+     <!-- data-text: class tự định nghĩa  -->
+    <span data-text="Xin chào ">Đặng Phương Nam</span>
+        
+</body>
+</html>

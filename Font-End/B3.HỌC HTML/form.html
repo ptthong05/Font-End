@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ FORM</title>
+</head>
+<body>
+    <h2 style="color: red;">THẺ FORM</h2>
+
+    <form action="https://www.w3schools.com/" 
+    target="_blank" method="post" autocomplete="on"
+    novalidate >  <!--action:gởi lên server-->  <!--autocomplete="on": trình duyệt sẽ gợi ý mà ng dung đã nhập trc đó
+                       novalidate: k cần ktra tính chính xác của dữ liệu -->
+        <label for="fullname">Họ và tên</label>               <!-- click vào <label> thì con trỏ sẽ tự động focus vào ô input đó  -->
+        <input id="fulname" name="ho_ten" type="text"/>       <!-- Giá trị for label phải bằng id input -->
+
+        <label for="">Màu sắc:</label>  
+        <select name="color" multiple>    <!-- size: giá trị hiển thị và multiple: cho ng dùng chọn nh giá trị -->
+            <option></option>
+            <option value="red">Đỏ</option>
+            <option value="cam">Cam</option>
+            <option selected value="yellow">Vàng</option> <!-- Selected là đã chọn -->
+        </select>
+        <input type="submit" value="Gởi">  <br> <br> <br>
+        <textarea name="note" rows="5" cols="40"></textarea>             <!--rows: chỉ định số dòng và cols: chiều rộng-->
+
+        <button>Submit</button>
+
+        <h2 style="color: red;">CÁC KIỂU INPUT</h2>
+        <img src="image1.png" /><br>
+        <img src="image2.png" /> <br>
+
+        <input type="password" name="mat_khau" placeholder="Nhap mat khau" />
+        <input type="date" name="ngaythangdi"/> 
+        <input type="time" name="thoigiandi" > <br> <br>
+
+        <input type="datetime-local" name="Thoigiandi" />  <!--Dùng để chọn: năm, tháng, ngày, giờ, phút, giây.-->
+        <input type="file" name="tai_file" />    <br>
+
+        <input type="checkbox" name="Chon" value="java" id="Webjava"/>   <!-- name phải giống nhau-->
+        <label for="Webjava">WebJava</label>
+        <input type="checkbox" name="Chon" value="python" id="WebPython"/>
+        <label for="WebPyton">Python</label>
+        <br>
+        <br>
+        <br>
+        <input type="radio" name="Chon" value="java" id="Webjava"/>   <!-- name phải giống nhau-->
+        <label for="Webjava">WebJava</label>
+        <input type="radio" name="Chon" value="python" id="WebPython"/>
+        <label for="WebPyton">Python</label>
+        <br>
+        <br>
+        <br>
+        <input type="range" name="volume" min="0" max="100" step="5"> <!--Tạo thanh trượt giá trị. Phạm vi mặc định là từ 0 đến 100. Step mặc định là 1.-->
+        <br>
+        <br>
+        <br>
+        <input type="color" name="mau_sac"/>   <!--Chọn màu sắc-->
+        <br>
+        <br>
+        <br>
+        <input  name="ho_ten" type="text" value="Thong"/>  <!--value: giá trị mặc định ban đầu-->
+        <br>
+        <br>
+        <input type="number" name="CCCD" value="00009988" readonly/>  <!--readonly: chỉ đọc k đc sửa-->
+        <br>
+        <br>
+        <input type="email" name="email" type="a@gmail.com" value="000000" disabled/>   <!--disabled: k gởi đc data lên server-->
+        <br>
+        <br>
+        <input  name="ho_ten" type="text" maxlength="100"/>  <!--maxlength: chỉ nhập đc 100 ký tự-->
+        <br>
+        <br>
+        <input type="number" name="so_luong" min="1" />   <!--min max là tối thiểu và tối đa-->
+        <br>
+        <br>
+        <input  name="ho_ten" type="text" required/> <!--required: bắt buột phải nhập vào trường này-->
+        <button>Gởi</button>
+        
+    </form>
+</body>
+</html>

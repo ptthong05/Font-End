@@ -1,0 +1,206 @@
+/* Section-one */
+.section-one .inner-head {
+    /* Màu từ cam xanh đỏ đậm */
+    background: -webkit-linear-gradient(-30deg, #EE6B1A, #D8310A
+    100%);
+    padding: 10px;
+    text-align: center;
+}
+
+.section-one .inner-main {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-one .inner-head .inner-title {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.section-one .inner-body {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0 10px;
+}
+
+.section-one .card-header {
+    /* bỏ background màu xám  */
+    background-color: #ffff;
+    border: 0;
+    padding: 0;
+}
+
+.section-one .btn {
+    /* Mở ra k có border màu trong suốt */
+    /* transparent: màu trong suốt */
+    border: 1px solid transparent;
+    color: orange;
+    text-decoration: none;
+}
+
+.section-one .btn:focus {
+    box-shadow: none;
+}
+
+.section-one .card {
+    border: 0;
+    margin-bottom: 10px;
+}
+
+/* co vào có border */
+.section-one .btn.collapsed {
+    /* Khoảng cách các biuton */
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    color: black;
+}
+/* End Section-one */
+
+
+
+
+/* Section-two */
+/* End Section-two */
+
+
+
+
+/* Section-three */
+.section-three .inner-head {
+    /* Màu từ cam xanh đỏ đậm */
+    background: -webkit-linear-gradient(-30deg, #EE6B1A, #D8310A
+    100%);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-three .inner-main {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-three .inner-body input {
+    margin-bottom: 20px;
+}
+
+.section-three .inner-body textarea {
+    margin-bottom: 20px;
+}
+
+.section-three .inner-head .inner-title {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.section-three .inner-head .inner-desc {
+    color: white;
+}
+
+.section-three .button {
+    background: -webkit-linear-gradient(-30deg, #EE6B1A, #D8310A
+    100%);
+    border: 0;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 45px;
+    color: #fff;
+}
+/* End Section-three */
+
+
+
+
+
+/* Section-four */
+
+/* css vo góc */
+.modal-form .modal-content {
+    border-radius: 12px;
+}
+
+.modal-form .modal-header {
+    /* căn theo hàng dọc 
+       của boostrap căn theo hàng ngang */
+    flex-direction: column;
+
+    /* căn giữa cả khối */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal-form .modal-header  .close {
+    /* Dấu x trên góc phải trên cùng  */
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: black;
+    /* opacity: độ mờ  */
+    opacity: 1;
+    color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;  /* để k bị lệch */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-form .modal-header .inner-img {
+    height: 42px;
+    margin-bottom: 6px;
+    width: auto;     /* để k vỡ */
+}
+
+.modal-form .modal-header .inner-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.modal-form .modal-header .inner-desc {
+    margin-bottom: 0;
+}
+
+.modal-form .modal-body .col-12 {
+    margin-bottom: 20px;
+}
+
+.modal-form .modal-body .button {
+    background: -webkit-linear-gradient(-30deg, #EE6B1A, #D8310A
+    100%);
+    border: 0;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 45px;
+    color: #fff;
+    /* nút button dài full */
+    width: 100%;
+}
+/* End Section-four */
+
+
+
+
+/* Section-five */
+
+/* chia thành 5 cột trên 1 hàng vì boostrap k hỗ trợ */
+.col-xl-20 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-20 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 20%;
+    }
+}
+/* End Section-five */
+

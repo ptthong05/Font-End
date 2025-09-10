@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wight-height</title>
+</head>
+<body>
+    <h1>WIGHT AND HEIGHT</h1>
+
+    <div class="box">
+        NỘI DUNG 01...
+    </div>
+    <style>
+         .box {
+            border: 10px solid;
+            background-color: aqua;
+            padding: 20px;
+            height: 50vh;    /* chỉ áp dụng cho phần content */
+            /* CHIỀU CAO BẰNG 220 << CONTENT BOX>>
+                    100 + <50 + 50 (padding)> + <10 + 10 (border)>
+            */
+            box-sizing:  border-box;  /* border-box = height */
+            
+            /* padding * 2 + border * 2 > height */
+            width: 50vw;    /* toàn màn hình là 100 vw */
+            min-width: 200px;
+            max-width: 500px;
+
+            min-height: 200px;     /* kéo vào đến 200px sẽ k kéo ra đc nx */
+            max-height: 300px;     /* kéo ra đến 200px sẽ k kéo ra đc nx */
+
+        }
+    </style>
+</body>
+</html>

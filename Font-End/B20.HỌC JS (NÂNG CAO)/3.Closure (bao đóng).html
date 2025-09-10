@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.Closure (bao đóng)</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Closure (bao đóng)</h1>
+    <pre style="font-size: 30px;">
+Closure là một hàm ở bên trong hàm khác.
+Nó có thể sử dụng các biến toàn cục, biến cục bộ của hàm cha và biến cục bộ của chính nó.
+Nếu có các biến trùng tên thì closure sẽ ưu tiên theo thứ tự: biến cục bộ của chính nó, biến cục bộ của hàm cha, biến toàn cục.
+Nếu muốn return nhiều hàm closure thì bạn phải sử dụng một object, trong đó mỗi phần tử sẽ là một hàm closure.
+Closure thay đổi được giá trị biến toàn cục lẫn cục bộ.
+    </pre>
+
+
+    <script src="3.Closure.js"></script>
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>

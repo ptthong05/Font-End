@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.Switch case</title>
+</head>
+<body>
+    <pre style="font-size: 30px;">
+Lệnh switch case có công dụng giống như lệnh if else đó là đều dùng để rẽ nhánh chương trình.
+Ứng với mỗi nhánh sẽ có một điều kiện cụ thể và điều kiện đó phải sử dụng toán tử so sánh bằng.
+Còn đối với lệnh if else thì bạn có thể truyền vào một mệnh đề bất kì và sử dụng nhiều toán tử khác nhau.
+Cú pháp:
+    switch (variable) {
+        case value_1:
+        // do some thing
+        break;
+        case value_2:
+        // do some thing
+        break;
+        default:
+        // do something
+        break;
+    }
+
+
+Trường hợp bỏ break đi thì câu lệnh sẽ chạy tiếp xuống case tiếp theo, đến case nào có break thì dừng lại.
+Trường hợp không có default thì nếu rơi vào trường hợp này sẽ không in ra gì.
+Ta cũng có thể gom nhóm case lại.
+    
+    </pre>
+
+
+
+    <script>
+        var a = 1;
+
+        switch (a) {
+            case 1:           // so sánh biến a với 1 
+                console.log("a = 1");
+                break;           // êể ngắt khi chạy hết case 1 sẽ ngắt con nếu bỏ break thì sẽ cứ chạy hết 1 đến 2 .....
+            case 2:
+                console.log("a != 1");
+                break;
+            case 3:
+                console.log("a != 1");
+                break;
+            default:              // Khi k thuộc trường hợpcase nào thì sẽ in ra 
+                console.log("K xác định");
+        }
+    </script>
+</body>
+</html>

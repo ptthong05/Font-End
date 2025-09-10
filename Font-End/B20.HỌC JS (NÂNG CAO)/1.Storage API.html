@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.Storage API: localStorage, sessionStorage</title>
+</head>
+<body>
+    <h1 style="font-size: 35px; color: red;">Storage API: localStorage, sessionStorage</h1>
+    <pre style="font-size: 30px;">
+localStorage
+        localStorage là kho lưu trữ ở phía người dùng.
+        Lưu trữ dữ liệu vô thời hạn, dữ liệu sẽ được lưu trữ cho tới khi người dùng xóa lịch sử duyệt web.
+        localStorage có 5 phương thức:
+            setItem(): Thêm dữ liệu vào localStorage
+            getItem(): Lấy dữ liệu từ localStorage
+            removeItem(): Xóa dữ liệu ra khỏi localStorage
+            clear(): Xóa toàn bộ dữ liệu ra khỏi localStorage
+            key(): Lấy tên key của dữ liệu đang lưu trữ trong localStorage
+
+
+        localStorage.setItem()
+            Dùng để thêm dữ liệu vào localStorage, dữ liệu sẽ được lưu trữ ở dạng key và value.
+            Cú pháp:
+	                localStorage.setItem(key, value);
+            Ví dụ:
+	                localStorage.setItem('fullName', 'Nam Dang');
+
+
+        localStorage.getItem()
+            Dùng để lấy dữ liệu, tham số truyền vào chính là tên key muốn lấy. Nếu không tồn tại thì trả về null.
+            Cú pháp:
+	                localStorage.getItem(key);
+            Ví dụ:
+	                localStorage.getItem('fullName');         // Trả về Nam Dang
+	                localStorage.getItem('phone');           // Trả về null
+            
+
+        localStorage.removeItem()
+            Dùng để xóa dữ liệu, tham số truyền vào là key muốn xóa.
+            Cú pháp:
+	                localStorage.removeItem(key);
+            Ví dụ:
+	                localStorage.removeItem('fullName'); // Kết quả đã xóa key fullName
+
+
+        localStorage.clear()
+            Xóa toàn bộ dữ liệu của localStorage.
+            Cú pháp:
+	                localStorage.clear();
+            Ví dụ:
+	                localStorage.clear();
+
+
+        localStorage.key()
+            Lấy ra key của localStorage, nếu không có trả ra null.
+            Cú pháp:
+	                localStorage.key(index);
+                        Trong đó: index là vị trí của key đó, có thể là 0, 1, 2, …
+            Ví dụ:
+	                localStorage.key(0); // Lấy ra key đầu tiên
+
+
+
+
+sessionStorage
+        sessionStorage là kho lưu trữ theo phiên.
+        Lưu trữ dữ liệu cho một phiên làm việc, có nghĩa dữ liệu sẽ bị mất khi bạn tắt browser.
+        sessionStorage có 5 phương thức:
+            setItem(): Thêm dữ liệu vào sessionStorage
+            getItem(): Lấy dữ liệu từ sessionStorage
+            removeItem(): Xóa dữ liệu ra khỏi sessionStorage
+            clear(): Xóa toàn bộ dữ liệu ra khỏi sessionStorage
+            key(): Lấy tên key của dữ liệu đang lưu trữ trong sessionStorage
+
+
+        sessionStorage.setItem()
+            Dùng để lưu trữ dữ liệu vào sessionStorage. Tham số truyền vào là key và value.
+            Cú pháp:
+	                sessionStorage.setItem(key, value);
+            Ví dụ:
+	                sessionStorage.setItem('fullName', 'Nam Dang');
+
+
+        sessionStorage.getItem()
+            Dùng để lấy dữ liệu được lưu trữ trong sessionStorage.
+            Cú pháp:
+	                sessionStorage.getItem(key);
+            Ví dụ:
+	                sessionStorage.getItem('fullName'); // Trả về Nam Dang
+	                sessionStorage.getItem('phone'); // Trả về null
+
+
+        sessionStorage.removeItem()
+            Dùng để xóa một key ra khỏi sessionStorage. Tham số truyền vào là key muốn xóa.
+            Cú pháp:
+	                sessionStorage.removeItem(key);
+            Ví dụ:
+	                sessionStorage.removeItem('fullName'); // Kết quả đã xóa key fullName
+
+
+        sessionStorage.clear()
+            Dùng để xóa toàn bộ dữ liệu trên sessionStorage.
+            Cú pháp:
+	                sessionStorage.clear();
+            Ví dụ:
+	                sessionStorage.clear();
+
+
+        sessionStorage.clear()
+            Dùng để xóa toàn bộ dữ liệu trên sessionStorage.
+            Cú pháp:
+	                sessionStorage.clear();
+            Ví dụ:
+	                sessionStorage.clear();
+    </pre>
+
+
+    <input type="email" name = "email" placeholder = "Email" />
+    <button id="sent">Gửi</button>
+
+    <button id="clear">Xoá</button>
+
+    <button id="up">Tăng</button>
+
+    <button id="clearAll">Xoá tất cả</button>
+
+    <div id="result"></div>
+
+
+
+     <script src="1.Storage API.js"></script>
+</body>
+</html>
+
+<style>
+    pre {
+        white-space: pre-wrap;   /* Cho phép ngắt dòng */
+        word-wrap: break-word;   /* Ngắt từ khi cần */
+    }
+</style>
