@@ -1,1 +1,1 @@
-Đây là nội dung học khoá font end.
+Đây là toàn bộ lý thuyết về font end.
